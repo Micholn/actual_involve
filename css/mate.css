@@ -1,0 +1,13 @@
+.scrape{
+    animation: zoomIn;
+    animation-duration: 3s;
+    delay: 0.1s;
+}
+
+.intro{
+  animation: bounce;
+ animation-duration: 5s; }
+
+.passion{
+  animation: slideInRight;
+  animation-duration: 10s;}
