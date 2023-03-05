@@ -5,6 +5,7 @@ import cors from 'cors';
 
 
 import postRoutes from './routes/posts.js'
+import userRouter from './routes/user.js'
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use(cors());
 
 
 app.use('/posts', postRoutes);
+app.use('/user', userRouter)
 
 
 const CONNECTION_URL = process.env.CONNECTION_URL
