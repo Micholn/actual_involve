@@ -12,34 +12,3 @@ router.delete('/:id', auth, deletePost);
 router.patch('/:id/likePost', auth, likePost);
 
 export default router; 
-
-
-
-
-
-
-
-
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-
-
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-
-
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
-export const signIn = () => API.post('/user/signin', formData);
-export const signUp = () => API.post('/user/signup', formData);
