@@ -1,14 +1,6 @@
 import React from 'react'
 
-const 
-
-
-
-
-
-
-
- = () => {
+const icon = () => {
   return (
     <div>
     
