@@ -12,5 +12,5 @@ app.use(cors());
 
 mongoose.connect(CONNECTION_URL)
      .then(() => app.listen(PORT, ()=> console.log(`Server is running on: ${PORT}`)))
-     .catch((error) => console.log(`${error} did not connect`))
+     .catch((error) => console.log(`${error} did not connect`));
 
