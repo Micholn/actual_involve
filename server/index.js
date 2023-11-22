@@ -5,6 +5,8 @@ import cors from "cors";
 
 const app = express();
 
+import dotenv from "dotenv";
+dotenv.config();
 
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
