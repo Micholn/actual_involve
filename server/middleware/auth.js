@@ -6,4 +6,6 @@ const auth = (req, res, next) => {
     } catch {
         console.log(error);
     }
-}
+};
+
+export default auth;
