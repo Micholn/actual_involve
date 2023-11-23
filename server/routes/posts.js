@@ -1,6 +1,6 @@
 import express from "express";
 
-
+import { getPosts, getPost, createPost, updatePost,  }
 
 const router = express.Router();
 //import auth from "../middleware/auth.js";
