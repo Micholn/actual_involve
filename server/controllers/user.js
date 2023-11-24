@@ -28,4 +28,6 @@ export const signin = async(req, res) => {
 }
 
 
-export const signup
+export const signup = async (req, res) => {
+  const 
+}
