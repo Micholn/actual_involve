@@ -8,7 +8,13 @@ const secret = "test";
 export const signin = async(req, res) => {
    const { email, password } = req.body;
 
-      try 
+      try {
+
+
+
+      } catch (err) {
+          res.status(500).json
+      }
 
       
 
