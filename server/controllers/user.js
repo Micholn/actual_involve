@@ -33,5 +33,5 @@ export const signup = async (req, res) => {
       try {
 
       }
-      cs
+      cstch
 }
