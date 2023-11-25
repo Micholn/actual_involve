@@ -34,6 +34,6 @@ export const signup = async (req, res) => {
 
       }
       catch(err) {
-         res.status
+         res.status(500)
       }
 }
