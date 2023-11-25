@@ -31,7 +31,9 @@ export const signin = async(req, res) => {
 export const signup = async (req, res) => {
    const { email, password, firstName, lastName } = req.body;
       try {
-         const oldUser = await 
+         const oldUser = await UserModal.findOne({ email });
+         
+         if (oldUser) return res.status(400).json({ message: "User already exists"})
       }
       catch(err) {
          res.status(500).json({ message: "Something went wrong"});
