@@ -23,7 +23,7 @@ const App = () => {
                       <Posts setCurrentId={setCurrentId} />
                  </Grid>
                  <Grid item xs={12} sm={7}>
-                      <Form  />
+                      <Form currentId={currentId} />
                  </Grid>
               </Grid>
            </Container>
