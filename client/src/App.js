@@ -17,7 +17,9 @@ const App = () => {
     <Container>
        <Navbar/>
        <Grow>
-        
+         <Container>
+           
+         </Container>
        </Grow>
 
     </Container>
