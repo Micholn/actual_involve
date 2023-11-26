@@ -4,6 +4,9 @@ import { useDispatch } from "react-redux";
 //import Navbar from "./components/Navbar/Navbar";
 
 import Posts from "./components/Posts/Posts";
+import Form from "./components/Form/Form";
+import { getPosts } from "./actions/posts";
+import useStyles  
 
 import './App.css';
 
