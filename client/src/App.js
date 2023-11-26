@@ -12,6 +12,7 @@ import './App.css';
 
 const App = () => {
   const [currentId, setCurrentId ] = useState(0);
+  const dispatch = useDispatch()
 
 
   return (
