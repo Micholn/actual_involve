@@ -17,9 +17,16 @@ const App = () => {
     <Container>
        <Navbar/>
        <Grow>
-         <Container>
-           
-         </Container>
+           <Container>
+              <Grid container justify="space-between" alignItems="stretch" spacing={3} >
+                 <Grid>
+
+                 </Grid>
+                 <Grid>
+
+                 </Grid>
+              </Grid>
+           </Container>
        </Grow>
 
     </Container>
