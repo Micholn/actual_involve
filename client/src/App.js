@@ -3,7 +3,7 @@ import { Container, Grow, Grid } from "@material-ui/core";
 import { useDispatch } from "react-redux";
 //import Navbar from "./components/Navbar/Navbar";
 
-
+import Posts from "./components/Posts/Posts";
 
 import './App.css';
 
