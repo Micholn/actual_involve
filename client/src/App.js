@@ -16,7 +16,7 @@ const App = () => {
   const classes = useStyles();
 
   useEffect(() => {
-
+    dispatch(getPosts());
   }, [])
 
 
