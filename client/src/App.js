@@ -21,7 +21,7 @@ const App = () => {
 
 
   return (
-    <Container>
+    <Container maxWidth="lg">
        <Navbar/>
        <Grow in>
            <Container>
