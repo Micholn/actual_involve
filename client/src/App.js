@@ -13,7 +13,7 @@ import './App.css';
 const App = () => {
   const [currentId, setCurrentId ] = useState(0);
   const dispatch = useDispatch();
-  const classes 
+  const classes = useStyles();
 
 
   return (
