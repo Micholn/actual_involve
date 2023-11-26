@@ -16,7 +16,10 @@ const App = () => {
   return (
     <Container>
        <Navbar/>
-       
+       <Grow>
+        
+       </Grow>
+
     </Container>
   );
 }
