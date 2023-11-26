@@ -11,7 +11,7 @@ import { useDispatch } from "react-redux";
 import './App.css';
 
 const App = () => {
-  const 
+  const [currentId, setCurrentId ] = useState(0);
 
 
   return (
