@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Provider }
+import { Provider } from "react-deux"
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
