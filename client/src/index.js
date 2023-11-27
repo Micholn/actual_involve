@@ -7,7 +7,7 @@ import thunk from "redux-thunk";
 import { reducers } from "./reducers";
 import './index.css';
 import App from './App';
-import reportWebVitals from 
+import reportWebVitals 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
