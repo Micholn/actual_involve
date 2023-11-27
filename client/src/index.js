@@ -4,7 +4,7 @@ import { Provider } from "react-deux";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 
-import reducers
+import { reducers } from ""
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
