@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from "react-deux";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
+
+import reducers
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
