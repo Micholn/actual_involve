@@ -12,4 +12,4 @@ API.interceptors.request.use((req) => {
 });
 
 export const fetchPosts = () => API.get("./posts");
-export 
+export const
