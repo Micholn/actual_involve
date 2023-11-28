@@ -1,3 +1,3 @@
 import axios from "axios";
 
-const API = axios.create
+const API = axios.create({ })
