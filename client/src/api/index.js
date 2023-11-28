@@ -10,3 +10,5 @@ API.interceptors.request.use((req) => {
 
     return req;
 });
+
+export const fetchPosts 
