@@ -13,4 +13,4 @@ API.interceptors.request.use((req) => {
 
 export const fetchPosts = () => API.get("./posts");
 export const createPost = (newPost) => API.post("/posts", newPost);
-export const likePost = (id)
+export const likePost = (id) => 
