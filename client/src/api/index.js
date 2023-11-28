@@ -12,4 +12,4 @@ API.interceptors.request.use((req) => {
 });
 
 export const fetchPosts = () => API.get("./posts");
-export const createPost = (newPost) => API.post
+export const createPost = (newPost) => API.post("/posts", newpOST)
