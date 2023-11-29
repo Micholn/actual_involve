@@ -5,7 +5,7 @@ export const getPosts = () => async (dispatch) => {
     try {
         const { data } = await api.fetchPosts();
 
-        dispatch({ type: }) 
+        dispatch({ type: FETCH_ALL, }) 
     }
 }
 
