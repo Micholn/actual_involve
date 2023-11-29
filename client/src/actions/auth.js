@@ -6,7 +6,7 @@ export const signin = (formData, router) => async (dispatch) => {
     try {
 
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
-}
+};
 
