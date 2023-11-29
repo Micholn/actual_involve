@@ -3,7 +3,7 @@ import * as api from "../api/index.js";
 
 export const getPosts = () => async (dispatch) => {
     try {
-        const { data } = awiat 
+        const { data } = await api.fetchPosts();
     }
 }
 
