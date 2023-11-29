@@ -11,5 +11,5 @@ export const getPosts = () => async (dispatch) => {
     }
 };
 
-e
+export const createPost
 
