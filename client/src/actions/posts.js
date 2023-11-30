@@ -23,10 +23,12 @@ export const createPost = (post) => async (dispatch) => {
 
 
 export const likePost = (id)  => async (dispatch) => {
+    const 
     try {
 
+        await 
     } catch (error) {
-        console.log()
+        console.log(error)
     }
 }
 
