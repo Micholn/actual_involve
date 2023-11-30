@@ -25,7 +25,7 @@ export const createPost = (post) => async (dispatch) => {
 export const deletePost = (post) => {
     try { 
 
-    }   catch {
+    }   catch (error) {
         console.log(error.message)
     }
 } 
