@@ -26,7 +26,7 @@ export const deletePost = (id) => async (dispatch) => {
     try { 
         await api.deletePost(id);
 
-        dispatch({ type: DELETE, payload: data })
+        dispatch({ type: DELETE, payload: data });
 
     }   catch (error) {
         console.log(error.message)
