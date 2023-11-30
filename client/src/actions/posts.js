@@ -25,7 +25,7 @@ export const createPost = (post) => async (dispatch) => {
 export const likePost = (id)  => async (dispatch) => {
     try {
 
-    } c
+    } catch (error)
 }
 
 
