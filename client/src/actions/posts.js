@@ -25,7 +25,7 @@ export const createPost = (post) => async (dispatch) => {
 export const likePost = (id)  => async (dispatch) => {
     const 
     try {
-
+        const { data }
         await 
     } catch (error) {
         console.log(error)
