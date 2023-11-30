@@ -22,5 +22,5 @@ export const createPost = (post) => async (dispatch) => {
 }
 
 
-export const 
+export const deletePost = (post) 
 
