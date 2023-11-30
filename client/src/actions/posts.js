@@ -17,7 +17,7 @@ export const createPost = (post) => async (dispatch) => {
 
         dispatch({ type: CREATE, payload: data });
     } catch () {
-        console.log(error.message)
+        console.log(error.message);
     }
 }
 
