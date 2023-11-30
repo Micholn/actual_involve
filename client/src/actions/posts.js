@@ -27,7 +27,7 @@ export const likePost = (id)  => async (dispatch) => {
     try {
         const { data } = await api.likePost(id, user?.token);
         
-        dispatch({ type: UPDATE, })
+        dispatch({ type: UPDATE, payload: })
     } catch (error) {
         console.log(error)
     }
