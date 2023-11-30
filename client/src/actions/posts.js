@@ -25,8 +25,8 @@ export const createPost = (post) => async (dispatch) => {
 export const likePost = (id)  => async (dispatch) => {
     const 
     try {
-        const { data } = await 
-        await 
+        const { data } = await api.likePost(id, user?.token);
+        
     } catch (error) {
         console.log(error)
     }
