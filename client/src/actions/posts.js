@@ -15,7 +15,7 @@ export const createPost = (post) => async (dispatch) => {
     try {
         const { data } = await  api.createPost(post);
 
-        dispatch({ type: FETCH_ALL })
+        dispatch({ type: crea })
     }
 }
 
