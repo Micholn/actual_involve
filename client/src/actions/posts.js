@@ -22,7 +22,7 @@ export const createPost = (post) => async (dispatch) => {
 }
 
 
-export const likePost 
+export const likePost = 
 
 
 export const deletePost = (id) => async (dispatch) => {
