@@ -22,8 +22,9 @@ export const createPost = (post) => async (dispatch) => {
 }
 
 
-export const deletePost = (post) => {
+export const deletePost = (post) => async (dispatch) => {
     try { 
+        const {data }
 
     }   catch (error) {
         console.log(error.message)
