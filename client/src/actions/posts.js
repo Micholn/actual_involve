@@ -24,7 +24,7 @@ export const createPost = (post) => async (dispatch) => {
 
 export const deletePost = (post) => async (dispatch) => {
     try { 
-        const {data }
+        const { data } = await api.deletePost(post)
 
     }   catch (error) {
         console.log(error.message)
