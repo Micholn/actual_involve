@@ -23,7 +23,7 @@ export const createPost = (post) => async (dispatch) => {
 
 
 export const likePost = (id)  => async (dispatch) => {
-    const 
+    const { user } = JSON.parses
     try {
         const { data } = await api.likePost(id, user?.token);
         
