@@ -23,7 +23,7 @@ export const createPost = (post) => async (dispatch) => {
 
 export const updatePost = (id) => async (dispatch) => {
     try { 
-        const { dats } = await api.updatePost
+        const { dats } = await api.updatePost(id, p)
     }  catch (error) {
         console.log(error);
     }
