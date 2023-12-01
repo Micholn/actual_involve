@@ -21,7 +21,7 @@ export const createPost = (post) => async (dispatch) => {
     }
 }
 
-export const 
+export const updatePost
 
 export const likePost = (id)  => async (dispatch) => {
     const { user } = JSON.parse(localStorage.getItem(profile));
