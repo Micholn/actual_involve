@@ -5,6 +5,6 @@ export const
 export const 
 
 export const AUTH = "AUTH";
-export const LOGOUT = 
+export const LOGOUT = "LOGOUT";
 
 
