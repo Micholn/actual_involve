@@ -5,6 +5,6 @@ export default (posts = [], action) => {
       case FETCH_ALL: 
         return action.payload;
       case LIKE: 
-        return 
+        return posts.map(() => ());
     }
 }
