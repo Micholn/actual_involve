@@ -11,4 +11,4 @@ const Auth = () => {
     )
 }
 
-export default 
+export default Auth
