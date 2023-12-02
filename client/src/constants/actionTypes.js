@@ -4,7 +4,7 @@ export const
 export const 
 export const 
 
-export const AUTH = 
-export const 
+export const AUTH = "AUTH";
+export const LOGOUT = 
 
 
