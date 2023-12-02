@@ -9,8 +9,9 @@ export default (posts = [], action) => {
       case CREATE: 
         return 
       case UPDATE: 
-        
-
+        return 
+      case DELETE: 
+        return 
 
     }
 }
