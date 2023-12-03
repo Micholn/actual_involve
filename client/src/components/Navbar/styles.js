@@ -9,5 +9,7 @@ export default makeStyles(() => ({
         justifyContent: "center",
         alignItems: "center",
     },
-    heading: 
+    heading: {
+        
+    }
 }))
