@@ -5,6 +5,7 @@ export default makeStyles((theme) => ({
         marginTop: theme.spacing(8),
         display: "flex",
         flexDirection: "column",
-        alignItems: 
+        alignItems: "center",
+        padding: theme.spacing(2),
     }
 }))
