@@ -17,5 +17,8 @@ export default makeStyles((theme) => ({
         margin: theme.spacing(1),
         backgroundColor: theme.palette.secondary.main,
     },
-    
+    form: {
+        width: "100%",
+        
+    }
 }))
