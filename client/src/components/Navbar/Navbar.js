@@ -8,7 +8,7 @@ import involve from "../../images/involve.png";
 const Navbar = () => {
     const classes = useStyles();
     return (
-        <AppBar className={classes.appBar} position="static">
+        <AppBar className={classes.appBar} position="static" color="inherit">
 
         </AppBar>
      )
