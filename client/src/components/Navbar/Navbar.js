@@ -12,7 +12,7 @@ const Navbar = () => {
            <Typography className={classes.heading} variant="h2" align="center">
               Involve
            </Typography>
-           <img className={classes.image} src={} />
+           <img className={classes.image} src={involve} height="60" />
         </AppBar>
      )
 }
