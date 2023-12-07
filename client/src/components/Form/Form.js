@@ -10,7 +10,7 @@ const Form = ({   }) => {
 
   return (
     <Paper className={classes.paper}>
-      <form autoComplete="off" noValidate className={``}>
+      <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`}>
 
       </form>
     </Paper>      
