@@ -8,15 +8,9 @@ import { createPost, updatePost } from "../..//actions/posts";
 
 const Form = ({   }) => {
 
-    return (
-        <div>
-            <form>
-                <a>
-                    ?<d>
-                        
-                    </d>
-                </a>
-            </form>
-        </div>
-    )
+  return (
+    <Paper>
+        
+    </Paper>      
+  )
 }
