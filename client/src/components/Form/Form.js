@@ -9,8 +9,8 @@ import { createPost, updatePost } from "../..//actions/posts";
 const Form = ({   }) => {
 
   return (
-    <Paper>
-        
+    <Paper className={classes.paper}>
+
     </Paper>      
   )
 }
