@@ -24,4 +24,4 @@ const Form = ({   }) => {
   );
 };
 
-export 
+export default Form;
