@@ -11,9 +11,8 @@ const Form = ({   }) => {
   return (
     <Paper className={classes.paper}>
       <form>
-        
-      </form>
 
+      </form>
     </Paper>      
-  )
+  );
 }
