@@ -8,5 +8,7 @@ import { createPost, updatePost } from "../..//actions/posts";
 
 const Form = ({   }) => {
 
-    return ()
+    return (
+        
+    )
 }
