@@ -6,4 +6,7 @@ import FileBase from "react-file-base64";
 import useStyles from "./styles";
 import { createPost, updatePost } from "../..//actions/posts";
 
-const Form = ({ })
+const Form = ({   }) => {
+
+    
+}
