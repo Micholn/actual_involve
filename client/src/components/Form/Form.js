@@ -11,11 +11,11 @@ const Form = ({   }) => {
   return (
     <Paper className={classes.paper}>
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
-        <Typography></Typography>
-        <TextField />
-        <TextField />
-        <TextField />
-        <TextField />
+        <Typography variant="h6"></Typography>
+        <TextField name="creator" variant="outlined" label="Creator" />
+        <TextField name="title" />
+        <TextField name="message" />
+        <TextField name="tags" />
         <div></div>
         <Button></Button>
         <Button></Button>
