@@ -12,7 +12,7 @@ const Form = ({   }) => {
     <Paper className={classes.paper}>
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
         <Typography variant="h6"></Typography>
-        <TextField name="creator" variant="outlined" label="Creator" fullWidth value={postData.creator} onChange={(e)=> setPostData({...postData,})} />
+        <TextField name="creator" variant="outlined" label="Creator" fullWidth value={postData.creator} onChange={(e)=> setPostData({...postData, creator: e.target.value})} />
         <TextField name="title" variant="outlined" label="Title" fullWidth value={} />
         <TextField name="message" variant="outlined" label="Title" fullWidth value={} />
         <TextField name="tags" variant="outlined" label="Title" fullWidth value={} />
