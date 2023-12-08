@@ -12,10 +12,10 @@ const Form = ({   }) => {
     <Paper className={classes.paper}>
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
         <Typography variant="h6"></Typography>
-        <TextField name="creator" variant="outlined" label="Creator" />
-        <TextField name="title" />
-        <TextField name="message" />
-        <TextField name="tags" />
+        <TextField name="creator" variant="outlined" label="Creator" fullWidth value={} />
+        <TextField name="title" variant="outlined" label="Title" fullWidth value={} />
+        <TextField name="message" variant="outlined" label="Title" fullWidth value={} />
+        <TextField name="tags" variant="outlined" label="Title" fullWidth value={} />
         <div></div>
         <Button></Button>
         <Button></Button>
