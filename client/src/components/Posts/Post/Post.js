@@ -14,8 +14,9 @@ const Post = ({ post, setCurrentId }) => {
    const classes = useStyles();
 
    return (
-     <Card>
+     <Card className={classes.card}>
         
+
      </Card>
    );
 };
