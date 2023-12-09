@@ -7,7 +7,7 @@ import useStyles from "./styles";
 import { createPost, updatePost } from "../..//actions/posts";
 
 const Form = ({ currentId, setCurrentId }) => {
-  const [postData, setPostData] = useState({ creator: "", title: "",  })
+  const [postData, setPostData] = useState({ creator: "", title: "", message: "",  })
 
   return (
     <Paper className={classes.paper}>
