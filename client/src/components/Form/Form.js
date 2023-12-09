@@ -13,8 +13,8 @@ const Form = ({ currentId, setCurrentId }) => {
   const classes = useStyles();
 
   useEffect(()=> {
-    if (post) setPostData
-  })
+    if (post) setPostData(post);
+  }, [post]);
 
   return (
     <Paper className={classes.paper}>
