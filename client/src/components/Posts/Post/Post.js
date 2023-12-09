@@ -21,10 +21,10 @@ const Post = ({ post, setCurrentId }) => {
           <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
         </div>
         <div className={classes.overlay2}>
-          <Button style={{ color: 'white' }} size="small" onClick={()=> setCurrentId(post._id)}></Button>
+          <Button style={{ color: 'white' }} size="small" onClick={()=> setCurrentId(post._id)}><MoreHorizIcon fontSize="default" /></Button>
         </div>
         <div className={classes.details}>
-
+            
         </div>
         <Typography className={classes.title}>{}</Typography>
         <CardContent>
