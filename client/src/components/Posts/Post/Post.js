@@ -32,7 +32,7 @@ const Post = ({ post, setCurrentId }) => {
         </CardContent>
         <CardActions className={classes.cardActions}>
            <Button size="small"></Button>
-           <Button size="small" color="primary"></Button>
+           <Button size="small" color="primary" onClick={() => dispatch()}></Button>
         </CardActions>
      </Card>
    );
