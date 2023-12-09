@@ -8,7 +8,7 @@ import { createPost, updatePost } from "../..//actions/posts";
 
 const Form = ({ currentId, setCurrentId }) => {
   const [postData, setPostData] = useState({ creator: "", title: "", message: "", tags: "", selectedFile: "" });
-  
+  const post = useSelctor
 
   return (
     <Paper className={classes.paper}>
