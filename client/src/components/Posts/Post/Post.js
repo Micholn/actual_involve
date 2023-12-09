@@ -15,8 +15,24 @@ const Post = ({ post, setCurrentId }) => {
 
    return (
      <Card className={classes.card}>
-        
+        <CardMedia className={classes.media} image={post.selectedFile || } />
+        <div>
 
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <Typography></Typography>
+        <CardContent>
+
+        </CardContent>
+        <CardActions>
+           <Button></Button>
+           <Button></Button>
+        </CardActions>
      </Card>
    );
 };
