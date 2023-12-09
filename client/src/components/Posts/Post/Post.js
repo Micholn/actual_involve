@@ -24,9 +24,9 @@ const Post = ({ post, setCurrentId }) => {
           <Button style={{ color: 'white' }} size="small" onClick={()=> setCurrentId(post._id)}><MoreHorizIcon fontSize="default" /></Button>
         </div>
         <div className={classes.details}>
-            
+            <Typography></Typography>
         </div>
-        <Typography className={classes.title}>{}</Typography>
+        <Typography className={classes.title}>{post.title}</Typography>
         <CardContent>
             <Typography></Typography>
         </CardContent>
