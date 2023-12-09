@@ -31,8 +31,8 @@ const Post = ({ post, setCurrentId }) => {
             <Typography variant="body2" color="textSecondary" component="p">{post.message}</Typography>
         </CardContent>
         <CardActions className={classes.cardActions}>
-           <Button></Button>
-           <Button></Button>
+           <Button size="small"></Button>
+           <Button size="small" color="primary"></Button>
         </CardActions>
      </Card>
    );
