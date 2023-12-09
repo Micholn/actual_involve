@@ -21,8 +21,8 @@ const Form = ({ currentId, setCurrentId }) => {
     setPostData({ creator: "", title: "", message: "", tags: "", selectedFile: "" });
   };  
 
-  const handleSubmit = () => {
-    
+  const handleSubmit = async (e) => {
+    e.preventDefault()
   }
 
 
