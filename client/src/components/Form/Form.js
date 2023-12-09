@@ -17,7 +17,8 @@ const Form = ({ currentId, setCurrentId }) => {
   }, [post]);
 
   const clear = () => {
-    setCurrentId
+    setCurrentId(0);
+    setPostData
   }
 
 
