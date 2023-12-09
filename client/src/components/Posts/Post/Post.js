@@ -18,7 +18,7 @@ const Post = ({ post, setCurrentId }) => {
         <CardMedia className={classes.media} image={post.selectedFile || } />
         <div className={classes.overlay}>
           <Typography>{post.creator}</Typography>
-          
+          <Typography>{}</Typography>
         </div>
         <div className={classes.overlay2}>
 
