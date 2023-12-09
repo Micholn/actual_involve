@@ -8,7 +8,9 @@ import { createPost, updatePost } from "../..//actions/posts";
 
 const Form = ({ currentId, setCurrentId }) => {
   const [postData, setPostData] = useState({ creator: "", title: "", message: "", tags: "", selectedFile: "" });
-  const post = useSelctor
+  const post = useSelector((state) => (currentId ? state.posts.find((message) => message._id === currentId) : null));
+  const dispatch = useDispatch();
+  const classes = useStyles();
 
   return (
     <Paper className={classes.paper}>
