@@ -16,20 +16,20 @@ const Post = ({ post, setCurrentId }) => {
    return (
      <Card className={classes.card}>
         <CardMedia className={classes.media} image={post.selectedFile || } />
-        <div>
+        <div className={classes.overlay}>
 
         </div>
-        <div>
+        <div className={classes.overlay2}>
 
         </div>
-        <div>
+        <div className={classes.details}>
 
         </div>
-        <Typography></Typography>
+        <Typography className={classes.title}>{}</Typography>
         <CardContent>
-
+            <Typography></Typography>
         </CardContent>
-        <CardActions>
+        <CardActions className={classes.cardActions}>
            <Button></Button>
            <Button></Button>
         </CardActions>
