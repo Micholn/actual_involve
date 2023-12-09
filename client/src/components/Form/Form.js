@@ -21,6 +21,9 @@ const Form = ({ currentId, setCurrentId }) => {
     setPostData({ creator: "", title: "", message: "", tags: "", selectedFile: "" });
   };  
 
+  const handleSubmit = () => {
+    
+  }
 
 
   return (
