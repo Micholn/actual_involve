@@ -1,7 +1,8 @@
 //index.js: The main routes for the web app 
 
 // Imports 
-var express = require('express')
+var express = require('express');
+
 
 
 import express from 'express';
