@@ -24,13 +24,17 @@ router.get('/', function(req, res, next) {
         return res.render('chat');
     }
     next();
-    , load, function(req, res, next)
-    escapeXML,redirecct.push(chat)
+}, load, function(req, res, next) {
+    res.redirect('/chat')
 })
 
-router.get("calender", ensureLoggedInn, Load, function(req, res, next){
+router.get("/calender", ensureLoggedInn, load, 
+  function(req, res, next){
     res.render('calendar', { user: req.user });
 });
+
+router.get("/chat", ensureLoggedIn, load)
+
 
 
 import express from 'express';
