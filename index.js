@@ -34,7 +34,7 @@ router.get("/calender", ensureLoggedInn, load,
 });
 
 router.get("/chat", ensureLoggedIn, load, function(req, res, next){
-
+    res.render('chat', { })
 },    )
 
 
