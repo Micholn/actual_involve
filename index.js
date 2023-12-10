@@ -7,7 +7,8 @@ var database = require('./database.js');
 
 //ensure logged In
 var ensureLoggedIn = function checkLogin(req, res, next) {
-    // ensureLogIn()
+    // ensureLogIn();
+    next();
 }
 
 
