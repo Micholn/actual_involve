@@ -2,7 +2,7 @@
 
 // Imports 
 var express = require('express');
-var ensureLogin = require('connect-secure-login').ensureLoggedIn;
+var ensureLogin = require('connect-ensure-login').ensureLoggedIn;
 
 
 import express from 'express';
