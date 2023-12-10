@@ -34,10 +34,10 @@ router.get("/calender", ensureLoggedInn, load,
 });
 
 router.get("/chat", ensureLoggedIn, load, function(req, res, next){
-    res.render('chat', { })
-},    )
+    res.render('chat', { user: req.user });
+});
 
-
+router.get("/video")
 
 import express from 'express';
 import bodyParser from 'body-parser';
