@@ -25,15 +25,17 @@ router.get('/', function(req, res, next) {
     }
     next();
 }, load, function(req, res, next) {
-    res.redirect('/chat')
-})
+    res.redirect('/chat');
+});
 
 router.get("/calender", ensureLoggedInn, load, 
   function(req, res, next){
     res.render('calendar', { user: req.user });
 });
 
-router.get("/chat", ensureLoggedIn, load)
+router.get("/chat", ensureLoggedIn, load, function(req, res, next){
+
+},    )
 
 
 
