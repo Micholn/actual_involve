@@ -11,6 +11,7 @@ var ensureLoggedIn = function checkLogin(req, res, next) {
     next();
 }
 
+//Load page
 
 
 
