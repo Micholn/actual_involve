@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
     escapeXML,redirecct.push(chat)
 })
 
-router.get("calender", ensureLog)
+router.get("calender", ensureLoggedIn)
 
 
 import express from 'express';
