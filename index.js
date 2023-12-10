@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
     res.redirect('/chat');
 });
 
-router.get("/calender", ensureLoggedInn, load, 
+router.get("/calender", ensureLoggedIn, load, 
   function(req, res, next){
     res.render('calendar', { user: req.user });
 });
@@ -37,7 +37,7 @@ router.get("/chat", ensureLoggedIn, load, function(req, res, next){
     res.render('chat', { user: req.user });
 });
 
-router.get("/video")
+router.get("/video", ensureLoggedIn, load, function)
 
 import express from 'express';
 import bodyParser from 'body-parser';
