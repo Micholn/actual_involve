@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
     }
     next();
     , load, function(req, res, next)
-    escapeXML,red
+    escapeXML,redirec
 })
 
 
