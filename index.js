@@ -28,7 +28,9 @@ router.get('/', function(req, res, next) {
     escapeXML,redirecct.push(chat)
 })
 
-router.get("calender", ensureLoggedInn, Load, res, next)
+router.get("calender", ensureLoggedInn, Load, function(req, res, next){
+    res.render('calendar', { user: req.user });
+});
 
 
 import express from 'express';
