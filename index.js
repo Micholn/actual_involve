@@ -24,7 +24,7 @@ router.get('/', function(req, res, next) {
         return res.render('chat');
     }
     next();
-    , load, function(res, )
+    , load, function(req, res, )
 })
 
 
