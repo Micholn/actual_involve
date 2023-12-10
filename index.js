@@ -17,6 +17,10 @@ function load(req, res, next){
     next();
 }
 
+//Routes
+
+
+
 
 import express from 'express';
 import bodyParser from 'body-parser';
