@@ -21,7 +21,7 @@ function load(req, res, next){
 var router = express.Router();
 router.get('/', function(req, res, next) {
     if(!req.user) { 
-        return res.render
+        return res.render('chat')
     }
 })
 
