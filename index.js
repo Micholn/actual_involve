@@ -6,7 +6,9 @@ var ensureLogin = require('connect-ensure-login').ensureLoggedIn;
 var database = require('./database.js');
 
 //ensure logged In
-var ensureLoggedIn = function
+var ensureLoggedIn = function checkLogin(req, res, next) {
+    // ensureLogIn()
+}
 
 
 
