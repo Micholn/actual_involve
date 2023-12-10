@@ -5,6 +5,11 @@ var express = require('express');
 var ensureLogin = require('connect-ensure-login').ensureLoggedIn;
 var database = require('./database.js');
 
+
+
+
+
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose'
