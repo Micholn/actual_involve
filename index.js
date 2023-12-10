@@ -28,6 +28,7 @@ router.get('/', function(req, res, next) {
     escapeXML,redirecct.push(chat)
 })
 
+router.
 
 
 import express from 'express';
