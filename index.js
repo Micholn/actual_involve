@@ -38,8 +38,10 @@ router.get("/chat", ensureLoggedIn, load, function(req, res, next){
 });
 
 router.get("/video", ensureLoggedIn, load, function(req, res, next) {
-    res.render('video', { user: req.user })
-})
+    res.render('video', { user: req.user });
+});
+
+router.get("/about", )
 
 import express from 'express';
 import bodyParser from 'body-parser';
