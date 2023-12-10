@@ -41,7 +41,9 @@ router.get("/video", ensureLoggedIn, load, function(req, res, next) {
     res.render('video', { user: req.user });
 });
 
-router.get("/about", )
+router.get("/about", ensureLoggedIn, load, function(req, res, next) {
+    res.render('about', { user: req.user });
+})
 
 import express from 'express';
 import bodyParser from 'body-parser';
