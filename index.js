@@ -37,7 +37,9 @@ router.get("/chat", ensureLoggedIn, load, function(req, res, next){
     res.render('chat', { user: req.user });
 });
 
-router.get("/video", ensureLoggedIn, load, function)
+router.get("/video", ensureLoggedIn, load, function(req, res, next) {
+    res.render('video', )
+})
 
 import express from 'express';
 import bodyParser from 'body-parser';
