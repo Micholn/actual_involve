@@ -2,7 +2,7 @@
 
 // Imports 
 var express = require('express');
-
+var ensureLogin
 
 
 import express from 'express';
