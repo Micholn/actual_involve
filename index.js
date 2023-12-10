@@ -5,7 +5,7 @@ var express = require('express');
 var ensureLogin = require('connect-ensure-login').ensureLoggedIn;
 var database = require('./database.js');
 
-
+//ensure logged In
 
 
 
