@@ -19,7 +19,7 @@ function load(req, res, next){
 
 //Routes
 var router = express.Router();
-router.get('/', function)
+router.get('/', function(req, res, next))
 
 
 
