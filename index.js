@@ -12,7 +12,9 @@ var ensureLoggedIn = function checkLogin(req, res, next) {
 }
 
 //Load page
-
+function load(req, res, next){
+    next()
+}
 
 
 import express from 'express';
