@@ -20,7 +20,9 @@ function load(req, res, next){
 //Routes
 var router = express.Router();
 router.get('/', function(req, res, next) {
-    if(!req.user)
+    if(!req.user) { 
+        
+    }
 })
 
 
