@@ -1,3 +1,6 @@
+//index.js: The main routes for the web app 
+
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose'
