@@ -34,6 +34,6 @@ app.use(session({
     secret: 'session',
     resave: false, 
     saveUninitialized: false,
-    store: new sessionStore
+    store: new sessionStore({ db: })
 }))
 
