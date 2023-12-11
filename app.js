@@ -23,5 +23,7 @@ var database = require("./database.js");
 //web server
 var app = express();
 var server = http.createServer(ap);
-app.set
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+app.set(express.static())
 
