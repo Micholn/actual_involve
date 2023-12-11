@@ -33,6 +33,7 @@ app.use(express.json());
 app.use(session({
     secret: 'session',
     resave: false, 
-    saveUninitialized: 
+    saveUninitialized: false,
+    store: 
 }))
 
