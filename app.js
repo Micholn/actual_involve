@@ -22,5 +22,6 @@ var database = require("./database.js");
 
 //web server
 var app = express();
-
+var server = http.createServer(ap);
+app.set
 
