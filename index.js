@@ -45,7 +45,9 @@ router.get("/about", ensureLoggedIn, load, function(req, res, next) {
     res.render('about', { user: req.user });
 })
 
-router.get("/account", ensureLoggedIn, load)
+router.get("/account", ensureLoggedIn, load, function(req, res, next){
+    res.render('account', { user: req.user });
+})
 
 import express from 'express';
 import bodyParser from 'body-parser';
