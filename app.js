@@ -15,4 +15,12 @@ var path = require('path');
 var csrf = require('csruf');
 
 //App files 
+var runApp = require("./app/run.js");
+var initSocketIO = require("./app/socketio.js");
+var ai = require("./app/ai.js");
+var database = require("./database.js");
+
+//web server
+var app = express();
+
 
