@@ -36,5 +36,5 @@ app.use(session({
     saveUninitialized: false,
     store: new sessionStore({ db: './database/sessions.db', dir: '.'})
 }));
-app.use(passport.authen)
+app.use(passport.authenticate('session'));
 
