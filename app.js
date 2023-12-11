@@ -46,4 +46,5 @@ app.use(function (req, res, next){
 });
 
 // CSRF 
-app.use(csrf())
+app.use(csrf());
+app.use(function(req, res))
