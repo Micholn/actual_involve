@@ -37,4 +37,4 @@ app.use(session({
     store: new sessionStore({ db: './database/sessions.db', dir: '.'})
 }));
 app.use(passport.authenticate('session'));
-app.use(function (req. res, next))
+app.use(function (req, res, next))
