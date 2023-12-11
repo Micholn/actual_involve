@@ -42,5 +42,5 @@ app.use(function (req, res, next){
     res.locals.messages = msgs;
     res.locals.hasMessages = !!msgs.length;
     req.session.messages = [];
-
-})
+    next();
+});
