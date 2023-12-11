@@ -35,5 +35,6 @@ app.use(session({
     resave: false, 
     saveUninitialized: false,
     store: new sessionStore({ db: './database/sessions.db', dir: '.'})
-}))
+}));
+
 
