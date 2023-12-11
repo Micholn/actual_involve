@@ -11,3 +11,8 @@ var bodyParser = require('body-parser');
 var passport = require('passport');
 var session = require('express-session');
 var sessionStore = require('connect-sqlite3')(session);
+var path = require('path');
+var csrf = require('csruf');
+
+//App files 
+
