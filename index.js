@@ -49,6 +49,11 @@ router.get("/account", ensureLoggedIn, load, function(req, res, next){
     res.render('account', { user: req.user });
 })
 
+router.get("/room", ensureLoggedIn, load, function(req, res, next) {
+    res.render('room', { user: req.user });
+})
+
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose'
