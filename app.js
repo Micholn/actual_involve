@@ -31,6 +31,6 @@ app.use(express.json());
 
 // User login sessions
 app.use(session({
-    secret: 
+    secret: 'session',
 }))
 
