@@ -39,5 +39,6 @@ app.use(session({
 app.use(passport.authenticate('session'));
 app.use(function (req, res, next){
     var msgs = req.session.messages || [];
-    res.locals.messages
+    res.locals.messages = msgs;
+    
 })
