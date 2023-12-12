@@ -53,4 +53,5 @@ app.use(function(req, res, next) {
 });
 
 //Routes
-app.use()
+app.use(csrf());
+app.use(function(req, res, next))
