@@ -19,4 +19,5 @@ var PASSWORD = "Drinks256";
 var DOMAIN = "drinks.chat";
 email.setApiKey("SCJNJNJNJNJNJNJNRYDJDKKDD");
 
-//VE
+// verify user password via database 
+
