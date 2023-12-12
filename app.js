@@ -57,4 +57,5 @@ app.use("/", require("./index.js"));
 app.use("/", require("./auth.js"));
 
 //Init
-runApp(app)
+runApp(app);
+initSocketIO(server)
