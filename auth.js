@@ -11,4 +11,7 @@ var email = require('@sendgrid/mail');
 var db = require('./database.js');
 
 //Router
-var router = express
+var router = express.Router();
+
+//Emails 
+var EMAIL = 
