@@ -58,4 +58,4 @@ app.use("/", require("./auth.js"));
 
 //Init
 runApp(app);
-initSocketIO(server, )
+initSocketIO(server, datsbase, ai)
