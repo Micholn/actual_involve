@@ -61,4 +61,6 @@ runApp(app);
 initSocketIO(server, datsbase, ai);
 
 //errors
-app.use(function (req, res.next))
+app.use(function (req, res, next) {
+    
+})
