@@ -8,4 +8,4 @@ var crypto = require('crypto');
 var email = require('@sendgrid/mail');
 
 //Database
-var db
+var db = require
