@@ -53,7 +53,7 @@ app.use(function(req, res, next) {
 });
 
 //Routes
-app.use();
+app.use("/", require("./index.js"));
 app.use(function(req, res, next){
     res.locals.csrfToken = req.csrfToken()
 })
