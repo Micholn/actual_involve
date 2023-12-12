@@ -53,7 +53,7 @@ app.use(function(req, res, next) {
 });
 
 //Routes
-app.use(csrf());
+app.use();
 app.use(function(req, res, next){
-    res.locals.csrfToken = req.csrfToken
+    res.locals.csrfToken = req.csrfToken()
 })
