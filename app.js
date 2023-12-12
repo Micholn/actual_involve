@@ -64,5 +64,5 @@ initSocketIO(server, datsbase, ai);
 app.use(function (req, res, next) {
     next(createError(404));
 })
-
+app.use(function(err, req, res, next))
 
