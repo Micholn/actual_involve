@@ -71,3 +71,8 @@ app.use(function(err, req, res, next) {
     res.render('error');
 });
 
+server.listen(PORT);
+console.log(`web server listening at http://127.0.0.1:${PORT}`);
+
+//EXPORT
+module.exports = app;
