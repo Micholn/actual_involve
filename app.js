@@ -54,4 +54,7 @@ app.use(function(req, res, next) {
 
 //Routes
 app.use("/", require("./index.js"));
-app.use("/", require("./auth.js"))
+app.use("/", require("./auth.js"));
+
+//Init
+runApp(app)
