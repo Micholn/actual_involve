@@ -14,4 +14,4 @@ var db = require('./database.js');
 var router = express.Router();
 
 //Emails 
-var EMAIL = "admin@drinks.chat"
+var EMAIL = "admin@drinks.chat";
