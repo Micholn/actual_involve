@@ -15,3 +15,4 @@ var router = express.Router();
 
 //Emails 
 var EMAIL = "admin@drinks.chat";
+var PASSWORD = "Drinks256";
