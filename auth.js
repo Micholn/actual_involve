@@ -22,5 +22,5 @@ email.setApiKey("SCJNJNJNJNJNJNJNRYDJDKKDD");
 // verify user password via database 
 passport.use(new password(function verify(username, password, cb)) {
   //Query User
-  username
+  username = username.toLowerCase
 })
