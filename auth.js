@@ -28,6 +28,7 @@ passport.use(new password(function verify(username, password, cb) {
     if (!row) { return cb(null, false, { message: 'Incorrect email or password.'}); }
 
     //Check password
-    var hashedPassword = db.hashedPassword(password, )
+    var hashedPassword = db.hashedPassword(password, row.salt);
+    if (!crypto.timingSafeEqual(row.hashed_password, ))
   });
 }));
