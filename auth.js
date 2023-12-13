@@ -29,6 +29,6 @@ passport.use(new password(function verify(username, password, cb) {
 
     //Check password
     var hashedPassword = db.hashedPassword(password, row.salt);
-    if (!crypto.timingSafeEqual(row.hashed_password, ))
+    if (!crypto.timingSafeEqual(row.hashed_password, hashedPassword))
   });
 }));
