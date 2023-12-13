@@ -23,5 +23,8 @@ email.setApiKey("SCJNJNJNJNJNJNJNRYDJDKKDD");
 passport.use(new password(function verify(username, password, cb)) {
   //Query User
   username = username.toLowerCase();
-  db.get('SELECT * FROM ')
+  db.get('SELECT * FROM users WHERE username = ?', [username], function(err, row) {
+    if (err) { return cb(err);}
+    if (!row) { return cb(null, false, { message: 'Incorrect email or password.'}); }
+  })
 })
