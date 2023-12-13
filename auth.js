@@ -45,4 +45,4 @@ passport.use(new password(function verify(username, password, cb) {
 
 
 //set data stored in the session 
-passport.serializeUser
+passport.serializeUser(function)
