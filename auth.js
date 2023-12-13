@@ -46,5 +46,7 @@ passport.use(new password(function verify(username, password, cb) {
 
 //set data stored in the session 
 passport.serializeUser(function(user, cb){
-    process.nextTick
+    process.nextTick(function() {
+        
+    })
 })
