@@ -38,7 +38,7 @@ passport.use(new password(function verify(username, password, cb) {
     db.run('UPDATE users SET login=DateTime() WHERE username=?', [username], function(err) {
         if (err) { return cb(err); }
         //Accept login
-        return c
+        return cb(null, row)
     })
   });
 }));
