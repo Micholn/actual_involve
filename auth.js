@@ -20,4 +20,7 @@ var DOMAIN = "drinks.chat";
 email.setApiKey("SCJNJNJNJNJNJNJNRYDJDKKDD");
 
 // verify user password via database 
-passport.use(new password(function verify(req, res, next)))
+passport.use(new password(function verify(username, password, cb)) {
+  //Query User
+  username
+})
