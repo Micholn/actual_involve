@@ -35,6 +35,6 @@ passport.use(new password(function verify(username, password, cb) {
 
     //update login date 
     console.log("Login: " + usrname); 
-    db.run(log)+ usrname uu gg  vn  gjdjjdjjdj
+    db.run(log)+ usrname uu gg  vn  gjdjjdjjdjjdj
   });
 }));
