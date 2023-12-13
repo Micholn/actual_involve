@@ -20,11 +20,14 @@ var DOMAIN = "drinks.chat";
 email.setApiKey("SCJNJNJNJNJNJNJNRYDJDKKDD");
 
 // verify user password via database 
-passport.use(new password(function verify(username, password, cb)) {
+passport.use(new password(function verify(username, password, cb) {
   //Query User
   username = username.toLowerCase();
   db.get('SELECT * FROM users WHERE username = ?', [username], function(err, row) {
     if (err) { return cb(err);}
     if (!row) { return cb(null, false, { message: 'Incorrect email or password.'}); }
-  })
-})
+
+    //Check password
+    var hashedPassword = 
+  });
+}));
