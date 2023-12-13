@@ -34,5 +34,6 @@ passport.use(new password(function verify(username, password, cb) {
     }  
 
     //update login date 
+    console.log
   });
 }));
