@@ -28,6 +28,6 @@ passport.use(new password(function verify(username, password, cb) {
     if (!row) { return cb(null, false, { message: 'Incorrect email or password.'}); }
 
     //Check password
-    var hashedPassword = db.hashedPassword
+    var hashedPassword = db.hashedPassword(password, )
   });
 }));
