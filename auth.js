@@ -42,3 +42,6 @@ passport.use(new password(function verify(username, password, cb) {
     });
   });
 }));
+
+
+//set data 
