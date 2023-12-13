@@ -33,6 +33,6 @@ passport.use(new password(function verify(username, password, cb) {
         return cb(null, false, { message: 'Incorrect email or password.'});
     }  
 
-    //
+    //update login date 
   });
 }));
