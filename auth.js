@@ -60,4 +60,4 @@ passport.deserializeUser(function(user, cb) {
 router.get("/login", function(req, res, next) { res.render('login');  });
 router.get("/siginup", function(req, res, next) { res.render('signup'); });
 router.get('/password', function(req, res, next) { res.render('password'); });
-
+router.get("/reset", function(req, res, next) { res.render('reset'); });
