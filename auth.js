@@ -63,4 +63,6 @@ router.get('/password', function(req, res, next) { res.render('password'); });
 router.get("/reset", function(req, res, next) { res.render('reset'); });
 
 //send email to reset password
-router.post("/password", function(req, res, next))
+router.post("/password", function(req, res, next) {
+    //Query User
+})
