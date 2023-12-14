@@ -57,4 +57,4 @@ passport.deserializeUser(function(user, cb) {
 });
 
 //Log in and sign up pages
-router.get("/login", function(req, ))
+router.get("/login", function(req, res, next) { })
