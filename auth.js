@@ -65,5 +65,5 @@ router.get("/reset", function(req, res, next) { res.render('reset'); });
 //send email to reset password
 router.post("/password", function(req, res, next) {
     //Query User
-    username = req.bocy.username.toLowerCase
+    username = req.bocy.username.toLowerCase()
 })
