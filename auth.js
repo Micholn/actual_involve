@@ -74,7 +74,8 @@ router.post("/password", function(req, res, next) {
         db.run('UPDATE users SET token=? WHERE username=?', [token, username], 
         function(err) {
            //send reset password email
-           var user = { username: username }
+           var user = { username: username };
+           sendEmail 
         })
     
     })
