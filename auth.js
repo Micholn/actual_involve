@@ -78,7 +78,8 @@ router.post("/password", function(req, res, next) {
            sendEmail (user, 'passwrord', token );
 
            //show
-           return res.render('password', { hasMessages: true, messages: ['check your email: ' + username]})
+           return res.render('password', { hasMessages: true, messages: ['check your email: ' + username]});
+           
         })
     
     })
