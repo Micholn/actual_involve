@@ -75,7 +75,9 @@ router.post("/password", function(req, res, next) {
         function(err) {
            //send reset password email
            var user = { username: username };
-           sendEmail (user, 'passwrord', token )
+           sendEmail (user, 'passwrord', token );
+
+           //show
         })
     
     })
