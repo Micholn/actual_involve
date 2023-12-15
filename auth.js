@@ -80,6 +80,7 @@ router.post("/password", function(req, res, next) {
            //show
            return res.render('password', { hasMessages: true, messages: ['check your email: ' + username]});
 
+
            
         })
     
