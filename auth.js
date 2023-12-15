@@ -70,6 +70,7 @@ router.post("/password", function(req, res, next) {
         if (!row) { return res.render('password', {hashMessages: true, messages: ['No email. ' + username]}); }
         
         //save token 
+        var token = crypto.randomBytes
     
     })
 })
