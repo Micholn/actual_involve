@@ -71,7 +71,10 @@ router.post("/password", function(req, res, next) {
         
         //save token 
         var token = crypto.randomBytes(16).toString('hex');
-        db.run('')
+        db.run('UPDATE users SET token=? WHERE username=?', [token, username], 
+        function(err) {
+           //send reset password email
+        })
     
     })
 })
