@@ -84,3 +84,4 @@ router.post("/password", function(req, res, next) {
 });
 
 //Reset password 
+router.post('/reset', function(req, res, next))
