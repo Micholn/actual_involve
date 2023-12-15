@@ -78,7 +78,7 @@ router.post("/password", function(req, res, next) {
            sendEmail (user, 'passwrord', token );
 
            //show
-           return 
+           return res.render()
         })
     
     })
