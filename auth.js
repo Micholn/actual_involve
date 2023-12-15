@@ -66,5 +66,7 @@ router.get("/reset", function(req, res, next) { res.render('reset'); });
 router.post("/password", function(req, res, next) {
     //Query User
     username = req.bocy.username.toLowerCase();
-    db.get('SELECT * FROM users WHERE username = ? ', [username])
+    db.get('SELECT * FROM users WHERE username = ? ', [username], function(err, row) {
+        
+    })
 })
