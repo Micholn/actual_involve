@@ -75,38 +75,12 @@ router.post("/password", function(req, res, next) {
         function(err) {
            //send reset password email
            var user = { username: username };
-           sendEmail (user, 'passwrord', token );
+           sendEmail(user, 'passwrord', token );
 
            //show
            return res.render('password', { hasMessages: true, messages: ['check your email: ' + username]});
+        });
+    });
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
-        })
-    
-    })
-})
+//Reset password 
