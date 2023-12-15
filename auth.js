@@ -84,4 +84,10 @@ router.post("/password", function(req, res, next) {
 });
 
 //Reset password 
-router.post('/reset', function(req, res, next))
+router.post('/reset', function(req, res, next) {
+  //Query User
+  username = req.body.username.toLowerCase();
+  db.get('SELECT * FROM users WHERE username = ?', [username], function(err, row) {
+    
+  }) 
+})
