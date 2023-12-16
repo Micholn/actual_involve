@@ -118,4 +118,6 @@ router.post('/reset', function(req, res, next) {
 });
 
 // Sign up 
-router.post('/signup', function)
+router.post('/signup', function(req, res, next) {
+    
+})
