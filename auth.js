@@ -126,5 +126,7 @@ router.post('/signup', function(req, res, next) {
 
 
 
-  ], )
+  ], function(err) {
+    if (err) { return }
+  })
 })
