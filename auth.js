@@ -92,5 +92,10 @@ router.post('/reset', function(req, res, next) {
     if(!row) { return res.render('reset', {hasMessages: true, messages: ['No email. ' + username]}); }
 
     //check token 
+    console.log("checking token " + req.body.token);
+    if (row.token == null || row.tokem == "" || req.body.token != row.token) {
+        console.log("Bad token: " + req.body.token + ", " + row.token);
+        return res.render('reset', {hasMessages: true, messages: ['Bad token: ' + req.body.token]})
+    }
   }) 
 })
