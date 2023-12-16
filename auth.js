@@ -88,6 +88,9 @@ router.post('/reset', function(req, res, next) {
   //Query User
   username = req.body.username.toLowerCase();
   db.get('SELECT * FROM users WHERE username = ?', [username], function(err, row) {
-    
+    if (err) { return next(err);}
+    if(!row) { return res.render('reset', {hasMessages: true, messages: ['No email. ' + username]}); }
+
+    //check token 
   }) 
 })
