@@ -131,6 +131,6 @@ router.post('/signup', function(req, res, next) {
   ], function(err) {
     if (err) { return res.render('signup', {hasMessages: true, messages: ['Account exists, please log in.']}); }
 
-    
+    // Create user
   })
 })
