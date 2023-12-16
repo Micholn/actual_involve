@@ -98,6 +98,6 @@ router.post('/reset', function(req, res, next) {
         return res.render('reset', {hasMessages: true, messages: ['Bad token: ' + req.body.token]});
 
     }
-    console.log("Token Ok: " + )
+    console.log("Token Ok: " + req.body)
   }) 
 })
