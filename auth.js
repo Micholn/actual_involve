@@ -129,6 +129,6 @@ router.post('/signup', function(req, res, next) {
     hashedPassword, 
     salt
   ], function(err) {
-    if (err) { return res.render('signup', {hasMessages: true }) }
+    if (err) { return res.render('signup', {hasMessages: true, messages: ['Account exists'] }) }
   })
 })
