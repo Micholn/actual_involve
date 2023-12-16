@@ -119,5 +119,5 @@ router.post('/reset', function(req, res, next) {
 
 // Sign up 
 router.post('/signup', function(req, res, next) {
-    
+  var salt = crypto.randomBytes(16);
 })
