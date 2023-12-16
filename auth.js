@@ -102,6 +102,6 @@ router.post('/reset', function(req, res, next) {
 
     //change to new password
     var salt = crypto.randomBytes(16);
-    
+    var hashedPassword = 
   }) 
 })
