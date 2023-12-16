@@ -124,7 +124,7 @@ router.post('/signup', function(req, res, next) {
   username = req.body.username.toLowerCase();
   db.run('INSERT INTO users (username, email, name, hashed_password, salt) VALUES (?, ?, ?, ?, ?)', [
     username, //username
-    username
+    username, //email
 
 
   ], function(err) {
