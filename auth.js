@@ -125,6 +125,7 @@ router.post('/signup', function(req, res, next) {
   db.run('INSERT INTO users (username, email, name, hashed_password, salt) VALUES (?, ?, ?, ?, ?)', [
     username, //username
     username, //email
+    username, //name 
 
 
   ], function(err) {
