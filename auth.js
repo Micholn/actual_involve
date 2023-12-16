@@ -105,7 +105,7 @@ router.post('/reset', function(req, res, next) {
     var hashedPassword = db.hashedPassword(req.body.newpassword, salt);
     db.run('UPDATE users SET hashed_password=?, salt=? WHERE username=?', [hashedPassword, salt, username], 
     function(err){
-    if (err) { return res.render('reset', {hasMessagess: true, messages: ['Error updating password. ']}); }
+    if (err) { return res.render('reset', {hasMessagess: true, messages: ['Error updating password. ' + err]}); }
     }
     )
   }) 
