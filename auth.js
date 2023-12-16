@@ -127,9 +127,8 @@ router.post('/signup', function(req, res, next) {
     username, //email
     username, //name 
     hashedPassword, 
-
-
+    salt
   ], function(err) {
-    if (err) { return }
+    if (err) { return res.render }
   })
 })
