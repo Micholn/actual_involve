@@ -98,6 +98,10 @@ router.post('/reset', function(req, res, next) {
         return res.render('reset', {hasMessages: true, messages: ['Bad token: ' + req.body.token]});
 
     }
-    console.log("Token Ok: " + req.body)
+    console.log("Token Ok: " + req.body.token + ", " + row.token);
+
+    //change to new password
+    var salt = crypto.randomBytes(16);
+    
   }) 
 })
