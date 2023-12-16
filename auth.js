@@ -126,6 +126,7 @@ router.post('/signup', function(req, res, next) {
     username, //username
     username, //email
     username, //name 
+    hashedPassword, 
 
 
   ], function(err) {
