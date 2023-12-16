@@ -122,5 +122,9 @@ router.post('/signup', function(req, res, next) {
   var salt = crypto.randomBytes(16);
   var hashedPassword = db.hashPassword(req.body.password, salt );
   username = req.body.username.toLowerCase();
-  db.run('INSERT INTO users (username, email, name, hashed_password, salt) VALUES (?, ?, ?, ?, ?)', [])
+  db.run('INSERT INTO users (username, email, name, hashed_password, salt) VALUES (?, ?, ?, ?, ?)', [
+
+
+
+  ], )
 })
