@@ -138,5 +138,6 @@ router.post('/signup', function(req, res, next) {
     };
 
     //Send Validation email
+    var token 
   })
 })
