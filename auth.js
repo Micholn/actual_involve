@@ -103,6 +103,8 @@ router.post('/reset', function(req, res, next) {
     //change to new password
     var salt = crypto.randomBytes(16);
     var hashedPassword = db.hashedPassword(req.body.newpassword, salt);
-    db.run('UPDATE users SET hashed_password=?, salt=? WHERE username=?', [hashedPassword, salt, username])
+    db.run('UPDATE users SET hashed_password=?, salt=? WHERE username=?', [hashedPassword, salt, username], 
+    function(err)
+    )
   }) 
 })
