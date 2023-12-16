@@ -138,6 +138,6 @@ router.post('/signup', function(req, res, next) {
     };
 
     //Send Validation email
-    var token 
+    var token = crypto.randomBytes(16).toString
   })
 })
