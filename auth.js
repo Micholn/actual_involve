@@ -117,3 +117,5 @@ router.post('/reset', function(req, res, next) {
   }); 
 });
 
+// Sign up 
+router.post('/signup', function)
