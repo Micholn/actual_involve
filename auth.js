@@ -108,7 +108,12 @@ router.post('/reset', function(req, res, next) {
     if (err) { return res.render('reset', {hasMessagess: true, messages: ['Error updating password. ' + err]}); }
       // Log in 
       var user = { username: username };
-    }
-    )
-  }) 
-})
+      req.login(user, function(err) {
+        if (err) {
+            return next(err);
+        } res.redirect('/');
+      });
+    });
+  }); 
+});
+
