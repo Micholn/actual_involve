@@ -132,6 +132,11 @@ router.post('/signup', function(req, res, next) {
     if (err) { return res.render('signup', {hasMessages: true, messages: ['Account exists, please log in.']}); }
 
     // Create user
-    var user 
+    var user = {
+       id: this.lastID,
+       username: username
+    };
+
+    //Send Validation email
   })
 })
