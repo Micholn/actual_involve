@@ -218,7 +218,12 @@ function confirmEmail(user){
     db.get('SELECT * FROM users WHERE email = ?', [user.email], function(err, row) {
         if (err) { return err; }
         if(!row) {
-            db.run('INSERT INTO users (email, email_verified) VALUES (?, ?)')
+            db.run('INSERT INTO users (email, email_verified) VALUES (?, ?)', [user.email, 1], function(err) {
+                if(err) { return err; }
+      return true;
+            });
+        } else {
+            return row;
         }
-    })
+    });
 }
