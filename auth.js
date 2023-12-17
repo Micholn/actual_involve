@@ -166,3 +166,6 @@ router.all('/logout', function(req, res, next) {
 });
 
 // List users 
+router.get('/api/list', function(req, res) {
+    
+})
