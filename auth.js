@@ -193,7 +193,9 @@ function sendEmail(user, type, token) {
     var subject = 'Welcome to Drinks';
     var html = '<h3>Hello!</h3><p>Click the link to confirm your email: <a href="' + link + '">Log in</a> </P>';
     if (type == "password") {
-        link = `${DOMAIN}/reset?email=${us}`
+        link = `${DOMAIN}/reset?email=${user.email}&token=${token}`;
+        subject = 'Reset password';
+        html = 
     }
 
 }
