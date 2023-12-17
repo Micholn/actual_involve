@@ -139,6 +139,8 @@ router.post('/signup', function(req, res, next) {
 
     //Send Validation email
     var token = crypto.randomBytes(16).toString('hex');
-    sendEmail(user, '')
+    sendEmail(user, 'validate', token);
+
+    // Log in 
   })
 })
