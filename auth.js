@@ -183,5 +183,6 @@ router.get('/api/list', function(req, res) {
 
 //send email 
 function sendEmail(user, type, token) {
+    //cCheck user email 
     
 }
