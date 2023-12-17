@@ -216,6 +216,9 @@ function confirmEmail(user){
     //confirm email
     console.log("Confriming email " + user.email);
     db.get('SELECT * FROM users WHERE email = ?', [user.email], function(err, row) {
-        
+        if (err) { return err; }
+        if(!row) {
+            db.run
+        }
     })
 }
