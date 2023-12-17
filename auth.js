@@ -199,6 +199,10 @@ function sendEmail(user, type, token) {
     }
 
     //Send email 
-    var message 
+    var message = {
+        to: user.email,
+        from: EMAIL, 
+        subject
+    }
 
 }
