@@ -171,7 +171,10 @@ router.get('/api/list', function(req, res) {
     username = req.username.toLowerCase();
     if (req != null && req.user != null && username == EMAIL ) {
         db.all('SELECT * FROM users', function(err, rows) {
-            
+            if(err) {
+                console.log(err);
+                res.status
+            }
         })
     }
 })
