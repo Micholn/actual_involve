@@ -204,6 +204,15 @@ function sendEmail(user, type, token) {
         from: EMAIL, 
         subject: subject,
         html: html,
-    }
+    };
+    email.send(message, (error, result) => {
+        if (error) {
+    console.log("Error: " + error);
+        }
+    });
+}
 
+function confirmEmail(user){
+    //confirm email
+    console.log("Confriming email " + user.email)
 }
