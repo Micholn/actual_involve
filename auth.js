@@ -229,4 +229,9 @@ function confirmEmail(user){
 }
 
 // Confirm 
-router.get('/confirm')
+router.get('/confirm', function(req, res, next) {
+    res.render('login');
+});
+
+// Export 
+module.exports = router;
