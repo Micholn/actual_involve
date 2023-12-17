@@ -167,5 +167,7 @@ router.all('/logout', function(req, res, next) {
 
 // List users 
 router.get('/api/list', function(req, res) {
-    
+    //only allow admin to do so 
+    username = req.username.toLowerCase();
+    if (req != null && req.user )
 })
