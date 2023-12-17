@@ -215,5 +215,5 @@ function sendEmail(user, type, token) {
 function confirmEmail(user){
     //confirm email
     console.log("Confriming email " + user.email);
-    db.get('SELECT * FROM users WHERE email')
+    db.get('SELECT * FROM users WHERE email = ?', [user.email], )
 }
