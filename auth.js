@@ -218,7 +218,7 @@ function confirmEmail(user){
     db.get('SELECT * FROM users WHERE email = ?', [user.email], function(err, row) {
         if (err) { return err; }
         if(!row) {
-            db.run
+            db.run('INSERT INTO users (email, email_verified) VALUES (?, ?)')
         }
     })
 }
