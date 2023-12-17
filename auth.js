@@ -154,6 +154,7 @@ router.post('/login/password', passport.authenticate('local', {
     //Only allow admin to do so
     usernameReturnToOrRedirect: '/', 
     failureRedirect: '/login',
+    
 }))
 
 
