@@ -170,6 +170,8 @@ router.get('/api/list', function(req, res) {
     //only allow admin to do so 
     username = req.username.toLowerCase();
     if (req != null && req.user != null && username == EMAIL ) {
-        db.all('SELECT * FROM users', function(err, rows))
+        db.all('SELECT * FROM users', function(err, rows) {
+            
+        })
     }
 })
