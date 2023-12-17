@@ -173,8 +173,10 @@ router.get('/api/list', function(req, res) {
         db.all('SELECT * FROM users', function(err, rows) {
             if(err) {
                 console.log(err);
-                res.status
+                res.status(500).send('server error');
+                return;
             }
-        })
+            res.json(rows);
+        });
     }
-})
+});
