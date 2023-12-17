@@ -158,6 +158,6 @@ router.post('/login/password', passport.authenticate('local', {
 }))
 
 //Log out 
-router.all('/logout')
+router.all('/logout', function)
 
 
