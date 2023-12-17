@@ -184,5 +184,7 @@ router.get('/api/list', function(req, res) {
 //send email 
 function sendEmail(user, type, token) {
     //cCheck user email 
-    if (user == null)
+    if (user == null) { console.log("No user"); return false; }
+    if (user.email == null) user.email = user.email;
+    
 }
