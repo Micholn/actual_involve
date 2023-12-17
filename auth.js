@@ -202,7 +202,8 @@ function sendEmail(user, type, token) {
     var message = {
         to: user.email,
         from: EMAIL, 
-        subject: subject
+        subject: subject,
+        html: html,
     }
 
 }
