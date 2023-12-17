@@ -142,5 +142,19 @@ router.post('/signup', function(req, res, next) {
     sendEmail(user, 'validate', token);
 
     // Log in 
-  })
-})
+    req.login(user, function(err) {
+        if(err) { return next(err); }
+        res.redirect('/'); 
+    });
+  });
+});
+
+// Log in 
+router.post('/login/password', passport.authenticate('local', {
+    //Only allow admin to do so
+    usernameRetur 
+}))
+
+
+
+
