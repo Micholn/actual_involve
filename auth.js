@@ -198,4 +198,7 @@ function sendEmail(user, type, token) {
         html = '<h3>Hello!</h3><p>You suck!</p><p>Click the link to reset your password: <a href="' + link + '">Log in</a></p>'
     }
 
+    //Send email 
+    var message 
+
 }
