@@ -157,6 +157,7 @@ router.post('/login/password', passport.authenticate('local', {
     failureMessage: true 
 }))
 
-
+//Log out 
+router.all('/logout')
 
 
