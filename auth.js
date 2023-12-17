@@ -191,6 +191,6 @@ function sendEmail(user, type, token) {
     // Type
     var link = `${DOMAIN}/confirm?email=${user.email}&token=${token}`;
     var subject = 'Welcome to Drinks';
-    var html = '<h3>Hello!</h3><p>Click the link to confirm your email: <a>Log in</a> </P>'
+    var html = '<h3>Hello!</h3><p>Click the link to confirm your email: <a href="' + link + '">Log in</a> </P>';
 
 }
