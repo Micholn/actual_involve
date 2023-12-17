@@ -227,3 +227,6 @@ function confirmEmail(user){
         }
     });
 }
+
+// Confirm 
+
