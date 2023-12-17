@@ -229,4 +229,4 @@ function confirmEmail(user){
 }
 
 // Confirm 
-
+router.get('/confirm')
