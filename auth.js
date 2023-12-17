@@ -160,8 +160,9 @@ router.post('/login/password', passport.authenticate('local', {
 //Log out 
 router.all('/logout', function(req, res, next) {
     req.logout(function(err) {
-        if (err) 
-    })
-})
+        if (err) { return next(err); }
+        res.redirect('/');
+    });
+});
 
-
+// List users 
