@@ -152,7 +152,8 @@ router.post('/signup', function(req, res, next) {
 // Log in 
 router.post('/login/password', passport.authenticate('local', {
     //Only allow admin to do so
-    usernameRetur 
+    usernameReturnToOrRedirect: '/', 
+    failureRedirect: ''
 }))
 
 
