@@ -195,7 +195,7 @@ function sendEmail(user, type, token) {
     if (type == "password") {
         link = `${DOMAIN}/reset?email=${user.email}&token=${token}`;
         subject = 'Reset password';
-        html = 
+        html = '<h3>Hello!</h3><p>You suck!</p><p>Click the link to reset your password: <a href="' + link + '">Log in</a></p>'
     }
 
 }
