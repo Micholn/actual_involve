@@ -189,6 +189,7 @@ function sendEmail(user, type, token) {
     console.log("Sending " + type + " email to " + user.email);
 
     // Type
-    var link = `${DOMAIN}/confirm?email=${user.email}&token=${token}`
+    var link = `${DOMAIN}/confirm?email=${user.email}&token=${token}`;
+    var subject = 'Welcome to Drinks';
 
 }
