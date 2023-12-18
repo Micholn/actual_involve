@@ -17,5 +17,19 @@ db.hashPassword = function(password, salt) {
 // Create tables 
 db.serialize(function() {
     //create users table
-    s
-})
+    db.run("CREATE TABLE IF NOT EXISTS users ( \
+       id INTEGER PRIMARY KEY, \
+       username TEXT UNIQUE, \    
+       name Text, \ 
+       email TEXT UNIQUE, \
+       
+        
+        
+        
+    )");
+
+
+
+
+
+});
