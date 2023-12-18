@@ -19,8 +19,8 @@ db.serialize(function() {
     //create users table
     db.run("CREATE TABLE IF NOT EXISTS users ( \
        id INTEGER PRIMARY KEY, \
-       username TEXT UNIQUE, \    
-       name TEXT, \ 
+       username TEXT UNIQUE,  
+    \   name TEXT, \ 
        email TEXT UNIQUE, \
        email_verified INTEGER, \
        hashed_password BLOB, \
@@ -39,7 +39,7 @@ db.serialize(function() {
     db.run("DELETE FROM users WHERE username='' ")
 
     // Create times table 
-    db.run("CREATE TIMES TABLE IF NOT EXISTS times (
+    db.run("CREATE TIMES TABLE IF NOT EXISTS times ( \
         owner_id INTEGER, \
         username TEXT, \
         time 
