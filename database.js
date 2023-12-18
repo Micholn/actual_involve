@@ -11,5 +11,7 @@ var db = new sqlite3.Database('./database/database.db');
 
 // Hash password function 
 db.hashPassword = function(password, salt) {
-    return 
+    return crypto.pbkdf2Sync(password, salt, 310000, 32, 'sha256');
 }
+
+//
