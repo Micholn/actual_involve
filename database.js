@@ -30,7 +30,7 @@ db.serialize(function() {
     )");
 
     //Update users table 
-    //db.run(ALTER TABLE users ADD COLUMN token)
+    db.run("ALTER TABLE users ADD COLUMN token TEXT")
 
 
     // Create times table 
