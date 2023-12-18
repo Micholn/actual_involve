@@ -46,3 +46,4 @@ db.serialize(function() {
 
 
 //Rooms
+db.storage
