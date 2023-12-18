@@ -35,5 +35,5 @@ db.serialize(function() {
 
     // Create times table 
     db.run("CREATE TIMES TABLE IF NOT EXISTS times () ")
-
+    
 });
