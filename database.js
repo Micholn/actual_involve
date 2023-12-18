@@ -47,5 +47,5 @@ db.serialize(function() {
 
 //Rooms
 db.storeMessage = function(room, username, message) {
-    const query = 'INSERT'
+    const query = 'INSERT INRO'
 }
