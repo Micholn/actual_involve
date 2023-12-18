@@ -56,7 +56,9 @@ db.serialize(function() {
         message TEXT NOT NULL,
         timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
     )`;
-    db.run(createTableQuery)
+    db.run(createTableQuery, (err, result) => {
+        
+    })
 });
 
 
