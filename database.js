@@ -41,7 +41,10 @@ db.serialize(function() {
     // Create times table 
     db.run("CREATE TIMES TABLE IF NOT EXISTS times (
         owner_id INTEGER, \
-        username TEXT, 
+        username TEXT, \
+        time 
+        status 
+        PRIMARY KEY
     )");
     
 });
