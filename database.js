@@ -6,4 +6,5 @@ var mkdirp = require('mkdirp');
 var crypto = require('crypto');
 
 // create or open database 
-
+mkdir.sync('./database')
+var db = new 
