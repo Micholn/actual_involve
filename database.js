@@ -33,7 +33,7 @@ db.serialize(function() {
     db.run("ALTER TABLE users ADD COLUMN token TEXT")
 
     //Update user
-    db.run('UPDATE users SET username=? WHERE');
+    db.run('UPDATE users SET username=? WHERE username=?', );
 
     // Clean users 
     db.run("DELETE FROM users WHERE username='' ")
