@@ -14,4 +14,5 @@ db.hashPassword = function(password, salt) {
     return crypto.pbkdf2Sync(password, salt, 310000, 32, 'sha256');
 }
 
-//
+// Create tables 
+
