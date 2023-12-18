@@ -44,7 +44,7 @@ db.serialize(function() {
         username TEXT, \
         time DATE NOT NULL, \
         status TEXT, \
-        PRIMARY KEY ()
+        PRIMARY KEY ()  \
     )");
     
     // Chat history
