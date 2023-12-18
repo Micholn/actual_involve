@@ -65,7 +65,8 @@ db.serialize(function() {
     db.run('INSERT OR IGNORE INTO users (username, name, email, hashed_password, salt) VALUES (?, ?, ?, ?, ?)', [
         'admin@drinks.chat',
         'Tom',
-        'admin@drinks'
+        'admin@drinks.chat', 
+        db.
     ])
 });
 
