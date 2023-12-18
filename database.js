@@ -59,6 +59,8 @@ db.serialize(function() {
     db.run(createTableQuery, (err, result) => {
         if (err) throw err;
     });
+
+    //Add User 
 });
 
 
