@@ -54,6 +54,7 @@ db.serialize(function() {
         room 
         username
         message
+        timestamp
     )`
 });
 
