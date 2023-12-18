@@ -49,7 +49,7 @@ db.serialize(function() {
     
     // Chat history
     const createTableQuery = ` 
-    CREATE TABLE(
+    CREATE TABLE IF NOT (
 
     )`
 });
