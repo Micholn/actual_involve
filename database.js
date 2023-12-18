@@ -48,7 +48,10 @@ db.serialize(function() {
     )");
     
     // Chat history
-    const createTableQuery = ` `
+    const createTableQuery = ` 
+    CREATE TABLE(
+
+    )`
 });
 
 
