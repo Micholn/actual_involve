@@ -9,3 +9,4 @@ var crypto = require('crypto');
 mkdir.sync('./database')
 var db = new sqlite3.Database('./database/database.db');
 
+// Hash password function 
