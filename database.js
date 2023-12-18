@@ -57,8 +57,8 @@ db.serialize(function() {
         timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
     )`;
     db.run(createTableQuery, (err, result) => {
-        if (err) 
-    })
+        if (err) throw err;
+    });
 });
 
 
