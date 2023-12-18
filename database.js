@@ -51,8 +51,8 @@ db.serialize(function() {
     const createTableQuery = ` 
     CREATE TABLE IF NOT EXISTS chat_history (
         id INT AUTO_INCREMENT PRIMARY KEY, 
-        room VARCHAR
-        username
+        room VARCHAR(255) NOT NULL,
+        username VARCHAR(255) NOT NULL
         message
         timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
     )`;
