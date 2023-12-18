@@ -48,6 +48,7 @@ db.serialize(function() {
     )");
     
     // Chat history
+    const 
 });
 
 
