@@ -26,12 +26,14 @@ db.serialize(function() {
        hashed_password BLOB, \
        salt BLOB, \ 
        token TEXT, \ 
-       login DATE \        
+       login DATE \     
     )");
 
     //Update users table 
+    //db.run(ALTER TABLE users ADD COLUMN token)
+
 
     // Create times table 
-    db.run("")
+    db.run("CREATE TIMES TABL IF NOT EXISTS times () ")
 
 });
