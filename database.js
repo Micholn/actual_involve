@@ -47,5 +47,5 @@ db.serialize(function() {
 
 //Rooms
 db.storeMessage = function(room, username, message) {
-    const
+    const query
 }
