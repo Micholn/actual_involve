@@ -39,7 +39,7 @@ db.serialize(function() {
     db.run("DELETE FROM users WHERE username='' ")
 
     // Create times table 
-    db.run("CREATE TIMES TABLE IF NOT EXISTS times (
+    db.run("CREATE TIMES TABLE IF NOT EXISTS times ( \
         owner_id INTEGER, \
         username TEXT, \
         time 
