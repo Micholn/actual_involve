@@ -44,9 +44,10 @@ db.serialize(function() {
         username TEXT, \
         time 
         status 
-        PRIMARY KEY
+        PRIMARY KEY ()
     )");
     
+    //
 });
 
 
