@@ -33,13 +33,16 @@ db.serialize(function() {
     db.run("ALTER TABLE users ADD COLUMN token TEXT")
 
     //Update user
-    db.run('UPDATE users SET username=? WHERE username=?', ["@admindrinks.chat"]);
+    db.run('UPDATE users SET username=? WHERE username=?', ["@admindrinks.chat", "admin"]);
 
     // Clean users 
     db.run("DELETE FROM users WHERE username='' ")
 
     // Create times table 
-    db.run("CREATE TIMES TABLE IF NOT EXISTS times () ")
+    db.run("CREATE TIMES TABLE IF NOT EXISTS times (
+        owner_id INTEGER, \
+        username TEXT, 
+    )");
     
 });
 
