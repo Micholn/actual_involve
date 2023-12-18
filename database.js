@@ -62,7 +62,9 @@ db.serialize(function() {
 
     //Add User 
     var salt = crypto.randomBytes(16);
-    db.run('INSERT OR IGNORE INTO users (username, name, email, hashed_password, salt) VALUES ()')
+    db.run('INSERT OR IGNORE INTO users (username, name, email, hashed_password, salt) VALUES (?, ?, ?, ?, ?)', [
+        
+    ])
 });
 
 
