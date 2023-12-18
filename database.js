@@ -49,8 +49,9 @@ db.serialize(function() {
     
     // Chat history
     const createTableQuery = ` 
-    CREATE TABLE IF NOT (
-
+    CREATE TABLE IF NOT EXISTS chat_history (
+        id 
+        room 
     )`
 });
 
