@@ -42,3 +42,7 @@ db.serialize(function() {
     db.run("CREATE TIMES TABLE IF NOT EXISTS times () ")
     
 });
+
+
+
+//Rooms
