@@ -36,7 +36,7 @@ db.serialize(function() {
     db.run('UPDATE users SET username=? WHERE');
 
     // Clean users 
-    db.run
+    db.run("")
 
     // Create times table 
     db.run("CREATE TIMES TABLE IF NOT EXISTS times () ")
