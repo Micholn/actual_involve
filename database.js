@@ -33,6 +33,8 @@ db.serialize(function() {
     db.run("ALTER TABLE users ADD COLUMN token TEXT")
 
     //Update user
+    db.run('UPDATE users SET ')
+
     // Create times table 
     db.run("CREATE TIMES TABLE IF NOT EXISTS times () ")
     
