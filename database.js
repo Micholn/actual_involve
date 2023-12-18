@@ -54,7 +54,7 @@ db.serialize(function() {
         room 
         username
         message
-        timestamp
+        timestamp TIMESTAMP NOT NULL DEFAULT 
     )`
 });
 
