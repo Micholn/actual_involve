@@ -66,7 +66,7 @@ db.serialize(function() {
         'admin@drinks.chat',
         'Tom',
         'admin@drinks.chat', 
-        db.
+        db.hash
     ])
 });
 
