@@ -47,7 +47,7 @@ db.serialize(function() {
         PRIMARY KEY ()
     )");
     
-    //
+    // Chat history
 });
 
 
