@@ -16,5 +16,6 @@ db.hashPassword = function(password, salt) {
 
 // Create tables 
 db.serialize(function() {
-    
+    //create users table
+    s
 })
