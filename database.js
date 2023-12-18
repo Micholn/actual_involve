@@ -20,16 +20,18 @@ db.serialize(function() {
     db.run("CREATE TABLE IF NOT EXISTS users ( \
        id INTEGER PRIMARY KEY, \
        username TEXT UNIQUE, \    
-       name Text, \ 
+       name TEXT, \ 
        email TEXT UNIQUE, \
-       
-        
-        
-        
+       email_verified INTEGER, \
+       hashed_password BLOB, \
+       salt BLOB, \ 
+       token TEXT, \ 
+       login DATE \        
     )");
 
+    //Update users table 
 
-
-
+    // Create times table 
+    db.run("")
 
 });
