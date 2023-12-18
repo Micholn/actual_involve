@@ -61,7 +61,8 @@ db.serialize(function() {
     });
 
     //Add User 
-    var salt 
+    var salt = crypto.randomBytes(16);
+    db.run
 });
 
 
