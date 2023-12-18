@@ -61,6 +61,7 @@ db.serialize(function() {
     });
 
     //Add User 
+    var salt 
 });
 
 
