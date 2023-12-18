@@ -53,7 +53,7 @@ db.serialize(function() {
         id INT AUTO_INCREMENT PRIMARY KEY, 
         room VARCHAR(255) NOT NULL,
         username VARCHAR(255) NOT NULL
-        message
+        message TEXT NOT NULL,
         timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
     )`;
     db.run()
