@@ -71,7 +71,7 @@ db.serialize(function() {
     ]);
 
     //List users
-    var query = "SELECT * FROM users(username, name) "
+    var query = "SELECT * FROM users"
 });
 
 
