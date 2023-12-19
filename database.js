@@ -66,8 +66,11 @@ db.serialize(function() {
         'admin@drinks.chat',
         'Tom',
         'admin@drinks.chat', 
-        db.hash
-    ])
+        db.hashPassword('Drinks256', salt), 
+        salt
+    ]);
+
+    //List users
 });
 
 
