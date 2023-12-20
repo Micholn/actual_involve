@@ -83,5 +83,5 @@ db.serialize(function() {
 //Rooms
 db.storeMessage = function(room, username, message) {
     const query = 'INSERT INTO chat_history (room, username, message) VALUES (?, ?, ?)';
-    
+    db.all(query, [room, us])
 }
