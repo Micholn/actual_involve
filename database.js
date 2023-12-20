@@ -98,4 +98,4 @@ db.loadChatHistory = function(room, callback) {
 }
 
 // Export 
-module.exports 
+module.exports = 
