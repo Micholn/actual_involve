@@ -19,8 +19,8 @@ db.serialize(function() {
     //create users table
     db.run("(
       id 
-      username 
-      name 
+      username TEXT
+      name TEXT, \
       email TEXT UNIQUE, \
       email_verified INTEGER, \
       hashed_password BLOB, \
