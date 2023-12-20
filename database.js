@@ -17,7 +17,7 @@ db.hashPassword = function(password, salt) {
 // Create tables 
 db.serialize(function() {
     //create users table
-    db.run
+    db.run("()");
 
     //Update users table 
     db.run("ALTER TABLE users ADD COLUMN token TEXT")
