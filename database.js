@@ -21,8 +21,8 @@ db.serialize(function() {
       id 
       username 
       name 
-      email 
-      email_verified , \
+      email TEXT UNIQUE, \
+      email_verified INTEGER, \
       hashed_password BLOB, \
       salt BLOB, \
       token TEXT, \
