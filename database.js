@@ -74,7 +74,7 @@ db.serialize(function() {
     var query = "SELECT * FROM users";
     db.all(query, [], (err, rows) => { 
         console.log("Users:");
-        console.log(rows)
+        console.log(rows);
     })
 });
 
