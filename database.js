@@ -86,5 +86,5 @@ db.storeMessage = function(room, username, message) {
     db.all(query, [room, username, message], (err, result) => {
         if (err) throw err;
         console.log("Message in " + room + ": " + message);
-    })
+    });
 }
