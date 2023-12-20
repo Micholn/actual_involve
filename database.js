@@ -90,5 +90,5 @@ db.storeMessage = function(room, username, message) {
 }
 
 db.loadChatHistory = function(room, callback) {
-    const 
+    const query = 'SELECT * FROM'
 }
