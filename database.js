@@ -94,5 +94,7 @@ db.loadChatHistory = function(room, callback) {
     db.all(query, [room], (err, results) => {
         if (err) throw err;
         callback(results);
-    })
+    });
 }
+
+// Export 
