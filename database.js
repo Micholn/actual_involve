@@ -17,17 +17,7 @@ db.hashPassword = function(password, salt) {
 // Create tables 
 db.serialize(function() {
     //create users table
-    db.run("CREATE TABLE IF NOT EXISTS users ( \
-       id INTEGER PRIMARY KEY, \
-       username TEXT UNIQUE, \    
-       name TEXT, \ 
-       email TEXT UNIQUE, \
-       email_verified INTEGER, \
-       hashed_password BLOB, \
-       salt BLOB, \ 
-       token TEXT, \ 
-       login DATE \     
-    )");
+    db.run
 
     //Update users table 
     db.run("ALTER TABLE users ADD COLUMN token TEXT")
