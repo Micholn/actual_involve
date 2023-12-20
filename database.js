@@ -22,8 +22,10 @@ db.serialize(function() {
       username 
       name 
       email 
+      email_verified
       hashed_password
-
+      salt 
+      token 
     )");
 
     //Update users table 
