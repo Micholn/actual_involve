@@ -22,10 +22,11 @@ db.serialize(function() {
       username 
       name 
       email 
-      email_verified
-      hashed_password
-      salt 
-      token 
+      email_verified , \
+      hashed_password BLOB, \
+      salt BLOB, \
+      token TEXT, \
+      login DATE \
     )");
 
     //Update users table 
