@@ -92,6 +92,6 @@ db.storeMessage = function(room, username, message) {
 db.loadChatHistory = function(room, callback) {
     const query = 'SELECT * FROM chat_history WHERE room = ? ORDER BY timestamp';
     db.all(query, [room], (err, results) => {
-        
+        if (err) throw err;
     })
 }
