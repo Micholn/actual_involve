@@ -21,6 +21,8 @@ db.serialize(function() {
       id 
       username 
       name 
+      email 
+      hashed_password
 
     )");
 
