@@ -72,7 +72,7 @@ db.serialize(function() {
 
     //List users
     var query = "SELECT * FROM users";
-    db.all(query, [], )
+    db.all(query, [], (err, rows))
 });
 
 
