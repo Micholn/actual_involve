@@ -88,3 +88,7 @@ db.storeMessage = function(room, username, message) {
         console.log("Message in " + room + ": " + message);
     });
 }
+
+db.loadChatHistory = function(room, callback) {
+    const 
+}
