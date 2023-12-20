@@ -90,5 +90,5 @@ db.storeMessage = function(room, username, message) {
 }
 
 db.loadChatHistory = function(room, callback) {
-    const query = 'SELECT * FROM chat_history WHERE room = ? ORDER BY'
+    const query = 'SELECT * FROM chat_history WHERE room = ? ORDER BY timestamp';
 }
