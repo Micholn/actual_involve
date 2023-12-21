@@ -6,7 +6,9 @@ module.exports = files => {
             new Promise((res, rej) => {
                 try {
 
-                } catch 
+                } catch {
+                    
+                }
             })
         )
     )
