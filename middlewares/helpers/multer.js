@@ -4,9 +4,9 @@ const multer = require("multer");
 //User's
 const storageByUser = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, file.fieldname)
+        cb(null, './public/uploads')
     },
     filename: function (req, file, cb) {
-        
+        cb(null, file.fieldname)
     }
 })
