@@ -6,7 +6,7 @@ module.exports = files => {
             new Promise((res, rej) => {
                 try {
                     setTimeout(() => {
-                        fs.unlink
+                        fs.unlink(file, )
                     })
 
                 } catch (err) {
