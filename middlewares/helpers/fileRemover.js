@@ -8,7 +8,7 @@ module.exports = files => {
 
                 } catch (err) {
                     console.error(err);
-                    rej
+                    rej(err);
                 }
             })
         )
