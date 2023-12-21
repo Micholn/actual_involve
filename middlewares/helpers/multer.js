@@ -14,4 +14,4 @@ const storageByUser = multer.diskStorage({
 
 //admin's 
 
-const 
+const storage = multer
