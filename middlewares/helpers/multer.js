@@ -3,5 +3,5 @@ const multer = require("multer");
 
 //User's
 const storageByUser = multer.diskStorage({
-    
+    destination: 
 })
