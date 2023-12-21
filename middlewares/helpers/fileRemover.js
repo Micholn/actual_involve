@@ -7,7 +7,8 @@ module.exports = files => {
                 try {
                     setTimeout(() => {
                         fs.unlink(file, err => {
-                            if (err) 
+                            if (err) throw err;
+                            res();
                         })
                     })
 
