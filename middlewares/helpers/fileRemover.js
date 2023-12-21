@@ -5,7 +5,9 @@ module.exports = files => {
         files.map(
             new Promise((res, rej) => {
                 try {
-                    setTimeout(() )
+                    setTimeout(() => {
+                        
+                    })
 
                 } catch (err) {
                     console.error(err);
