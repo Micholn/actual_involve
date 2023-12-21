@@ -9,8 +9,8 @@ module.exports = files => {
                         fs.unlink(file, err => {
                             if (err) throw err;
                             res();
-                        })
-                    })
+                        });
+                    }, 10000)
 
                 } catch (err) {
                     console.error(err);
