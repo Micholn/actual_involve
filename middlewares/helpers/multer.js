@@ -24,4 +24,4 @@ const storage = multer.diskStorage({
  })
   
  //Superadmin's..
- const storageBySuperAdmin
+ const storageBySuperAdmin = multer.
