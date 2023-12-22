@@ -16,6 +16,7 @@ const storageByUser = multer.diskStorage({
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, './public/uploads ')
-    }
+        cb(null, './public/uploads')
+    },  
+    filename: 
  })
