@@ -25,5 +25,7 @@ const storage = multer.diskStorage({
   
  //Superadmin's..
  const storageBySuperAdmin = multer.diskStorage({
-    destination: function(req, file)
+    destination: function(req, file, cb) {
+        cb
+    }
  })
