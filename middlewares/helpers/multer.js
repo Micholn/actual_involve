@@ -27,5 +27,6 @@ const storage = multer.diskStorage({
  const storageBySuperAdmin = multer.diskStorage({
     destination: function(req, file, cb) {
         cb(null, './public/uploads')
-    }
+    },
+    filename: function (req, )
  })
