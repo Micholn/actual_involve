@@ -29,6 +29,6 @@ const storage = multer.diskStorage({
         cb(null, './public/uploads')
     },
     filename: function (req, file, cb) {
-        cb(null, file.filename + '-' + req.admin.role + req.admin._id + '-' + Date.now )
+        cb(null, file.filename + '-' + req.admin.role + req.admin._id + '-' + Date.now()  )
     }
  })
