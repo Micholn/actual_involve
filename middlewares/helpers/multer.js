@@ -32,3 +32,5 @@ const storage = multer.diskStorage({
         cb(null, file.filename + '-' + req.admin.role + req.admin._id + '-' + Date.now() + path.extname(file.originalname));
     }
  })
+
+ 
