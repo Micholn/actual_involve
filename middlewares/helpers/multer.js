@@ -34,5 +34,5 @@ const storage = multer.diskStorage({
  })
 
  const fileFilter = (res, file, callback) => {
-    const ext = path
+    const ext = path.ext
  }
