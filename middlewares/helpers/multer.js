@@ -36,6 +36,6 @@ const storage = multer.diskStorage({
  const fileFilter = (res, file, callback) => {
     const ext = path.extname(fileoriginalname);
     if (ext !== '.png' && ext !== '.jpg' && ext !== '.JPG' && ext !== '.jpeg') {
-        return callback
+        return callback()
     }
  }
