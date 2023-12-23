@@ -33,4 +33,4 @@ const storage = multer.diskStorage({
     }
  })
 
- const fileFilter = (res, file, callback)
+ const fileFilter = (res, file, callback) => 
