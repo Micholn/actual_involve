@@ -40,4 +40,6 @@ const storage = multer.diskStorage({
     }
     callback(null, true)
  }
- const limits = { fileSize: }
+ const limits = { fileSize: 2480 * 3230 }
+
+ 
