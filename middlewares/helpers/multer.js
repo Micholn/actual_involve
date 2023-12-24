@@ -42,4 +42,4 @@ const storage = multer.diskStorage({
  }
  const limits = { fileSize: 2480 * 3230 }
 
- exports.uploadAdminDoc = multer({ storage })
+ exports.uploadAdminDoc = multer({ storage, fileFilter })
