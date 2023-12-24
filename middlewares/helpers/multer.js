@@ -46,7 +46,7 @@ const limits = { fileSize: 2480 * 3230 }
 exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).fields([ 
     { name: "citizenshipFront", maxCount: 1 }, 
     { name: "citizenshipBack", maxCount: 1},
-    { }
+    { name: ""}
 ]);
 
 
