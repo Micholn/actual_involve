@@ -33,7 +33,7 @@ const storage = multer.diskStorage({
     }
  })
 
- const fileFilter = (res, file, callback) => {
+const fileFilter = (res, file, callback) => {
     const ext = path.extname(fileoriginalname);
     if (ext !== '.png' && ext !== '.jpg' && ext !== '.JPG' && ext !== '.jpeg') {
         return callback(new Error('Not Image'))
@@ -42,4 +42,5 @@ const storage = multer.diskStorage({
  }
  const limits = { fileSize: 2480 * 3230 }
 
- exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).single("doc")
+
+ exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).single("doc");
