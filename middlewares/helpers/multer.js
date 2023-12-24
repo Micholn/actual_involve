@@ -43,7 +43,9 @@ const fileFilter = (res, file, callback) => {
 const limits = { fileSize: 2480 * 3230 }
 
 
-exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).fields
+exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).fields({
+    
+})
 
 
 exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).single("doc");
