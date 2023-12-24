@@ -38,5 +38,5 @@ const storage = multer.diskStorage({
     if (ext !== '.png' && ext !== '.jpg' && ext !== '.JPG' && ext !== '.jpeg') {
         return callback(new Error('Not Image'))
     }
-    callback(null, )
+    callback(null, true)
  }
