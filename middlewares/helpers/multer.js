@@ -40,4 +40,4 @@ const storage = multer.diskStorage({
     }
     callback(null, true)
  }
- const limits = { filesize}
+ const limits = { fileSize}
