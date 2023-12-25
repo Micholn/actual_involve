@@ -1,1 +1,1 @@
-const Jimp = require('jimp')
+const Jimp = require('jimp');
