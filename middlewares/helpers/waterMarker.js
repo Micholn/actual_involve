@@ -1,2 +1,2 @@
 const Jimp = require('jimp');
-module.exports = async
+module.exports = async (req, res, next)
