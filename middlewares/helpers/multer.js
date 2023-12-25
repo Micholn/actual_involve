@@ -53,3 +53,5 @@ exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).fields([
 exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).single("doc");
 exports.uploadAdminPhoto = multer({ storage, fileFilter, limits }).single("photo");
 exports.uploadUserPhoto = multer({ storage: storageByUser, fileFilter, limits }).single("photo");
+
+exports.uploadProductImages
