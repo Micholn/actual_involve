@@ -55,4 +55,4 @@ exports.uploadAdminPhoto = multer({ storage, fileFilter, limits }).single("photo
 exports.uploadUserPhoto = multer({ storage: storageByUser, fileFilter, limits }).single("photo");
 
 exports.uploadProductImages = multer({ storage, fileFilter, limits }).array("productImages", 5)
-exports.uploadBannerPhoto = multer({ storage: storageBySuperAdmin, fileFilter })
+exports.uploadBannerPhoto = multer({ storage: storageBySuperAdmin, fileFilter, limits:  })
