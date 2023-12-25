@@ -5,6 +5,7 @@ module.exports = async (req, res, next) => {
     }
     const options = {
         ratio: 0.6,
-        opacity:  
+        opacity: 0.4,
+         
     }
 }
