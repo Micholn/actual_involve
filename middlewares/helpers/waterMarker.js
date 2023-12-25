@@ -4,7 +4,7 @@ module.exports = async (req, res, next) => {
         return next()
     }
     const options = {
-        ration: 0.6,
-        
+        ratio: 0.6,
+        opacity:  
     }
 }
