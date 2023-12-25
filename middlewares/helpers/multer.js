@@ -51,3 +51,4 @@ exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).fields([
 
 
 exports.uploadAdminDoc = multer({ storage, fileFilter, limits }).single("doc");
+exports
