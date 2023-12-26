@@ -10,6 +10,7 @@ module.exports = async (req, res, next) => {
         textSize: Jimp.FONT_SANS_64_BLACK, 
     }
     const getDimensions = (H, W, h, w, ratio ) => {
-        let hm, 
+        let hm, wm;
+        
     }
 }
