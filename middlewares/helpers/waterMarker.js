@@ -24,6 +24,6 @@ module.exports = async (req, res, next) => {
         const watermark = await Jimp.read('./public/uploads/logo.png');
         const imagePath = file.path
 
-        const main = await
+        const main = await Jimp
     })
 }
