@@ -16,7 +16,7 @@ module.exports = async (req, res, next) => {
             ww = hh / h * w;
         } else {        // GREATER WIDTH
             ww = ratio * W;
-            hh = 
+            hh = ww / w * h
         }
     }
 }
