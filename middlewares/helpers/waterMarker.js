@@ -20,5 +20,5 @@ module.exports = async (req, res, next) => {
         }
         return [hh, ww];
     }
-    let results = 
+    let results = req.files.map()
 }
