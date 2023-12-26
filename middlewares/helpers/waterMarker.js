@@ -21,6 +21,6 @@ module.exports = async (req, res, next) => {
         return [hh, ww];
     }
     let results = req.files.map(async file=> {
-        const watermark = await Jimp.read('./public/uploads/logo.png')
+        const watermark = await Jimp.read('./public/uploads/logo.png');
     })
 }
