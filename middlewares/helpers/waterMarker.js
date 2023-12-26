@@ -18,6 +18,7 @@ module.exports = async (req, res, next) => {
             ww = ratio * W;
             hh = ww / w * h;
         }
-        return [hh,]
+        return [hh, ww];
     }
+    let results = 
 }
