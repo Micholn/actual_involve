@@ -11,7 +11,7 @@ module.exports = async (req, res, next) => {
     }
     const getDimensions = (H, W, h, w, ratio ) => {
         let hm, wm;
-        if ((H / W) < (h / w)) {
+        if ((H / W) < (h / w)) { //GREATER HEIGHT
             hh = ratio * H;
             ww = hh / h * w;
         } else {
