@@ -25,5 +25,6 @@ module.exports = async (req, res, next) => {
         const imagePath = file.path
 
         const main = await Jimp.read(imagePath);
+        const [newF]
     })
 }
