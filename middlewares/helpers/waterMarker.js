@@ -25,6 +25,7 @@ module.exports = async (req, res, next) => {
         const imagePath = file.path
 
         const main = await Jimp.read(imagePath);
-        const [newHeight, newWidth] = getDimensions(main.getHeight(), main.getWidth(), watermark.getHeight(), watermark.getWidth(), options.ra)
+        const [newHeight, newWidth] = getDimensions(main.getHeight(), main.getWidth(), watermark.getHeight(), watermark.getWidth(), options.ratio);
+        
     })
 }
