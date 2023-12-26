@@ -14,7 +14,7 @@ module.exports = async (req, res, next) => {
         if ((H / W) < (h / w)) { //GREATER HEIGHT
             hh = ratio * H;
             ww = hh / h * w;
-        } else {        // GREATER 
+        } else {        // GREATER WIDTH
 
         }
     }
