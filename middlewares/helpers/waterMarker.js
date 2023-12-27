@@ -32,7 +32,8 @@ module.exports = async (req, res, next) => {
         watermark.opacity(options.opacity);
         main.composite(watermark,
             positionX, 
-            positionY, )
+            positionY, 
+            Jimp)
 
     })
 }
