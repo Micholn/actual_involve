@@ -27,6 +27,6 @@ module.exports = async (req, res, next) => {
         const main = await Jimp.read(imagePath);
         const [newHeight, newWidth] = getDimensions(main.getHeight(), main.getWidth(), watermark.getHeight(), watermark.getWidth(), options.ratio);
         watermark.resize(newWidth, newHeight);
-        const 
+        const positionX = ()
     })
 }
