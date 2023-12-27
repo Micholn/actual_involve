@@ -31,7 +31,7 @@ module.exports = async (req, res, next) => {
         const positionY = ((main.getHeight() - newHeight) /2+200 );
         watermark.opacity(options.opacity);
         main.composite(watermark,
-            position)
+            positionX)
 
     })
 }
