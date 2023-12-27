@@ -29,6 +29,6 @@ module.exports = async (req, res, next) => {
         watermark.resize(newWidth, newHeight);
         const positionX = ((main.getWidth() - newWidth) /2 ) + 250;
         const positionY = ((main.getHeight() - newHeight) /2+200 );
-        watermark.opacity()
+        watermark.opacity(options)
     })
 }
