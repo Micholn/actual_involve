@@ -28,6 +28,6 @@ module.exports = async (req, res, next) => {
         const [newHeight, newWidth] = getDimensions(main.getHeight(), main.getWidth(), watermark.getHeight(), watermark.getWidth(), options.ratio);
         watermark.resize(newWidth, newHeight);
         const positionX = ((main.getWidth() - newWidth) /2 ) + 250;
-        const positionY = ((main))
+        const positionY = ((main.getHeight))
     })
 }
