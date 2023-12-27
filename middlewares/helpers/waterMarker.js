@@ -33,7 +33,7 @@ module.exports = async (req, res, next) => {
         main.composite(watermark,
             positionX, 
             positionY, 
-            Jimp.HORIZONTAL_)
+            Jimp.HORIZONTAL_ALIGN)
 
     })
 }
