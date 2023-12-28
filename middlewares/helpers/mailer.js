@@ -14,7 +14,7 @@ exports.sendEmail = mailngData => {
    return transporter
       .sendMail(mailingData)
       .then(info => {
-        console.log()
+        console.log(`Message sent: `)
       })
 
 
