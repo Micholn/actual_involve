@@ -36,6 +36,7 @@ module.exports = async (req, res, next) => {
             Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
         return main.quality(100).write(imagePath);
     })
+    await Promise.all(results)
     
 }
 
