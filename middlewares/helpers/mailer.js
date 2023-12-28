@@ -1,7 +1,9 @@
 const nodeMailer = require("nodemailer");
 
 exports.sendEmail = mailngData => {
-   const transporter = nodeMailer.createTransport
+   const transporter = nodeMailer.createTransport({
+    host: 
+   })
 
 
 
