@@ -10,7 +10,7 @@ exports.sendEmail = mailngData => {
         user: process.env.ECOM_EMAIL,
         pass: process.env.ECOM_PASSWORD
     }
-   })
+   });
 
 
 
