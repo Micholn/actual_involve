@@ -5,7 +5,7 @@ exports.sendEmail = mailngData => {
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
-    
+    requireTLS: TRUE
    })
 
 
