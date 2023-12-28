@@ -13,7 +13,9 @@ exports.sendEmail = mailngData => {
    });
    return transporter
       .sendMail(mailingData)
-      .then(info =>)
+      .then(info => {
+        console.log()
+      })
 
 
 
