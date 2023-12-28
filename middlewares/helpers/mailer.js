@@ -7,7 +7,7 @@ exports.sendEmail = mailngData => {
     secure: false,
     requireTLS: true,  
     auth: {
-        user: 
+        user: process.env.
     }
    })
 
