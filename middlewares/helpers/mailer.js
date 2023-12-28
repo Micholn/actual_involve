@@ -6,7 +6,9 @@ exports.sendEmail = mailngData => {
     port: 587,
     secure: false,
     requireTLS: true,  
-    
+    auth: {
+        
+    }
    })
 
 
