@@ -16,6 +16,7 @@ exports.sendEmail = mailngData => {
       .then(info => {
         console.log(`Message sent: ${info.response}`)
       })
+      .catch(err)
 
 
 
