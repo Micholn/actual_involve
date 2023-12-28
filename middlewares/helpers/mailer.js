@@ -1,3 +1,3 @@
 const nodeMailer = require("nodemailer");
 
-exports.sendEmail = mailng
+exports.sendEmail = mailngData
