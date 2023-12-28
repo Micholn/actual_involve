@@ -7,7 +7,8 @@ exports.sendEmail = mailngData => {
     secure: false,
     requireTLS: true,  
     auth: {
-        user: process.env.ECOM_EMAIL
+        user: process.env.ECOM_EMAIL,
+        pass: 
     }
    })
 
