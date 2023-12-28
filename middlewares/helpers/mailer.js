@@ -13,7 +13,7 @@ exports.sendEmail = mailngData => {
    });
    return transporter
       .sendMail(mailingData)
-      .then
+      .then(info =>)
 
 
 
