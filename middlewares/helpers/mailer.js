@@ -1,1 +1,1 @@
-const nodeMailer = require()
+const nodeMailer = require("nodemailer")
