@@ -37,4 +37,4 @@ module.exports = async (req, res, next) => {
         return main.quality(100).write(imagePath);
     })
 }
-await
+await Promise.
