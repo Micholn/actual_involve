@@ -1,2 +1,2 @@
 const Notification = require("../../models/Notification");
-const SocketMapping = require("../")
+const SocketMapping = require("../../models")
