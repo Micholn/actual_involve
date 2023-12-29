@@ -6,6 +6,6 @@ module.exports = async(io, adminId, notificationObj) => {
     //first save notification 
     let notificationObjOfAdmin = await Notification.findOne({ admin:adminId })
     if (!notificationObjOfAdmin) {
-        
+        // create
     }
 }
