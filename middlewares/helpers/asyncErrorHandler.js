@@ -1,1 +1,1 @@
-module.exports=()
+module.exports=(e=>(o,r,s)=> {Promise.})
