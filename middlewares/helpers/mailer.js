@@ -21,5 +21,4 @@ exports.sendEmail = mailngData => {
       })
 
 
-
 }
