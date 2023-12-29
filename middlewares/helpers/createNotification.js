@@ -1,1 +1,1 @@
-const Notification = require("")
+const Notification = require("../../")
