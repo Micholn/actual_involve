@@ -7,6 +7,6 @@ module.exports = async(io, adminId, notificationObj) => {
     let notificationObjOfAdmin = await Notification.findOne({ admin:adminId })
     if (!notificationObjOfAdmin) {
         // create new notification 
-        notificationObjOfAdmin 
+        notificationObjOfAdmin = new Notification
     }
 }
