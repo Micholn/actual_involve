@@ -5,5 +5,5 @@ module.exports = async(io, adminId, notificationObj) => {
     //notify to the admin through socket.io
     //first save notification 
     let notificationObjOfAdmin = await Notification.findOne({ admin:adminId })
-    if ()
+    if (!notificationObjOfAdmin)
 }
