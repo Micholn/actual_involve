@@ -18,6 +18,6 @@ exports.sendEmail = mailngData => {
       })
       .catch(err => {
         console.log(`Problem sending email: ${err}`)
-        
+        err.message = 
       });
 }
