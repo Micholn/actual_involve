@@ -11,5 +11,5 @@ module.exports = (lon1, lat1, lon2, lat2 ) => {
         Math.cos((lat2 * Math.PI ) / 180) * 
         Math.sin(dLon / 2) * 
         Math.sin(dLon / 2);
-    const c =  2 * Math.atan2(Math.sqrt)
+    const c =  2 * Math.atan2(Math.sqrt(a))
 }
