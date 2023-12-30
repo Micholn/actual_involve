@@ -4,5 +4,5 @@ module.exports = (lon1, lat1, lon2, lat2 ) => {
     // distance between latitude and longitude  in radians
     const dLat = ((lat2 - lat1) * Math.PI) /180;
     const dLon = ((lon2 - lon1) * Math.PI) / 180;
-    
+    // haversine
 }
