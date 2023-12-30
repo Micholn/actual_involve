@@ -7,5 +7,6 @@ module.exports = (lon1, lat1, lon2, lat2 ) => {
     // haversine' formula to calculate diatance 
     const a = 
       Math.sin(dLat / 2) * Math.sin(dLat / 2) + 
-      Math.cos((lat2 ))
+      Math.cos((lat1 * Math.PI) / 180) * 
+        Math.cos
 }
