@@ -15,6 +15,6 @@ module.exports = async(io, adminId, notificationObj) => {
         await notificationObjOfAdmin.save();
     } else {
         let notifications = notificationObjOfAdmin.notofications
-        notifications.unshift
+        notifications.unshift()
     }
 }
