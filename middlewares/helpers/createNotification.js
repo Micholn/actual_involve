@@ -17,6 +17,6 @@ module.exports = async(io, adminId, notificationObj) => {
         let notifications = notificationObjOfAdmin.notofications
         notifications.unshift(notificationObj)
         notificationObjOfAdmin.noOfUnseen += 1 
-        if (notificationObjOfAdmin.noOfUnseen < 20 && )
+        if (notificationObjOfAdmin.noOfUnseen < 20 && notifications.length)
     }
 }
