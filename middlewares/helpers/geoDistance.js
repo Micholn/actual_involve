@@ -15,5 +15,5 @@ module.exports = (lon1, lat1, lon2, lat2 ) => {
     const d = R * c;
     // if (d > 1) return Math.round(d) + "Km";
     // else if (d <= 1) return Math.round(d * 1000) + "m";
-    
+    return d;
 }
