@@ -14,6 +14,6 @@ module.exports = async(io, adminId, notificationObj) => {
         })
         await notificationObjOfAdmin.save();
     } else {
-        let notifications = notificationObjOfAdmin.
+        let notifications = notificationObjOfAdmin.notofications
     }
 }
