@@ -18,7 +18,7 @@ module.exports = async(io, adminId, notificationObj) => {
         notifications.unshift(notificationObj)
         notificationObjOfAdmin.noOfUnseen += 1 
         if (notificationObjOfAdmin.noOfUnseen < 20 && notifications.length > 20) {
-            notificationObjOfAdmin.notifications = dropRight()
+            notificationObjOfAdmin.notifications = dropRight(notifications, )
         }
     }
 }
