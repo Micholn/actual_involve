@@ -8,7 +8,8 @@ module.exports = async(io, adminId, notificationObj) => {
     if (!notificationObjOfAdmin) {
         // create new notification 
         notificationObjOfAdmin = new Notification({
-            admin: 
+            admin: adminId,
+            
         })
     }
 }
