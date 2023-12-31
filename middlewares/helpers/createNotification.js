@@ -12,6 +12,6 @@ module.exports = async(io, adminId, notificationObj) => {
             notifications: [notificationObj],
             noOfUnseen: 1
         })
-        await 
+        await notificationObjOfAdmin.save
     }
 }
