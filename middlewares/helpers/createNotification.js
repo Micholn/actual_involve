@@ -1,6 +1,6 @@
 const Notification = require("../../models/Notification");
 const SocketMapping = require("../../models/SocketMapping");
-const (dropRight) = require("lodash")
+const {dropRight} = require("lodash")
 module.exports = async(io, adminId, notificationObj) => {
     //notify to the admin through socket.io
     //first save notification 
@@ -12,6 +12,8 @@ module.exports = async(io, adminId, notificationObj) => {
             notifications: [notificationObj],
             noOfUnseen: 1
         })
-        await notificationObjOfAdmin.save
+        await notificationObjOfAdmin.save();
+    } else {
+        let notifications
     }
 }
