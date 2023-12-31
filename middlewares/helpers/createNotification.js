@@ -9,7 +9,7 @@ module.exports = async(io, adminId, notificationObj) => {
         // create new notification 
         notificationObjOfAdmin = new Notification({
             admin: adminId,
-            
+            notifications
         })
     }
 }
