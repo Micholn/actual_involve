@@ -16,5 +16,6 @@ module.exports = async(io, adminId, notificationObj) => {
     } else {
         let notifications = notificationObjOfAdmin.notofications
         notifications.unshift(notificationObj)
+        notificationObjOfAdmin.
     }
 }
