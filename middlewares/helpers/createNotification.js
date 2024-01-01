@@ -22,5 +22,5 @@ module.exports = async(io, adminId, notificationObj) => {
         }
         await notificationObjOfAdmin.save()
     }
-    //now 
+    //now notifying to the admin
 }
