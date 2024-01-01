@@ -22,4 +22,5 @@ module.exports = async(io, adminId, notificationObj) => {
         }
         await notificationObjOfAdmin.save()
     }
+    //
 }
