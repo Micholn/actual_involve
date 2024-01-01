@@ -26,6 +26,6 @@ module.exports = async(io, adminId, notificationObj) => {
     let socketUser = await SocketMapping.find({ user:adminId})
     if (socketUser.length) {
         //for every same login user emit notification
-        socketUser.for
+        socketUser.forEach()
     }
 }
