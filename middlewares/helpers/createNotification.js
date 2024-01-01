@@ -24,5 +24,5 @@ module.exports = async(io, adminId, notificationObj) => {
     }
     //now notifying to the admin
     let socketUser = await SocketMapping.find({ user:adminId})
-    if (socketUser)
+    if (socketUser.length)
 }
