@@ -27,7 +27,7 @@ module.exports = async(io, adminId, notificationObj) => {
     if (socketUser.length) {
         //for every same login user emit notification
         socketUser.forEach(u => {
-            io.to(u.socketId).emit
+            io.to(u.socketId).emit()
         })
     }
 }
