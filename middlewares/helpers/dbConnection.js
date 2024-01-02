@@ -4,5 +4,7 @@ const Fawn = require("fawn");
 module.exports = () => {
     const self = module.exports;
     mongoose 
-        .connect(process.env.MONGO_URI)
+        .connect(process.env.MONGO_URI, {
+            useNewUrlParser
+        })
 }
