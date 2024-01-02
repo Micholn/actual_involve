@@ -11,5 +11,7 @@ module.exports = () => {
             useFindAndModify: false,
         })
         .then(() => console.log("DB connected"))
-        .catch()
+        .catch(err => {
+            
+        })
 }
