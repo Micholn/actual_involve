@@ -15,6 +15,6 @@ module.exports = () => {
             console.error(
                 "Failed to connect to the database on startup - retrying in 5 seconds "
             );
-            setTimeout
-        })
+            setTimeout(self, 5000);
+        });
 }
