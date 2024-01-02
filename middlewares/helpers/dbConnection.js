@@ -17,5 +17,5 @@ module.exports = () => {
             );
             setTimeout(self, 5000);
         });
-        return 
+        return Fawn.init()
 }
