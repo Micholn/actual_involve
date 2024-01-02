@@ -10,5 +10,5 @@ module.exports = () => {
             useUnifiedTopology: true,
             useFindAndModify: false,
         })
-        .then
+        .then(() => console.log())
 }
