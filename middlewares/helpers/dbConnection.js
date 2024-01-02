@@ -3,5 +3,6 @@ const Fawn = require("fawn");
 
 module.exports = () => {
     const self = module.exports;
-    mongoose
+    mongoose 
+        .connect
 }
