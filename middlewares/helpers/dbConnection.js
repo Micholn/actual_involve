@@ -13,7 +13,7 @@ module.exports = () => {
         .then(() => console.log("DB connected"))
         .catch(err => {
             console.error(
-                
+                ""
             )
         })
 }
