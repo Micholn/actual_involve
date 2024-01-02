@@ -1,2 +1,2 @@
 const mongoose = require("mongoose");
-const Fawn = 
+const Fawn = require("fawn")
