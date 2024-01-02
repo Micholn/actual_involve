@@ -17,4 +17,5 @@ module.exports = () => {
             );
             setTimeout(self, 5000);
         });
+        return 
 }
