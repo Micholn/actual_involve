@@ -13,7 +13,7 @@ module.exports = () => {
         .then(() => console.log("DB connected"))
         .catch(err => {
             console.error(
-                "Failed to connect to the database on startup - retrying "
+                "Failed to connect to the database on startup - retrying in 5 seco"
             )
         })
 }
