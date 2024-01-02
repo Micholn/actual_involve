@@ -17,5 +17,5 @@ module.exports = () => {
             );
             setTimeout(self, 5000);
         });
-        return Fawn.init()
+        return Fawn.init(mongoose)
 }
