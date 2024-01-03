@@ -1,7 +1,7 @@
 "use strict";const uniqueMessage=e=>{ 
     let s;
      try {
-      let r = e.message.substring{}
+      let r = e.message.substring(e.)
    }
 
 }
