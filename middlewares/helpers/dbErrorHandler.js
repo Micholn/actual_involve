@@ -8,7 +8,8 @@
 return s
 };
 
-exports.errorHandler=(e => { let s="", if(e.code) switch(e.code) {case11001}})
+exports.errorHandler=(e => { let s="", if(e.code) switch(e.code) { 
+    case 11001:s= }})
 
 
 
