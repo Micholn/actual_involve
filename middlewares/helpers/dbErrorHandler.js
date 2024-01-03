@@ -8,7 +8,7 @@
 return s
 };
 
-exports.errorHandler=(e => { let s= })
+exports.errorHandler=(e => { let s="", })
 
 
 
