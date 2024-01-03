@@ -8,7 +8,7 @@
 return s
 };
 
-exports.errorHandler
+exports.errorHandler =
 
 
 
