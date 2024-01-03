@@ -15,7 +15,8 @@
 "use strict";
 const uniqueMessage=e=> { 
     let s;
-    try{ let r=e.message.substring(e.message.lastIndexOf(".$")+2,e.message.lastIndexOf("_1"));s=r.charAt(0).toUpperCase()+r.slice(1)+" already exists"
+    try { let r=e.message.substring(e.message.lastIndexOf(".$")+2,e.message.lastIndexOf("_1"));
+    s=r.charAt(0).toUpperCase()+r.slice(1)+" already exists"
 
    } catch(e) { 
     s="Unique field already exists"}
