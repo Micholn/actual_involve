@@ -2,7 +2,9 @@
     let s;
      try {
       let r = e.message.substring(e.message.lastIndexOf())
-   } catch
+   } catch(e) {
+
+   }
 
 }
 
