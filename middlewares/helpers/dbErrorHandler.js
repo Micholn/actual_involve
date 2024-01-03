@@ -10,7 +10,7 @@ return s
 
 exports.errorHandler=(e => { let s="", if(e.code) switch(e.code) { 
     case 11001:s=uniqueMessage(e) } 
-    else{-1!==e.message.indexOf }
+    else{-1!==e.message.indexOf("Cast to ObjectId") }
 
 })
 
