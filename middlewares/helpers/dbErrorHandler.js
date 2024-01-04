@@ -20,7 +20,7 @@ return s.includes("path")&&(s=s.slice(6)),s})
 
 
 "use strict";
-const uniqueMessage=e=> { 
+const=e=> { 
     let s;
     try { let r=e.message.substring(e.message.lastIndexOf(".$")+2,e.message.lastIndexOf("_1"));
     s=r.charAt(0).toUpperCase()+r.slice(1)+" already exists"
