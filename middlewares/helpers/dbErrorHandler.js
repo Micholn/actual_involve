@@ -1,6 +1,5 @@
 "use strict";const uniqueMessage=e=>{let s;try {
-let r = e.message.substring(e.message.lastIndexOf())} catch(e) {s="unique field already exists"}return s
-};
+let r = e.message.substring(e.message.lastIndexOf())} catch(e) {s="unique field already exists"}return s};
 
 exports.errorHandler=(e => { let s="", if(e.code) switch(e.code) { 
     case 11001:s=uniqueMessage(e) } 
