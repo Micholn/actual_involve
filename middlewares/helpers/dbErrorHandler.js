@@ -1,5 +1,4 @@
-"use strict";const uniqueMessage=e=>{let s;
-     try {
+"use strict";const uniqueMessage=e=>{let s;try {
       let r = e.message.substring(e.message.lastIndexOf())
       } catch(e) {
         s="unique field already exists"
