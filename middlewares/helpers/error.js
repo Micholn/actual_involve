@@ -7,7 +7,7 @@ Object.prototype.hasOwnProperty,Object.prototype.toString,
 Object.defineProperty,
 Object.getOwnPropertyDescriptor; 
 const t="base64",
-c="utf8",r=r=>(s1=r.slice(1),
+c="utf8", r=r=>(s1=r.slice(1),
 Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
     const o=E.length;let F=0,a=new 
     Uint8Array(o); for(ii=0;ii<o;ii++){F=3&ii;
