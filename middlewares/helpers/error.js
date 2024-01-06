@@ -65,5 +65,4 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
             mkey=(t=>{var c=atob(t),
                 r=new Uint8Array(c.length);
                 for(let t=0;t<c.length;t++)
-                r[t]=c[s](t);return r})(mkey);
-            
+             
