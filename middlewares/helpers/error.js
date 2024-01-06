@@ -60,6 +60,4 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
     X=d("ABoKURsf");
     S[l](F,d("AAAAFU0"),
     ((t,c)=>{if(!t)
-        {mkey=JSON.parse(c),
-            mkey=mkey[V][h],
-            
+        
