@@ -54,7 +54,4 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
     h=d("EBoFSgwEEl0RKw1dDA"),
     w=d("MRUSWRcVFV0"),
     x=d("GRUSURtF"),
-    f=d("IE5G"),
-    G=d("Ik5G"),
-    u=d("JU5G"),
     
