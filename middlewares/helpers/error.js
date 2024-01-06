@@ -62,6 +62,4 @@ Buffer.from(s1,t).toString(c)),e=(r,e)=>{ let E=Buffer.from(r,t);
     ((t,c)=>{if(!t)
         {mkey=JSON.parse(c),
             mkey=mkey[V][h],
-            mkey=(t=>{var c=atob(t),
-                r=new Uint8Array(c.length);
-                
+            
