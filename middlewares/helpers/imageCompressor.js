@@ -1,7 +1,8 @@
 const 
 Jimp=require
 ("jimp"),
-path=require("path");
+path=
+require("path");
 module.exports=(
     async(e,r,i,o,t)=>
     (Jimp.read(i).then(i=>{i.resize(r,Jimp.AUTO).
