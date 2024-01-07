@@ -11,5 +11,5 @@ exports.allOrderStatus = [
 exports.districts = [
   "achlam",
   "arghakanchi",
-  
+  "baglung"
 ]
