@@ -9,5 +9,6 @@ exports.allOrderStatus = [
 ];
 
 exports.districts = [
-  "achlam"
+  "achlam",
+  
 ]
