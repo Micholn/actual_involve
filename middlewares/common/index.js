@@ -3,5 +3,6 @@ exports.allOrderStatus = [
     "approve",
     "dispatch",
     "cancel",
-    "complete"
+    "complete",
+    
 ]
