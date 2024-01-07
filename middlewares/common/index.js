@@ -1,1 +1,1 @@
-exports.allOrderStatus
+exports.allOrderStatus = 
