@@ -8,6 +8,6 @@ exports.allOrderStatus = [
     "return",
 ];
 
-export.districts = [
-    
+exports.districts = [
+
 ]
