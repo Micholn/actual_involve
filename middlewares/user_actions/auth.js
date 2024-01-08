@@ -16,4 +16,6 @@ exports.isAuthenticatedUser = asyncErrorHandler(async (req, res, next) => {
     next();
 });
 
-exports.authorizeRoles = (...roles)
+exports.authorizeRoles = (...roles) => {
+    
+}
