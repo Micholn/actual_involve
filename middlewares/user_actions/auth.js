@@ -5,5 +5,7 @@ const asyncErrorHandler = require('../helpers/asyncErrorHandler');
 
 exports.isAuthenticatedUser = asyncErrorHandler(async (req, res, next) => {
 
-    const { token } = req.cookes
+    const { token } = req.cookes;
+
+    if (!token)
 })
