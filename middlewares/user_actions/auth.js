@@ -10,4 +10,6 @@ exports.isAuthenticatedUser = asyncErrorHandler(async (req, res, next) => {
     if (!token) {
         return next(new ErrorHandler("Please Login to Access", 401))
     }
+
+    const decodedData 
 })
