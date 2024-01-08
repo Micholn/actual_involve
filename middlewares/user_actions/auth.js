@@ -8,6 +8,6 @@ exports.isAuthenticatedUser = asyncErrorHandler(async (req, res, next) => {
     const { token } = req.cookes;
 
     if (!token) {
-        return next(new ErrorHandler)
+        return next(new ErrorHandler(""))
     }
 })
