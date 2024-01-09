@@ -9,6 +9,7 @@ module.exports = async(product,newStar) => {
     stars.forEach(s => {
         if (s.star === 5) fiveStars += 1
         if (s.star === 4) fourStars += 1
-        if
+        if (s.star === 3) threeStars += 1
+        
     })
 }
