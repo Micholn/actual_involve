@@ -5,5 +5,8 @@ module.exports = async(product,newStar) => {
         return res.status(404).json({ error: 'Product not found'})
     }
     let stars = await Review.find({ product: product._id}).select('star');
-    let fiveStars = 0, fourStars = 0
+    let fiveStars = 0, fourStars = 0, threeStars = 0, twoStars = 0, oneStars = 0;
+    stars.forEach(s => {
+        
+    })
 }
