@@ -16,5 +16,6 @@ module.exports = async(product,newStar) => {
     //this condition is executed during postReview and editReview 
     if (newStar === 5) fiveStars += 1
     if (newStar === 4) fourStars += 1
-    if (newStar === 3) fourStars += 1
+    if (newStar === 3) threeStars += 1
+    
 }
