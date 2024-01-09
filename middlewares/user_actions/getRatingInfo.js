@@ -20,4 +20,5 @@ module.exports = async(product,newStar) => {
     if (newStar === 2) twoStars += 1
 
     let totalRatingUsers = (fiveStars + fourStars + threeStars + twoStars + oneStars)
+    let averageStar = ()
 }
