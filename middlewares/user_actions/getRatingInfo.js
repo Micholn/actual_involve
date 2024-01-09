@@ -4,5 +4,6 @@ module.exports = async(product,newStar) => {
     if (!product.isVerified && product.isDeleted) {
         return res.status(404).json({ error: 'Product not found'})
     }
-    let stars = await Review.find
+    let stars = await Review.find({ product: product._id}).select('star');
+    let fiveStars = 0, fourStars = 0
 }
