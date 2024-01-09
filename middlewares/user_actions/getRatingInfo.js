@@ -10,6 +10,7 @@ module.exports = async(product,newStar) => {
         if (s.star === 5) fiveStars += 1
         if (s.star === 4) fourStars += 1
         if (s.star === 3) threeStars += 1
-        if (s.star === 2)
+        if (s.star === 2) twoStars += 1
+        
     })
 }
