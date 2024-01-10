@@ -1,1 +1,1 @@
-const Cart = require("../../models")
+const Cart = require("../../models/Cart")
