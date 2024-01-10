@@ -29,6 +29,6 @@ module.exports = async(product,newStar) => {
         twoStars,
         oneStars, 
         averageStar, 
-        totalRating   
+        totalRatingUsers   
     }
 }
