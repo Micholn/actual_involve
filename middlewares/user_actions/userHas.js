@@ -1,1 +1,1 @@
-const Cart = require
+const Cart = require("../")
