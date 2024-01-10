@@ -28,6 +28,6 @@ module.exports = async(product,newStar) => {
         threeStars,
         twoStars,
         oneStars, 
-        
+        average   
     }
 }
