@@ -24,6 +24,6 @@ module.exports = async(product,newStar) => {
 
     return stars = {
         fiveStars, 
-        four
+        fourSt
     }
 }
