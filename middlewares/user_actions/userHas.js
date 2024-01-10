@@ -3,4 +3,4 @@ const Review = require("../../models/Review")
 const Order = require("../../models/Order")
 const Wjislist = require("../../models/Wishlist")
 
-module.exports = async()
+module.exports = async(product,user)
