@@ -1,3 +1,3 @@
 const Cart = require("../../models/Cart")
 const Review = require("../../models/Review")
-const Order = require("../..")
+const Order = require("../../models/Order")
