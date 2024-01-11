@@ -12,8 +12,8 @@ module.exports = async(product,user,type) => {
         //cart bahek aru lagi 
         if (type !=='cart') {
             //has on cart? 
-            hasOnCart = null 
-            
+            hasOnCart = await 
+
         }
     }
 }
