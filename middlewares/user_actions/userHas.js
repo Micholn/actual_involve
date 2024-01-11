@@ -12,7 +12,7 @@ module.exports = async(product,user,type) => {
         //cart bahek aru lagi 
         if (type !=='cart') {
             //has on cart? 
-            hasOnCart = await Cart.finfOne({ user: user._id, produt: product._id})
+            hasOnCart = await Cart.finfOne({ user: user._id, produt: product._id, isDeletd: })
 
         }
     }
