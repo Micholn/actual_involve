@@ -7,5 +7,6 @@ module.exports = async(product,user,type) => {
     let hasOnCart = null 
     let hasBought = null 
     let hasOnWishlist = null 
-    let hasReviewed 
+    let hasReviewed = null 
+    
 }
