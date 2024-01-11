@@ -8,5 +8,5 @@ module.exports = async(product,user,type) => {
     let hasBought = null 
     let hasOnWishlist = null 
     let hasReviewed = null 
-    
+    if (user)
 }
