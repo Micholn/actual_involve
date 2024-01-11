@@ -17,5 +17,6 @@ module.exports = async(product,user,type) => {
         }
 
         //wishList bahek 
+        if (type !==)
     }
 }
