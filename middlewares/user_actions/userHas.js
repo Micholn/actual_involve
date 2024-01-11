@@ -17,6 +17,8 @@ module.exports = async(product,user,type) => {
         }
 
         //wishList bahek 
-        if (type !=='wishlists')
+        if (type !=='wishlists') {
+            
+        }
     }
 }
