@@ -4,5 +4,5 @@ const Order = require("../../models/Order")
 const Wjislist = require("../../models/Wishlist")
 
 module.exports = async(product,user,type) => {
-    let 
+    let hasOnCart 
 }
