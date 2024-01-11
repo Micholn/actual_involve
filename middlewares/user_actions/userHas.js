@@ -10,6 +10,8 @@ module.exports = async(product,user,type) => {
     let hasReviewed = null 
     if (user) {
         //cart bahek aru lagi 
-        if (type !=='cart')
+        if (type !=='cart') {
+            
+        }
     }
 }
