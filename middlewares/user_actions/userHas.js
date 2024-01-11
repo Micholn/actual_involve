@@ -9,6 +9,6 @@ module.exports = async(product,user,type) => {
     let hasOnWishlist = null 
     let hasReviewed = null 
     if (user) {
-        //cart 
+        //cart bahek aru lagi 
     }
 }
