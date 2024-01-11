@@ -15,5 +15,7 @@ module.exports = async(product,user,type) => {
             hasOnCart = await Cart.finfOne({ user: user._id, produt: product._id, isDeletd: null})
             if (!hasOnCart) hasOnCart = false 
         }
+
+        //wishList bahek 
     }
 }
