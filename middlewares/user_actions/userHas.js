@@ -5,5 +5,5 @@ const Wjislist = require("../../models/Wishlist")
 
 module.exports = async(product,user,type) => {
     let hasOnCart = null 
-    let hasBought = 
+    let hasBought = null 
 }
