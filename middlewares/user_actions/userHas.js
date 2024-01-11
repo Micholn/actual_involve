@@ -22,6 +22,6 @@ module.exports = async(product,user,type) => {
             if (!hasOnWishlist) hasOnWishList = false
         }
 
-        if ()
+        if (type ==='product')
     }
 }
