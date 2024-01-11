@@ -19,7 +19,9 @@ module.exports = async(product,user,type) => {
         //wishList bahek 
         if (type !=='wishlists') {
             hasOnWishList = await Whishlist.findOne({ user: user._id, product: product._id, isDeleted: null })
-            if (!hasOnWishlist) hasOnWishList = 
+            if (!hasOnWishlist) hasOnWishList = false
         }
+
+        if ()
     }
 }
