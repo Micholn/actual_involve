@@ -23,7 +23,7 @@ module.exports = async(product,user,type) => {
         }
 
         if (type ==='product') {
-            //has
+            //has on 
         }
     }
 }
