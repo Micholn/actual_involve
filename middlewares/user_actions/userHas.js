@@ -24,7 +24,7 @@ module.exports = async(product,user,type) => {
 
         if (type ==='product') {
             //has bought?
-            hasBought = await Order.findOne({ user: user, $or: [{ 'status'}] })
+            hasBought = await Order.findOne({ user: user, $or: [{ 'status.currentStatus'}] })
         }
     }
 }
