@@ -28,7 +28,7 @@ module.exports = async(product,user,type) => {
             hasBought ? hasBought = true : hasBought = false 
 
             //has reviewed? 
-            hasReviewed = await Review.findOne({ user: user, product: product. })
+            hasReviewed = await Review.findOne({ user: user, product: product._ })
         }
     }
 }
