@@ -5,4 +5,6 @@ const _ = require('lodash')
 const path = require("path")
 const fs = require("fs");
 const { districts } = require("../common");
-exports.validateLead = (req, res, next)
+exports.validateLead = (req, res, next) => {
+    //email is not null 
+}
