@@ -29,6 +29,7 @@ module.exports = async(product,user,type) => {
 
             //has reviewed? 
             hasReviewed = await Review.findOne({ user: user, product: product._id }).select('comment star user')
+            
         }
     }
 }
