@@ -1,3 +1,3 @@
 const ProductBrand = require("../../models/ProductBrand")
 const ProductImages = require("../../models/ProductImages")
-const Category = 
+const Category = require("../../models/Category")
