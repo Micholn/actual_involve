@@ -23,4 +23,4 @@ exports.validateLead = (req, res, next) => {
     }
     // proceed to the next
     next();
-}
+};
