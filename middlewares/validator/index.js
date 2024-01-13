@@ -15,5 +15,6 @@ exports.validateLead = (req, res, next) => {
             max: 2000
         });
     // check for errors
-    const errors = req.validationErrors()
+    const errors = req.validationErrors();
+    // if error show
 }
