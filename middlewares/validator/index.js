@@ -18,6 +18,6 @@ exports.validateLead = (req, res, next) => {
     const errors = req.validationErrors();
     // if error show show the first one as they happen 
     if (errors) {
-        const firstError = errors.map
+        const firstError = errors.map(error => error.msg)[0];
     }
 }
