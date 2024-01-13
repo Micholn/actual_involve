@@ -33,5 +33,5 @@ module.exports = async(product,user,type) => {
         }
     }
 
-    
+    return { }
 }
