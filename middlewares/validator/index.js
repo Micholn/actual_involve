@@ -12,6 +12,6 @@ exports.validateLead = (req, res, next) => {
         .withMessage("Invalid email")
         .isLength({
             min: 4,
-            
-        })
+            max: 2000
+        });
 }
