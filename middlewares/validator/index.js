@@ -36,5 +36,5 @@ exports.validateSignUp = (req, res, next) => {
             max: 2000
         });
     // check for password 
-    req.check("password", "password is ")
+    req.check("password", "password is required").notEmpty()
 }
