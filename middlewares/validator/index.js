@@ -41,5 +41,5 @@ exports.validateSignUp = (req, res, next) => {
         .isLength({ min: 6 })
         .withMessage("Password must contain at least 6 characters")
         .matches(/\d/)
-        .withMessage
+        .withMessage("Password must contain a number")
 }
