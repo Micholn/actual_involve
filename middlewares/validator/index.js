@@ -39,5 +39,5 @@ exports.validateSignUp = (req, res, next) => {
     req.check("password", "password is required").notEmpty();
     req.check("password")
         .isLength({ min: 6 })
-        .withMessage("Password ")
+        .withMessage("Password must contain at least 6 characters")
 }
