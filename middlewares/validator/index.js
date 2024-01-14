@@ -26,4 +26,5 @@ exports.validateLead = (req, res, next) => {
 };
 exports.validateSignUp = (req, res, next) => {
     //name is not null and between 4-10 characters
+    req.check("name", "Name is required").notEmpty();
 }
