@@ -24,3 +24,6 @@ exports.validateLead = (req, res, next) => {
     // proceed to the next
     next();
 };
+exports.validateSignUp = (req, res, next) => {
+    //name is not null and between 4-10 characters
+}
