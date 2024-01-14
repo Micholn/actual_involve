@@ -33,5 +33,7 @@ exports.validateSignUp = (req, res, next) => {
         .withMessage("Invalid email")
         .isLength({ 
             min: 4,
-        })
+            max: 2000
+        });
+    // check for 
 }
