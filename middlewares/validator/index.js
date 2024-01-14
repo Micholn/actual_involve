@@ -32,6 +32,6 @@ exports.validateSignUp = (req, res, next) => {
         .matches(/.+\@.+\..+/)
         .withMessage("Invalid email")
         .isLength({ 
-            
+            min
         })
 }
