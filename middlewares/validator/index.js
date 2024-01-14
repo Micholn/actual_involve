@@ -37,4 +37,5 @@ exports.validateSignUp = (req, res, next) => {
         });
     // check for password 
     req.check("password", "password is required").notEmpty();
+    req.check("")
 }
