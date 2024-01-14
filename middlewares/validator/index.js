@@ -43,5 +43,5 @@ exports.validateSignUp = (req, res, next) => {
         .matches(/\d/)
         .withMessage("Password must contain a number");
     // check for errors
-    const errors = req.validationErrors
+    const errors = req.validationErrors()
 }
