@@ -37,5 +37,5 @@ exports.validateSignUp = (req, res, next) => {
         });
     // check for password 
     req.check("password", "password is required").notEmpty();
-    req.check("email", "Email must be betweeen 3 to 32 ch")
+    req.check("email", )
 }
