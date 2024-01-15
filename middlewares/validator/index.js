@@ -55,6 +55,6 @@ exports.validateSignUp = (req, res, next) => {
 exports.validateSocialLogin = (req, res, next) => {
     //name is not null and between 4-10 characters  
     req.check("name", "Name is required").notEmpty();
-    // email is not null
+    // email is not null, valid and normalized 
     req.check()
 }
