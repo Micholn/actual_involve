@@ -61,6 +61,7 @@ exports.validateSocialLogin = (req, res, next) => {
         .withMessage("Invalid email")
         .isLength({
             min: 4,
-            max: 
-        })
+            max: 2000
+        });
+    req.check
 }
