@@ -49,5 +49,5 @@ exports.validateSignUp = (req, res, next) => {
         const firstError = errors.map(error => error.msg)[0];
         return res.status(400).json({ error: firstError });
     }
-    //
+    //proceed to the next function 
 }
