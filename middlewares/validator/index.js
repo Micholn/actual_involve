@@ -64,4 +64,5 @@ exports.validateSocialLogin = (req, res, next) => {
             max: 2000
         });
     req.check("userID", "userID is required.").notEmpty()
+    req.check
 }
