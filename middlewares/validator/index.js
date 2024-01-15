@@ -52,4 +52,6 @@ exports.validateSignUp = (req, res, next) => {
     //proceed to the next function 
     next();
 }
-exports.validateSocialLogin = (req, res, next) => 
+exports.validateSocialLogin = (req, res, next) => {
+    
+}
