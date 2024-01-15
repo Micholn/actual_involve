@@ -53,5 +53,5 @@ exports.validateSignUp = (req, res, next) => {
     next();
 }
 exports.validateSocialLogin = (req, res, next) => {
-    
+    //name is not null
 }
