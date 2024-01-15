@@ -53,5 +53,6 @@ exports.validateSignUp = (req, res, next) => {
     next();
 }
 exports.validateSocialLogin = (req, res, next) => {
-    //name is not null and between 4-10 characters
+    //name is not null and between 4-10 characters  
+    req.check
 }
