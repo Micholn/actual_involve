@@ -59,4 +59,5 @@ exports.validateSocialLogin = (req, res, next) => {
     req.check("email", "Email must be between 30 to 32 characters ")
         .matches(/.+\@.+\..+/)
         .withMessage("Invalid email")
+        .isLength
 }
