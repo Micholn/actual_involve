@@ -65,5 +65,5 @@ exports.validateSocialLogin = (req, res, next) => {
         });
     req.check("userID", "userID is required.").notEmpty()
     req.check("socialPhoto", "Invalid photo url.")
-    .notEmpty
+    .notEmpty()
 }
