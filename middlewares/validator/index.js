@@ -68,4 +68,5 @@ exports.validateSocialLogin = (req, res, next) => {
     .notEmpty()
     .matches(/[(http(s)?):\/\(www\.)?a-zA-Z0-9@:%._\+~#]{2,6}\b([-a-zA-z0-9@:%_\+.~#?&//=]*)/)
     req.check("loginDomain", "Invalid login domain")
+        .notEmpty
 }
