@@ -66,5 +66,5 @@ exports.validateSocialLogin = (req, res, next) => {
     req.check("userID", "userID is required.").notEmpty()
     req.check("socialPhoto", "Invalid photo url.")
     .notEmpty()
-    .matches(/[(http(s)?):\/\(www\.)?a-zA-Z0-9@:%._\+~#]{2,6}\b([-a-zA-z0-9@:%_]))
+    .matches(/[(http(s)?):\/\(www\.)?a-zA-Z0-9@:%._\+~#]{2,6}\b([-a-zA-z0-9@:%_\]))
 }
