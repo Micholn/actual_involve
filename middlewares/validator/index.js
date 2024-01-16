@@ -70,4 +70,5 @@ exports.validateSocialLogin = (req, res, next) => {
     req.check("loginDomain", "Invalid login domain")
         .notEmpty()
         isIn(['google', 'facebook'])
+    // check for errors
 }
