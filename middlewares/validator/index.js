@@ -97,5 +97,5 @@ const validatedispatcher = req => {
 
 exports.validateDispatcher = (req, res, next) => {
     validatedispatcher(req)
-    // check 
+    // check for password
 }
