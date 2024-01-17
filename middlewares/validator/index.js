@@ -87,5 +87,7 @@ const validatedispatcher = req => {
     req.check("email", "Email must be between 3 to 32 characters")
         .matches(/.+\@.+\..+/)
         .withMessage("Invalid email")
-        .isLength
+        .isLength({
+            
+        })
 }
