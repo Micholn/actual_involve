@@ -105,5 +105,6 @@ exports.validateDispatcher = (req, res, next) => {
         .matches(/\d/)
         .withMessage("Password must contain a number");
     //check for errors 
-    const errors = req
+    const errors = req.validationErrors();
+    // 
 }        
