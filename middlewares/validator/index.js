@@ -80,4 +80,4 @@ exports.validateSocialLogin = (req, res, next) => {
     // proceed to next middleware 
     next();
 }
-const 
+const validatedispatcher = re
