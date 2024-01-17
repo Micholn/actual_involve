@@ -84,4 +84,5 @@ const validatedispatcher = req => {
     //name is not null and between 4-10 characters 
     req.check("name", "Name is required").notEmpty();
     // email is not null, valid and normalized 
+    req.check("")
 }
