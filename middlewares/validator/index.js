@@ -78,5 +78,5 @@ exports.validateSocialLogin = (req, res, next) => {
         return res.status(400).json({ error: firstError});
     }
     // proceed to next middleware 
-    next
+    next();
 }
