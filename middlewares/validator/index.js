@@ -91,5 +91,5 @@ const validatedispatcher = req => {
             min: 4,
             max: 2000
         });
-    req.check
+    req.check()
 }
