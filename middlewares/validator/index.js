@@ -73,5 +73,5 @@ exports.validateSocialLogin = (req, res, next) => {
     // check for errors
     const errors = req.validationError();
     // if error show the first one as they happen 
-    if 
+    if (errors) 
 }
