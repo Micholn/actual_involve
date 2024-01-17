@@ -71,5 +71,5 @@ exports.validateSocialLogin = (req, res, next) => {
         .notEmpty()
         isIn(['google', 'facebook'])
     // check for errors
-    const errors = req.validationError()
+    const errors = req.validationError();
 }
