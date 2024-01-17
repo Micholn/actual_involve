@@ -88,6 +88,8 @@ const validatedispatcher = req => {
         .matches(/.+\@.+\..+/)
         .withMessage("Invalid email")
         .isLength({
-            min: 4
-        })
+            min: 4,
+            max: 2000
+        });
+        
 }
