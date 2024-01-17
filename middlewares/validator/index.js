@@ -98,5 +98,6 @@ const validatedispatcher = req => {
 exports.validateDispatcher = (req, res, next) => {
     validatedispatcher(req)
     // check for password 
-    req.check("password", "Password is required").notEmpty();
+    req.check("password", "Password is required").notEmpty();   
+    req.check
 }
