@@ -92,4 +92,5 @@ const validatedispatcher = req => {
             max: 2000
         });
     req.check("address", "Address is required").notEmpty()
+    req.check()
 }
