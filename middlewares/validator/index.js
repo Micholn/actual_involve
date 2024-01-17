@@ -101,5 +101,5 @@ exports.validateDispatcher = (req, res, next) => {
     req.check("password", "Password is required").notEmpty();   
     req.check("password")
         .isLength({ min: 6 })
-        .withMessage()
+        .withMessage("Password must contain at least 6 characters ")
 }
