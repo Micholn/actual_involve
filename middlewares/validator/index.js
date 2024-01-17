@@ -108,6 +108,7 @@ exports.validateDispatcher = (req, res, next) => {
     const errors = req.validationErrors();
     // if error show the first one as they happen 
     if (errors) {
-        const firstError = errors.map(error)
+        const firstError = errors.map(error => error.msg)[0];
+        return 
     }
 }        
