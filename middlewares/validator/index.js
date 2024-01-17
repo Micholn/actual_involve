@@ -100,5 +100,5 @@ exports.validateDispatcher = (req, res, next) => {
     // check for password 
     req.check("password", "Password is required").notEmpty();   
     req.check("password")
-        .isLength
+        .isLength({ })
 }
