@@ -82,5 +82,5 @@ exports.validateSocialLogin = (req, res, next) => {
 }
 const validatedispatcher = req => {
     //name is not null and between 4-10 characters 
-    req.check()
+    req.check("name")
 }
