@@ -95,4 +95,6 @@ const validatedispatcher = req => {
     req.check("phone", "Phone is required").notEmpty()
 }
 
-exports.validateDispatcher = (req, res, next) =
+exports.validateDispatcher = (req, res, next) => {
+    
+}
