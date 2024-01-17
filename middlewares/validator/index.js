@@ -96,5 +96,5 @@ const validatedispatcher = req => {
 }
 
 exports.validateDispatcher = (req, res, next) => {
-    validatedispatcher
+    validatedispatcher(req)
 }
