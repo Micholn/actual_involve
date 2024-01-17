@@ -85,5 +85,6 @@ const validatedispatcher = req => {
     req.check("name", "Name is required").notEmpty();
     // email is not null, valid and normalized 
     req.check("email", "Email must be between 3 to 32 characters")
-        .matches
+        .matches(/.+\@.+\..+/)
+        .withMessage 
 }
