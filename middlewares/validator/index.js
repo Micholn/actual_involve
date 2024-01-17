@@ -106,5 +106,5 @@ exports.validateDispatcher = (req, res, next) => {
         .withMessage("Password must contain a number");
     //check for errors 
     const errors = req.validationErrors();
-    // 
+    // if error show the first one as they happen 
 }        
