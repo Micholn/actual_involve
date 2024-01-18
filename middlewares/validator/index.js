@@ -119,5 +119,5 @@ exports.validateUpdateDispatcher = (req, res, next) => {
     validatedispatcher(req)
     // check for password
     req.newPassword && req.check("newPassword")
-        .isLength({ })
+        .isLength({ min: 6 })
 }
