@@ -115,4 +115,4 @@ exports.validateDispatcher = (req, res, next) => {
     next();
 }        
 
-exports.validateUpdateDispatcher = s
+exports.validateUpdateDispatcher = (req, res, next)
