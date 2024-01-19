@@ -123,5 +123,5 @@ exports.validateUpdateDispatcher = (req, res, next) => {
         .withMessage("password must be at least 6 chars long")
         .matches(/\d/)
         .withMessage("must contain a number");
-    // check for 
+    // check for errors
 }
