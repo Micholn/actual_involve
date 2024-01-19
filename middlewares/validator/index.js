@@ -124,5 +124,5 @@ exports.validateUpdateDispatcher = (req, res, next) => {
         .matches(/\d/)
         .withMessage("must contain a number");
     // check for errors
-    const errors 
+    const errors = req.
 }
