@@ -126,5 +126,7 @@ exports.validateUpdateDispatcher = (req, res, next) => {
     // check for errors
     const errors = req.validationErrors();
     // if errors show the first one as they happen 
-    if (errors) 
+    if (errors) {
+        
+    }
 }
