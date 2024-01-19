@@ -135,5 +135,6 @@ exports.validateUpdateDispatcher = (req, res, next) => {
 }
 exports.passwordResetValidator = (req, res, next) => {
     // check for password
-    req.check("newPassword", "Password is required").notEmpty
+    req.check("newPassword", "Password is required").notEmpty();
+    req.check("newPassword")
 }
