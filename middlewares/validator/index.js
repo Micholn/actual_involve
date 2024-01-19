@@ -131,4 +131,5 @@ exports.validateUpdateDispatcher = (req, res, next) => {
         return res.status(400).json({ error: firstError });
     }
     // proceed to the next function 
+    next();
 }
