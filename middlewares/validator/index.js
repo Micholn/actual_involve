@@ -135,4 +135,5 @@ exports.validateUpdateDispatcher = (req, res, next) => {
 }
 exports.passwordResetValidator = (req, res, next) => {
     // check for password
+    req.check
 }
