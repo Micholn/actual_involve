@@ -133,4 +133,6 @@ exports.validateUpdateDispatcher = (req, res, next) => {
     // proceed to the next function 
     next();
 }
-exports.passwordResetValidator
+exports.passwordResetValidator = (req, res, next) => {
+    
+}
