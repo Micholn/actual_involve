@@ -120,5 +120,5 @@ exports.validateUpdateDispatcher = (req, res, next) => {
     // check for password
     req.newPassword && req.check("newPassword")
         .isLength({ min: 6 })
-        .withMessage({password})
+        .withMessage({password must be})
 }
