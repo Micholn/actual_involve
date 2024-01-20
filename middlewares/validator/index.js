@@ -166,7 +166,7 @@ exports.validateBusinessInfo = (req, res, next) => {
     if (errors) {
         // make req.files to array of objs 
         // let files = []
-        //
+        // if (req.files) 
     }
 
 }
