@@ -139,5 +139,6 @@ exports.passwordResetValidator = (req, res, next) => {
     req.check("newPassword")
         .isLength({ min: 6 })
         .withMessage("Password must be at least 6 chars long")
-        .matches()
+        .matches(/\d/)
+        .withMessage()
 }
