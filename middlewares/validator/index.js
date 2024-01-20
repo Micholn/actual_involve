@@ -141,5 +141,5 @@ exports.passwordResetValidator = (req, res, next) => {
         .withMessage("Password must be at least 6 chars long")
         .matches(/\d/)
         .withMessage("must contain a number")
-        .withMessage
+        .withMessage()
 }
