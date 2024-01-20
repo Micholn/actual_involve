@@ -144,5 +144,5 @@ exports.passwordResetValidator = (req, res, next) => {
         .withMessage("Password mus contain a number");
 
     //check for errors
-    const errors = req.
+    const errors = req.validationErrors();
 }
