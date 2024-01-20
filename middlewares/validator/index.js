@@ -159,5 +159,5 @@ exports.validateBusinessInfo = (req, res, next) => {
     req.check("adddress", "Address is required").notEmpty()
     req.check("city", "City is required").notEmpty()
     req.check("citizenshipNumber", "citizenship number is required").notEmpty()
-    req.check("businessRgisterNumber", "")
+    req.check("businessRgisterNumber", "Business register number")
 }
