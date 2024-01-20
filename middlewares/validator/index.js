@@ -147,6 +147,6 @@ exports.passwordResetValidator = (req, res, next) => {
     const errors = req.validationErrors();
     // if error show the first one as they happen 
     if(errors) {
-        const firstError = 
+        const firstError = errors.map(error => error.msg)
     }
 }
