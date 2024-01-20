@@ -153,3 +153,5 @@ exports.passwordResetValidator = (req, res, next) => {
     // proceed to the nextfunction
     next();
 }
+
+exports.validateBusinessInfo = (req,)
