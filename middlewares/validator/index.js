@@ -157,5 +157,5 @@ exports.passwordResetValidator = (req, res, next) => {
 exports.validateBusinessInfo = (req, res, next) => {
     req.check("ownerName", "Owner name is required").notEmpty()
     req.check("adddress", "Address is required").notEmpty()
-    req.check("city", "")
+    req.check("city", "City is required").notEmpty()
 }
