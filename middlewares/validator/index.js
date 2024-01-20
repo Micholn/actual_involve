@@ -163,6 +163,6 @@ exports.validateBusinessInfo = (req, res, next) => {
     //check for errors
     const errors = req.validationErrors();
     // if error show the first one as they happen 
-    if 
+    if (errors)
 
 }
