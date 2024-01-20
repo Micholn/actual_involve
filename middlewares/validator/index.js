@@ -164,7 +164,7 @@ exports.validateBusinessInfo = (req, res, next) => {
     const errors = req.validationErrors();
     // if error show the first one as they happen 
     if (errors) {
-        
+        // make req.files to array of objs 
     }
 
 }
