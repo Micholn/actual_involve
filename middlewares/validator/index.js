@@ -137,5 +137,5 @@ exports.passwordResetValidator = (req, res, next) => {
     // check for password
     req.check("newPassword", "Password is required").notEmpty();
     req.check("newPassword")
-        .isLength({ })
+        .isLength({ min: 6 })
 }
