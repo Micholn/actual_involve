@@ -178,4 +178,4 @@ exports.validateBusinessInfo = (req, res, next) => {
     next();
 }
 
-exports.validateBusinessInfo
+exports.validateAdminBankInfo = (req, res, n)
