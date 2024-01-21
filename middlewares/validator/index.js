@@ -170,7 +170,7 @@ exports.validateBusinessInfo = (req, res, next) => {
             files.push(req.files[file][0]);
         }
         files.forEach(file => {
-            fs.unlinkSync(file.path);//remove file from 
+            fs.unlinkSync(file.path);//remove file from public/uploads
         })
     } 
 
