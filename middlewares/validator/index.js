@@ -179,5 +179,5 @@ exports.validateBusinessInfo = (req, res, next) => {
 }
 
 exports.validateAdminBankInfo = (req, res, next) => {
-    
+    req.check
 }
