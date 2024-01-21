@@ -169,7 +169,9 @@ exports.validateBusinessInfo = (req, res, next) => {
         // if (req.files) for (const file in req.files) {
             files.push(req.files[file][0]);
         }
-        files.forEach(file => {})
+        files.forEach(file => {
+            fs.unlinkSync
+        })
     } 
 
 }
