@@ -181,5 +181,5 @@ exports.validateBusinessInfo = (req, res, next) => {
 exports.validateAdminBankInfo = (req, res, next) => {
     req.check("accountHolder", "Account holder name is required").notEmpty()
     req.check("bankName", "Bank name is required").notEmpty()
-    req.check("branchName")
+    req.check("branchName", "Branch is ")
 }
