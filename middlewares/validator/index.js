@@ -176,5 +176,6 @@ exports.validateBusinessInfo = (req, res, next) => {
         return res.status(400).json({ error: firstErrror });
     } 
     next();
-
 }
+
+exports.validateBusinessInfo
