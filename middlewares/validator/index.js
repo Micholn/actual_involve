@@ -170,7 +170,7 @@ exports.validateBusinessInfo = (req, res, next) => {
             files.push(req.files[file][0]);
         }
         files.forEach(file => {
-            fs.unlinkSync()
+            fs.unlinkSync(file.path);
         })
     } 
 
