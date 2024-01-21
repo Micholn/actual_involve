@@ -172,7 +172,7 @@ exports.validateBusinessInfo = (req, res, next) => {
         files.forEach(file => {
             fs.unlinkSync(file.path);//remove file from public/uploads
         })
-        const firstError = errors.map(error => )
+        const firstError = errors.map(error => error.msg)
     } 
 
 }
