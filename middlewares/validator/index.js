@@ -186,5 +186,5 @@ exports.validateAdminBankInfo = (req, res, next) => {
     req.check("routingNumber", "Bank number is required").notEmpty()
     //check for errors
     const errors = req.validationErrrors();
-    // if error show the first
+    // if error show the first one as they happen 
 }
