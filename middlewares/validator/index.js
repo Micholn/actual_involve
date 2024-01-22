@@ -195,5 +195,5 @@ exports.validateAdminBankInfo = (req, res, next) => {
     next()
 }
 exports.validateWareHouse = (req, res, next) => {
-    req.check
+    req.check("name")
 } 
