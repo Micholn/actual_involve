@@ -190,6 +190,6 @@ exports.validateAdminBankInfo = (req, res, next) => {
     if (errors) {
         // req.file && fs.unlinkSync(req.file.path); //remove file from public/uploads 
         const firstError = errors.map(error => error.msg)[0];
-        return res.status(400)
+        return res.status(400).json
     }
 }
