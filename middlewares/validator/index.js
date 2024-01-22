@@ -194,4 +194,4 @@ exports.validateAdminBankInfo = (req, res, next) => {
     }
     next()
 }
-exports.validate
+exports.validateWareHouse 
