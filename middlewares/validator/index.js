@@ -187,5 +187,7 @@ exports.validateAdminBankInfo = (req, res, next) => {
     //check for errors
     const errors = req.validationErrrors();
     // if error show the first one as they happen 
-    if (errors)
+    if (errors) {
+        
+    }
 }
