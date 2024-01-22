@@ -188,6 +188,6 @@ exports.validateAdminBankInfo = (req, res, next) => {
     const errors = req.validationErrrors();
     // if error show the first one as they happen 
     if (errors) {
-        // req.file && fs.unlinkSync(req.file.path);
+        // req.file && fs.unlinkSync(req.file.path); //
     }
 }
