@@ -196,5 +196,5 @@ exports.validateAdminBankInfo = (req, res, next) => {
 }
 exports.validateWareHouse = (req, res, next) => {
     req.check("name", "Warehouse name is rquired").notEmpty()
-    req.check()
+    req.check("address", )
 } 
