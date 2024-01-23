@@ -200,5 +200,5 @@ exports.validateWareHouse = (req, res, next) => {
     req.check("phoneno", "warehouse phone number is required").notEmpty()
     req.check("city", "City of warehouse is required").notEmpty()
     // check for errors
-    const 
+    const errors = req.
 } 
