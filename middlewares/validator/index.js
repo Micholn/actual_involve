@@ -203,6 +203,6 @@ exports.validateWareHouse = (req, res, next) => {
     const errors = req.validationErrors();
     if (errors) {
         const firstError = errors.map(error => error.msg)[0];
-        return 
+        return res.status
     }
 } 
