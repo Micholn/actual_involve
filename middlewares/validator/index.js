@@ -208,5 +208,5 @@ exports.validateWareHouse = (req, res, next) => {
     next()
 } 
 exports.validateAdminProfile = (req, res, next) => {
-    
+    req.check
 } 
