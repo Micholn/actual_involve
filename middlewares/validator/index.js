@@ -198,5 +198,5 @@ exports.validateWareHouse = (req, res, next) => {
     req.check("name", "Warehouse name is rquired").notEmpty()
     req.check("address", "Warehouse address is required").notEmpty()
     req.check("phoneno", "warehouse phone number is required").notEmpty()
-    
+    req.check("city")
 } 
