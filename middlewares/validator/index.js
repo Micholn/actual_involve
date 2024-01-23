@@ -207,4 +207,4 @@ exports.validateWareHouse = (req, res, next) => {
     }
     next()
 } 
-exports.validateAdminProfile = 
+exports.validateAdminProfile = (req, res, next) 
