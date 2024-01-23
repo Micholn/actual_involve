@@ -209,5 +209,5 @@ exports.validateWareHouse = (req, res, next) => {
 } 
 exports.validateAdminProfile = (req, res, next) => {
     req.check("shopName", "Shop name is required").notEmpty()
-    req.check()
+    req.check("address")
 } 
