@@ -202,6 +202,7 @@ exports.validateWareHouse = (req, res, next) => {
     // check for errors
     const errors = req.validationErrors();
     if (errors) {
-        const firstError = errors.map(error => error.msg)
+        const firstError = errors.map(error => error.msg)[0];
+        return 
     }
 } 
