@@ -213,5 +213,5 @@ exports.validateAdminProfile = (req, res, next) => {
     req.check("phone", "phone number is requyired").notEmpty()
     req.check("muncipality", "Muncipality is required").notEmpty()
     req.check("district", "district is required").notEmpty()
-    req.check("wardno", "wardno is required")
+    req.check("wardno", "wardno is required").notEmpty()
 } 
