@@ -201,5 +201,7 @@ exports.validateWareHouse = (req, res, next) => {
     req.check("city", "City of warehouse is required").notEmpty()
     // check for errors
     const errors = req.validationErrors();
-    if (errors)
+    if (errors) {
+        
+    }
 } 
