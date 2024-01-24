@@ -217,4 +217,5 @@ exports.validateAdminProfile = (req, res, next) => {
     req.newPassword && req.check(newPassword)
         .isLength({ min: 6 })
         .withMessage("must contain a number")
+        .matches()
 } 
