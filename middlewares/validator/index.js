@@ -218,4 +218,5 @@ exports.validateAdminProfile = (req, res, next) => {
         .isLength({ min: 6 })
         .withMessage("must contain a number")
         .matches(/\d/)
+        .withMessage()
 } 
