@@ -230,5 +230,5 @@ exports.validateAdminProfile = (req, res, next) => {
     next()
 } 
 exports.validateProduct = async (req, res, next) => {
-    req.check("name", "Product name is rquired").notEmpty
+    req.check("name", "Product name is rquired").notEmpty()
 }
