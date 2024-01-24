@@ -216,5 +216,5 @@ exports.validateAdminProfile = (req, res, next) => {
     req.check("wardno", "wardno is required").notEmpty()
     req.newPassword && req.check(newPassword)
         .isLength({ min: 6 })
-        .withMessage("")
+        .withMessage("must contain a number")
 } 
