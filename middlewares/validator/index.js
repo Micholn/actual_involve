@@ -229,4 +229,4 @@ exports.validateAdminProfile = (req, res, next) => {
     }
     next()
 } 
-exports
+exports.validate
