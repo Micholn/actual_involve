@@ -221,5 +221,5 @@ exports.validateAdminProfile = (req, res, next) => {
         .withMessage("must contain a number")
         .withMessage("Password must contain a number")
     // check for errors 
-    const errors  = req.
+    const errors  = req.validationErrors()
 } 
