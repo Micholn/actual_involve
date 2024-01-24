@@ -215,5 +215,6 @@ exports.validateAdminProfile = (req, res, next) => {
     req.check("district", "district is required").notEmpty()
     req.check("wardno", "wardno is required").notEmpty()
     req.newPassword && req.check(newPassword)
-        .isLength({ min: 6})
+        .isLength({ min: 6 })
+        .withMessage
 } 
