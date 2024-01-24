@@ -219,5 +219,6 @@ exports.validateAdminProfile = (req, res, next) => {
         .withMessage("must contain a number")
         .matches(/\d/)
         .withMessage("must contain a number")
-        .withMessage("Passwords")
+        .withMessage("Password must contain a number")
+        .withMessage()
 } 
