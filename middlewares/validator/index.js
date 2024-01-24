@@ -229,4 +229,6 @@ exports.validateAdminProfile = (req, res, next) => {
     }
     next()
 } 
-exports.validateProduct = async (req, res, next) =>
+exports.validateProduct = async (req, res, next) => {
+    
+}
