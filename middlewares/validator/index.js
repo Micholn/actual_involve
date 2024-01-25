@@ -241,4 +241,6 @@ exports.validateProduct = async (req, res, next) => {
         let dts = values ? typeof values === 'string' ? [values] : values : []
         return values ? _.intersection(districts,dts).length === dts.length ? true : false : true
     })
+
+    //check for errors
 }
