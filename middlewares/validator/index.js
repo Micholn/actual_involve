@@ -234,5 +234,5 @@ exports.validateProduct = async (req, res, next) => {
     req.check("price", "selling price of product is required").notEmpty()
     req.check("quantity", "Product quantity is required").notEmpty()
     req.check("return", "Product returning time period required").notEmpty()
-    req.check("description", "Prouct")
+    req.check("description", "Product description is required").not
 }
