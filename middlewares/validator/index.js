@@ -237,5 +237,5 @@ exports.validateProduct = async (req, res, next) => {
     req.check("description", "Product description is required").notEmpty()
     req.check("warranty", "Product warranty is required").notEmpty()
     req.check("brand", "Product brand is required").notEmpty()
-    req.check("availableDistricts", "Invalid districts").custom
+    req.check("availableDistricts", "Invalid districts").custom()
 }
