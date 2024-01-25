@@ -243,4 +243,5 @@ exports.validateProduct = async (req, res, next) => {
     })
 
     //check for errors
+    const errors = req.validationErrors()
 }
