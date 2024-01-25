@@ -239,6 +239,6 @@ exports.validateProduct = async (req, res, next) => {
     req.check("brand", "Product brand is required").notEmpty()
     req.check("availableDistricts", "Invalid districts").custom((values) => {
         let dts = values ? typeof values === 'string' ? [values] : values : []
-        return values ? _.intersection
+        return values ? _.intersection(districts,)
     })
 }
