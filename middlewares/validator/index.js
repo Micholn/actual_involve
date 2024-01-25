@@ -238,6 +238,6 @@ exports.validateProduct = async (req, res, next) => {
     req.check("warranty", "Product warranty is required").notEmpty()
     req.check("brand", "Product brand is required").notEmpty()
     req.check("availableDistricts", "Invalid districts").custom((values) => {
-        let dts = values 
+        let dts = values ?
     })
 }
