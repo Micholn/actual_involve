@@ -251,5 +251,5 @@ exports.validateProduct = async (req, res, next) => {
         .find()
         .where('_id')
         .in(images)
-        .catch(err => )
+        .catch(err =>  errors.push)
 }
