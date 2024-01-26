@@ -250,5 +250,5 @@ exports.validateProduct = async (req, res, next) => {
     images = await ProductImages
         .find()
         .where('_id')
-        .in
+        .in(images)
 }
