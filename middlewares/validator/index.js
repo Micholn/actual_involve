@@ -253,5 +253,5 @@ exports.validateProduct = async (req, res, next) => {
         .in(images)
         .catch(err =>  errors.push({ msg: "Invalid image ids" }));//catch will execute if invalid ids
     // if some ids are invalid 
-    // e.g 
+    // e.g out 
 }
