@@ -246,4 +246,5 @@ exports.validateProduct = async (req, res, next) => {
     const errors = req.validationErrors() || [];
 
     //valiate images
+    let images 
 }
