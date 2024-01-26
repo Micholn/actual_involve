@@ -249,4 +249,5 @@ exports.validateProduct = async (req, res, next) => {
     let images = req.body.images || [];
     images = await ProductImages
         .find()
+        
 }
