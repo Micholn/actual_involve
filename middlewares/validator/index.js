@@ -258,5 +258,6 @@ exports.validateProduct = async (req, res, next) => {
         errors.push({ msg: "Invalid image ids"})
     }
     req.images = images
+    //
 
 }
