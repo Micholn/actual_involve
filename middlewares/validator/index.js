@@ -259,5 +259,6 @@ exports.validateProduct = async (req, res, next) => {
     }
     req.images = images
     //validate brand
+    let 
 
 }
