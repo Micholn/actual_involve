@@ -255,7 +255,7 @@ exports.validateProduct = async (req, res, next) => {
     // if some ids are invalid 
     // e.g out of 3 images 1 is not valid the images.length = 2 because the 2 are only valid so should return 
     if (images.length != (typeof req.body.images == 'string' ? [req.body.images] : req.body.images).length) {
-        errors.push()
+        errors.push({ })
     }
 
 }
