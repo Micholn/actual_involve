@@ -261,7 +261,7 @@ exports.validateProduct = async (req, res, next) => {
     //validate brand
     let brand = await ProductBrand.findOne({ slug: req.body.brand })
     if (!brand) {
-        errors.push
+        errors.push({})
     }
 
 }
