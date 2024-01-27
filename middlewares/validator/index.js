@@ -259,6 +259,6 @@ exports.validateProduct = async (req, res, next) => {
     }
     req.images = images
     //validate brand
-    let brand = await ProductBrand.findOne()
+    let brand = await ProductBrand.findOne({})
 
 }
