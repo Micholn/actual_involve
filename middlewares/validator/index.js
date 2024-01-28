@@ -273,6 +273,6 @@ exports.validateProduct = async (req, res, next) => {
     } else if (categories.some(cat=>cat.isDisabled)) {
         errors.push({ msg: "Categories have been disabled"})
     } else { 
-        req.body.category = categories.map(cat=>cat._id)
+        req.body.category = categories.map(cat=>cat._id)//as weneed
     }
 }
