@@ -271,6 +271,6 @@ exports.validateProduct = async (req, res, next) => {
     if (!categories.length) {
         errors.push({ msg: "Invalid product category"})
     } else if (categories.some(cat=>cat.isDisabled)) {
-        errors.push({ msg: "Cate"})
+        errors.push({ msg: "Categories have been disabled"})
     }
 }
