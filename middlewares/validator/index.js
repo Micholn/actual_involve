@@ -266,6 +266,6 @@ exports.validateProduct = async (req, res, next) => {
         req.body.brand = brand._id
     }
 
-    // validate
+    // validate category 
 
 }
