@@ -267,6 +267,6 @@ exports.validateProduct = async (req, res, next) => {
     }
 
     // validate category 
-    let 
+    let categories
 
 }
