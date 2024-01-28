@@ -275,4 +275,5 @@ exports.validateProduct = async (req, res, next) => {
     } else { 
         req.body.category = categories.map(cat=>cat._id)//as we need id for reference 
     }
+    // if error show the first one as they happen 
 }
