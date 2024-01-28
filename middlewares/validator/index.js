@@ -267,6 +267,6 @@ exports.validateProduct = async (req, res, next) => {
     }
 
     // validate category 
-    let categories = await Category.find({ slug: })
+    let categories = await Category.find({ slug: req.})
 
 }
