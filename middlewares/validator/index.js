@@ -263,7 +263,7 @@ exports.validateProduct = async (req, res, next) => {
     if (!brand) {
         errors.push({ msg: "Invalid image ids" })
     } else {
-        req.body.brand 
+        req.body.brand = 
     }
 
 }
