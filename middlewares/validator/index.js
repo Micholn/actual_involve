@@ -270,5 +270,5 @@ exports.validateProduct = async (req, res, next) => {
     let categories = await Category.find({ slug: req.body.category })
     if (!categories.length) {
         errors.push({ msg: "Invalid product category"})
-    } else if (categories.some) {}
+    } else if (categories.some(cat)) {}
 }
