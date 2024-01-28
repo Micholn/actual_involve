@@ -268,5 +268,7 @@ exports.validateProduct = async (req, res, next) => {
 
     // validate category 
     let categories = await Category.find({ slug: req.body.category })
-    if (!categories.length)
+    if (!categories.length) {
+        
+    }
 }
