@@ -278,6 +278,6 @@ exports.validateProduct = async (req, res, next) => {
     // if error show the first one as they happen 
     if (errors.length) {
         console.log(errors);
-        const firstError = 
+        const firstError = errors
     }
 }
