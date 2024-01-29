@@ -1,5 +1,6 @@
 class APIFeatures {
     constructor(query, queryStr) {
-        this.query = query
+        this.query = query;
+        
     }
 }
