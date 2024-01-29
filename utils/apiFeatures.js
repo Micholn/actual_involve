@@ -1,3 +1,3 @@
 class APIFeatures {
-    constructor(query, )
+    constructor(query, queryStr)
 }
