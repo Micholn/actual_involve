@@ -1,1 +1,3 @@
-class 
+class APIFeatures {
+    constructor 
+}
