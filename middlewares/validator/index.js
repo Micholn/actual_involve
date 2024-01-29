@@ -279,6 +279,6 @@ exports.validateProduct = async (req, res, next) => {
     if (errors.length) {
         console.log(errors);
         const firstError = errors.map(error => error.msg)[0];
-        return res.status
+        return res.status()
     }
 }
