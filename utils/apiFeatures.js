@@ -5,6 +5,6 @@ class APIFeatures {
     }
 
     search() {
-        const keyword 
+        const keyword = this
     }
 }
