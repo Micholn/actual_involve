@@ -13,6 +13,6 @@ class APIFeatures {
                 },
             } : {};
 
-            this.query = this.query.find({ ...keyword })
+            this.query = this.query.find({ ...keyword });
     }
 }
