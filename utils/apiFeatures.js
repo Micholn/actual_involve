@@ -8,7 +8,7 @@ class APIFeatures {
         const keyword = this.queryStr.keyword
             ? {
                 name: {
-                    $regex: this.queryStr
+                    $regex: this.queryStr.keyword
                 }
             }
     }
