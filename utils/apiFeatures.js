@@ -13,6 +13,6 @@ class APIFeatures {
                 },
             } : {};
 
-            this.query = this
+            this.query = this.query
     }
 }
