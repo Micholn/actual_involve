@@ -18,6 +18,6 @@ class APIFeatures {
     }
 
     filter() {
-        const ueryCopy 
+        const queryCopy 
     }
 }
