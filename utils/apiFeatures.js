@@ -3,4 +3,6 @@ class APIFeatures {
         this.query = query;
         this.queryStr = queryStr;
     }
+
+    
 }
