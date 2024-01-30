@@ -17,5 +17,7 @@ class APIFeatures {
             return this;
     }
 
-    filter()
+    filter() {
+        
+    }
 }
