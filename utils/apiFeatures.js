@@ -7,7 +7,7 @@ class APIFeatures {
     search() {
         const keyword = this.queryStr.keyword
             ? {
-                
+                name: 
             }
     }
 }
