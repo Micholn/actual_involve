@@ -5,6 +5,6 @@ class APIFeatures {
     }
 
     search() {
-        const keyword = this.query
+        const keyword = this.queryStr
     }
 }
