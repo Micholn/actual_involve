@@ -9,7 +9,7 @@ class APIFeatures {
             ? {
                 name: {
                     $regex: this.queryStr.keyword,
-                    $options: 
+                    $options: "i"
                 }
             }
     }
