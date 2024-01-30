@@ -12,5 +12,7 @@ class APIFeatures {
                     $options: "i",
                 },
             } : {};
+
+            this.query
     }
 }
