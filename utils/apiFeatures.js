@@ -4,5 +4,5 @@ class APIFeatures {
         this.queryStr = queryStr;
     }
 
-    search()
+    search() 
 }
