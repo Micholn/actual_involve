@@ -11,6 +11,6 @@ class APIFeatures {
                     $regex: this.queryStr.keyword,
                     $options: "i",
                 },
-            }
+            } :
     }
 }
