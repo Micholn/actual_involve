@@ -21,6 +21,6 @@ class APIFeatures {
         const queryCopy = {...this.queryStr };
 
         // Removing fileds from the query
-        const removeFields = 
+        const removeFields = []
     }
 }
