@@ -22,6 +22,6 @@ class APIFeatures {
 
         // Removing fileds from the query
         const removeFields = ["keyword", "limit", "page"];
-        removeFields.forEach
+        removeFields.forEach((el) => delete )
     }
 }
