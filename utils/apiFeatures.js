@@ -20,6 +20,6 @@ class APIFeatures {
     filter() {
         const queryCopy = {...this.queryStr };
 
-        // Removing fileds
+        // Removing fileds from 
     }
 }
