@@ -26,6 +26,8 @@ class APIFeatures {
 
         // Advance filter price, ratings etc
         let queryStr = JSON.stringify(queryCopy);
-        queryStr = queryStr.replace()
+        queryStr = queryStr.replace(
+            /\
+        )
     }
 }
