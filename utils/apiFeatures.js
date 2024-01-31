@@ -25,6 +25,7 @@ class APIFeatures {
         removeFields.forEach((el) => delete queryCopy[el]);
 
         // Advance filter price, ratings etc
-        let queryStr = JSON.stringify(queryCopy)
+        let queryStr = JSON.stringify(queryCopy);
+        
     }
 }
