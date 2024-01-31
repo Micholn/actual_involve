@@ -29,6 +29,6 @@ class APIFeatures {
         queryStr = queryStr.replace(
             /\b(gt|gte|lt|lte)\b/g,
             (match) => `$${match}`
-        )
+        );
     }
 }
