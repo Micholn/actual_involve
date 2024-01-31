@@ -21,6 +21,7 @@ class APIFeatures {
         const queryCopy = {...this.queryStr };
 
         // Removing fileds from the query
-        const removeFields = ["keyword", "limit", "page"]
+        const removeFields = ["keyword", "limit", "page"];
+        
     }
 }
