@@ -24,6 +24,6 @@ class APIFeatures {
         const removeFields = ["keyword", "limit", "page"];
         removeFields.forEach((el) => delete queryCopy[el]);
 
-        // Advance filter 
+        // Advance filter price
     }
 }
