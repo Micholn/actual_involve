@@ -27,7 +27,7 @@ class APIFeatures {
         // Advance filter price, ratings etc
         let queryStr = JSON.stringify(queryCopy);
         queryStr = queryStr.replace(
-            /\b(gt|gte|lt|lte)\b
+            /\b(gt|gte|lt|lte)\b/g,
         )
     }
 }
