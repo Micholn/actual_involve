@@ -284,4 +284,4 @@ exports.validateProduct = async (req, res, next) => {
     }
     next()
 }
-exports
+exports.validateProduct
