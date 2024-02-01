@@ -285,5 +285,5 @@ exports.validateProduct = async (req, res, next) => {
     next()
 }
 exports.validateProduct = async (req, res, next) => {
-    req.check("name", "Product name is required")
+    req.check("name", "Product name is required").
 }
