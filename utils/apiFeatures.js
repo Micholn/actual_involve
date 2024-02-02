@@ -31,7 +31,7 @@ class APIFeatures {
             (match) => `$${match}`
         );
     
-        this.query =
+        this.query = this
         
     }
 }
