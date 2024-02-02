@@ -36,6 +36,6 @@ class APIFeatures {
     }
 
     pagination(resPerPage) {
-        const currentPage
+        const currentPage = Number
     }
 }
