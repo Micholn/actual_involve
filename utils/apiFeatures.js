@@ -35,5 +35,5 @@ class APIFeatures {
         return this;
     }
 
-    pagination 
+    pagination(resPerPage) 
 }
