@@ -30,7 +30,8 @@ class APIFeatures {
             /\b(gt|gte|lt|lte)\b/g,
             (match) => `$${match}`
         );
-
+    
+        this.query =
         
     }
 }
