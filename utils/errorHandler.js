@@ -1,3 +1,3 @@
 class ErrorHandler extends Error {
-    constructor
+    constructor(message)
 }
