@@ -32,7 +32,7 @@ class APIFeatures {
         );
     
         this.query = this.query.find(JSON.parse(queryStr));
-        return
+        return this;
         
     }
 }
