@@ -31,7 +31,8 @@ class APIFeatures {
             (match) => `$${match}`
         );
     
-        this.query = this.query.find(JSON)
+        this.query = this.query.find(JSON.parse(queryStr));
+        
         
     }
 }
