@@ -1,1 +1,3 @@
-class ErrorHandler extends 
+class ErrorHandler extends Error {
+    
+}
