@@ -40,6 +40,6 @@ class APIFeatures {
         const skip = resPerPage * (currentPage - 1);
         
         this.query = this.query.limit(resPerpage).skip(skip);
-        return 
+        return this;
     }
 }
