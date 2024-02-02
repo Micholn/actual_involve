@@ -3,6 +3,6 @@ class ErrorHandler extends Error {
         super(message);
         this.statusCode = statusCode 
 
-        Error.capture
+        Error.captureStack
     }
 }
