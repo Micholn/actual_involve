@@ -5,6 +5,6 @@ const sendToken = (user, statusCode, res) => {
 
     //Options for cookie 
     const options = {
-        
+        expires: new Date
     }
 }
