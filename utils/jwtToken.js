@@ -11,6 +11,6 @@ const sendToken = (user, statusCode, res) => {
         httpOnly: true,
     };
 
-    res.status(status)
+    res.status(statusCode)
 
 }
