@@ -2,5 +2,6 @@
 const sendToken = (user, statusCode, res) => {
     //Create Jwt token
     const token = user.getJwtToken();
-    
+
+    //Options 
 }
