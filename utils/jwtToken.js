@@ -4,4 +4,7 @@ const sendToken = (user, statusCode, res) => {
     const token = user.getJwtToken();
 
     //Options for cookie 
+    const options = {
+        
+    }
 }
