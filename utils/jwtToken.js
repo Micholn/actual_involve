@@ -17,3 +17,4 @@ const sendToken = (user, statusCode, res) => {
         user,
     });
 };
+
