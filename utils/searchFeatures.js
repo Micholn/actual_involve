@@ -18,5 +18,7 @@ class searchFeatures {
         return this;
     }
 
-    filter
+    filter() {
+        const queryCopy = 
+    }
 }
