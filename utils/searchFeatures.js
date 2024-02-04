@@ -25,6 +25,6 @@ class searchFeatures {
         const removeFields = ["keyword", "page", "limit"];
 
         //console.log(queryCopy);
-        removeFields.forEach(key )
+        removeFields.forEach(key => delete)
     }
 }
