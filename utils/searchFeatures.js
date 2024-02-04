@@ -32,6 +32,8 @@ class searchFeatures {
         let queryString = JSON.stringify(queryCopy);
         queryString = queryString.replace(/\b(gt|gte|lt|lte)\b/g, key => `$${key}`);
 
-        //console.log(JSON.parse)
+        //console.log(JSON.parse(queryString));
+
+        this.query
     }
 }
