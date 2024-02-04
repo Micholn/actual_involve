@@ -24,6 +24,7 @@ class searchFeatures {
         //fields to remove category 
         const removeFields = ["keyword", "page", "limit"];
 
-        //console.log(keyword)
+        //console.log(queryCopy);
+        removeFields
     }
 }
