@@ -34,6 +34,6 @@ class searchFeatures {
 
         //console.log(JSON.parse(queryString));
 
-        this.query
+        this.query = this.query.find()
     }
 }
