@@ -1,3 +1,3 @@
 class searchFeatures { 
-    
+    this.query
 }
