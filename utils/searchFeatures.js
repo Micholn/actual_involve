@@ -22,6 +22,6 @@ class searchFeatures {
         const queryCopy = { ...this.queryString }
 
         //fields to remove category 
-        const removeFields = ["keyword", "page"]
+        const removeFields = ["keyword", "page", "limit"]
     }
 }
