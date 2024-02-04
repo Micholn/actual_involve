@@ -5,6 +5,6 @@ class searchFeatures {
     }
 
     search() {
-        const keyword = this.queryString
+        const keyword = this.queryString.keyword 
     }
 }
