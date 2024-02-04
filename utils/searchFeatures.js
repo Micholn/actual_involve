@@ -12,6 +12,8 @@ class searchFeatures {
             }
         } : {};
 
-        // console.log(keyword)
+        // console.log(keyword);
+
+        this.query
     }
 }
