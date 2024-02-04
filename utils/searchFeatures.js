@@ -6,7 +6,9 @@ class searchFeatures {
 
     search() {
         const keyword = this.queryString.keyword ? {
-            name: 
+            name: {
+                
+            }
         }
     }
 }
