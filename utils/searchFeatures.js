@@ -17,4 +17,6 @@ class searchFeatures {
         this.query = this.query.find({ ...keyword });
         return this;
     }
+
+    filter
 }
