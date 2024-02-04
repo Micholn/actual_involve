@@ -20,5 +20,7 @@ class searchFeatures {
 
     filter() {
         const queryCopy = { ...this.queryString }
+
+        //fields 
     }
 }
