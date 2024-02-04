@@ -29,6 +29,7 @@ class searchFeatures {
         //console.log(queryCopy);
 
         //price filter
-        let queryString = JSON.stringify()
+        let queryString = JSON.stringify(queryCopy);
+        queryString = queryString.replace()
     }
 }
