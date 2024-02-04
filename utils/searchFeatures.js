@@ -38,7 +38,7 @@ class searchFeatures {
         return this; 
     }
 
-    pagination(resultPerPage){
+    pagination(resultPerPage) {
         const 
     }
 }
