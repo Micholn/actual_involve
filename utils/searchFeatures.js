@@ -22,5 +22,6 @@ class searchFeatures {
         const queryCopy = { ...this.queryString }
 
         //fields to remove category 
+        const 
     }
 }
