@@ -30,6 +30,6 @@ class searchFeatures {
 
         //price filter
         let queryString = JSON.stringify(queryCopy);
-        queryString = queryString.replace()
+        queryString = queryString.replace(/\b(gt|gte|lt|lte)\b/g)
     }
 }
