@@ -39,6 +39,6 @@ class searchFeatures {
     }
 
     pagination(resultPerPage) {
-        const current
+        const currentPage
     }
 }
