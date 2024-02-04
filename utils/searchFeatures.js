@@ -4,5 +4,7 @@ class searchFeatures {
         this.queryString = queryString 
     }
 
-    search() 
+    search() {
+        
+    }
 }
