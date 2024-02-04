@@ -14,6 +14,6 @@ class searchFeatures {
 
         // console.log(keyword);
 
-        this.query = this.query.find({ })
+        this.query = this.query.find({ ...keyword})
     }
 }
