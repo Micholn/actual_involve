@@ -39,6 +39,6 @@ class searchFeatures {
     }
 
     pagination(resultPerPage) {
-        const currentPage = Number
+        const currentPage = Number(this.queryString)
     }
 }
