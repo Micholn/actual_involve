@@ -39,6 +39,6 @@ class searchFeatures {
     }
 
     pagination(resultPerPage) {
-        const currentPage = Number(this.queryString.page)
+        const currentPage = Number(this.queryString.page) || 1;
     }
 }
