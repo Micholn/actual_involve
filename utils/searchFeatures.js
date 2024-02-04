@@ -26,6 +26,8 @@ class searchFeatures {
 
         //console.log(queryCopy);
         removeFields.forEach(key => delete queryCopy[key]);
-        //console.log(queryCopy)
+        //console.log(queryCopy);
+
+        
     }
 }
