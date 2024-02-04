@@ -19,6 +19,6 @@ class searchFeatures {
     }
 
     filter() {
-        const queryCopy = { ...this }
+        const queryCopy = { ...this.queryString }
     }
 }
