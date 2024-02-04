@@ -41,6 +41,6 @@ class searchFeatures {
     pagination(resultPerPage) {
         const currentPage = Number(this.queryString.page) || 1;
 
-        const skipProducts = resultsPerPage * (currentPage)
+        const skipProducts = resultsPerPage * (currentPage - 1)
     }
 }
