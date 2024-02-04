@@ -28,6 +28,7 @@ class searchFeatures {
         removeFields.forEach(key => delete queryCopy[key]);
         //console.log(queryCopy);
 
+        //price filter
         
     }
 }
