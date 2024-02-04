@@ -1,1 +1,1 @@
-class searchFeatures 
+class searchFeatures { }
