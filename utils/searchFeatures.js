@@ -7,7 +7,8 @@ class searchFeatures {
     search() {
         const keyword = this.queryString.keyword ? {
             name: {
-                $regex: this.queryString.keyword
+                $regex: this.queryString.keyword, 
+                
             }
         }
     }
