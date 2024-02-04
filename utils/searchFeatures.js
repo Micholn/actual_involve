@@ -8,7 +8,7 @@ class searchFeatures {
         const keyword = this.queryString.keyword ? {
             name: {
                 $regex: this.queryString.keyword, 
-                
+                $options: 
             }
         }
     }
