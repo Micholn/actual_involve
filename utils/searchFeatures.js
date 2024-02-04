@@ -1,3 +1,3 @@
 class searchFeatures { 
-    constructor this.query
+    constructor (querythis.query
 }
