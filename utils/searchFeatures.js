@@ -38,5 +38,5 @@ class searchFeatures {
         return this; 
     }
 
-    pagination
+    pagination()
 }
