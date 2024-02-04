@@ -10,6 +10,6 @@ class searchFeatures {
                 $regex: this.queryString.keyword, 
                 $options: "1",
             }
-        } : {}
+        } : {};
     }
 }
