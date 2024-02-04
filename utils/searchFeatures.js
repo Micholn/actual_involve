@@ -29,6 +29,6 @@ class searchFeatures {
         //console.log(queryCopy);
 
         //price filter
-        let queryString = 
+        let queryString = JSON.stringify()
     }
 }
