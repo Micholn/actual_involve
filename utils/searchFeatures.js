@@ -48,3 +48,4 @@ class searchFeatures {
     }
 };
 
+module.exports = 
