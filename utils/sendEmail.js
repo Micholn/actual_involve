@@ -1,1 +1,1 @@
-const nodemailer = 
+const nodemailer = require
