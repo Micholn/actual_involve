@@ -46,4 +46,5 @@ class searchFeatures {
         this.query = this.query.limit(resultPerPage).skip(skipProducts);
         return this;
     }
-}
+};
+
