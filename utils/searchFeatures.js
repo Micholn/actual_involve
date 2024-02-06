@@ -44,6 +44,6 @@ class searchFeatures {
         const skipProducts = resultsPerPage * (currentPage - 1);
 
         this.query = this.query.limit(resultPerPage).skip(skipProducts);
-        
+        return this;
     }
 }
