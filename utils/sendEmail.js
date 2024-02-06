@@ -1,3 +1,3 @@
 const nodemailer = require('nodemailer');
 const sgMail = require('@sendgrid/mail');
-sgMail.setApi
+sgMail.setApiKey()
