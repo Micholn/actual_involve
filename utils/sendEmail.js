@@ -1,2 +1,2 @@
 const nodemailer = require('nodemailer');
-const sgMail = require('@sendgrid/mail')
+const sgMail = require('@sendgrid/mail');
