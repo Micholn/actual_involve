@@ -4,6 +4,6 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 CONST sendEmail = async (options) => {
     const transporter = nodemailer.createTransport({
-        host: 
+        host: process.env
     })
 }
