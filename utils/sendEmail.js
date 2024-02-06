@@ -1,2 +1,2 @@
 const nodemailer = require('nodemailer');
-const sgMail = require
+const sgMail = require('@')
