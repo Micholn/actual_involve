@@ -26,6 +26,6 @@ CONST sendEmail = async (options) => {
         to: options.email, 
         from: process.env.SENDGRID_MAIL,
         templateId: options.templateId,
-        
+        dynamic_
     }
 }
