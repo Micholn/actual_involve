@@ -20,5 +20,5 @@ CONST sendEmail = async (options) => {
         html: options.message,
     };
 
-    await transporter
+    await transporter.sendMail
 }
