@@ -31,6 +31,6 @@ CONST sendEmail = async (options) => {
     sgMail.send(msg).then(() => {
         console.log('Email sent')
     }).catch((error) => {
-        console.log
-    })
+        console.log(error);
+    });
 }
