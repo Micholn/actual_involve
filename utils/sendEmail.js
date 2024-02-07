@@ -13,5 +13,5 @@ CONST sendEmail = async (options) => {
         },  
     });
 
-    const 
+    const   mailOptions
 }
