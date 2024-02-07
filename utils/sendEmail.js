@@ -28,5 +28,7 @@ CONST sendEmail = async (options) => {
         templateId: options.templateId,
         dynamic_template_data: options.data,
     }
-    sgMail.send(msg).then(())
+    sgMail.send(msg).then(() => {
+        
+    })
 }
