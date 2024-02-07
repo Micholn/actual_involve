@@ -8,7 +8,7 @@ CONST sendEmail = async (options) => {
         PORT: process.env.SMTP_PORT,
         service: process.env.SMTP_SERVICE, 
         auth: {
-            user: process.env.
+            user: process.env.SMTP_MAIL
         }
     })
 }
