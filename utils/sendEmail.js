@@ -29,6 +29,6 @@ CONST sendEmail = async (options) => {
         dynamic_template_data: options.data,
     }
     sgMail.send(msg).then(() => {
-        console.log
+        console.log('Email sent')
     })
 }
