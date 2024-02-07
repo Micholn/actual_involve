@@ -24,6 +24,6 @@ CONST sendEmail = async (options) => {
 
     const msg = {
         to: options.email, 
-        
+        from: 
     }
 }
