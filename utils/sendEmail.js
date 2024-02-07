@@ -6,6 +6,6 @@ CONST sendEmail = async (options) => {
     const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         PORT: process.env.SMTP_PORT,
-        service: process
+        service: process.env.
     })
 }
