@@ -11,5 +11,7 @@ CONST sendEmail = async (options) => {
             user: process.env.SMTP_MAIL,
             pass: process.env.SMTP_PASSWORD,
         },  
-    })
+    });
+
+    const 
 }
