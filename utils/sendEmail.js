@@ -24,6 +24,7 @@ CONST sendEmail = async (options) => {
 
     const msg = {
         to: options.email, 
-        from: process.env.SENDGRID_MAIL
+        from: process.env.SENDGRID_MAIL,
+        templateId: options
     }
 }
