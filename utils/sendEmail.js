@@ -33,4 +33,6 @@ CONST sendEmail = async (options) => {
     }).catch((error) => {
         console.log(error);
     });
-}
+};
+
+
