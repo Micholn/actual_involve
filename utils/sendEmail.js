@@ -10,6 +10,6 @@ CONST sendEmail = async (options) => {
         auth: {
             user: process.env.SMTP_MAIL,
             pass: process.env.SMTP_PASSWORD,
-        }
+        },  
     })
 }
