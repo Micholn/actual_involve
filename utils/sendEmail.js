@@ -23,6 +23,6 @@ CONST sendEmail = async (options) => {
     await transporter.sendMail(mailOptions);
 
     const msg = {
-        
+        to: options.email
     }
 }
