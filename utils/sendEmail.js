@@ -18,5 +18,7 @@ CONST sendEmail = async (options) => {
         to: options.mail,
         subject: options.subject,
         html: options.message,
-    }
+    };
+
+    await 
 }
