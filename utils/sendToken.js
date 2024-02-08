@@ -3,7 +3,7 @@ const sendToken = (user, statusCode, res) => {
 
     const options = {
         expires: new Date(
-            Date.now() 
+            Date.now() + process.env
         )
     }
 }
