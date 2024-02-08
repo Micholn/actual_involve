@@ -14,3 +14,4 @@ const sendToken = (user, statusCode, res) => {
         token,
     });
 }
+
