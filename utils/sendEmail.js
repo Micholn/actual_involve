@@ -35,4 +35,4 @@ const sendEmail = async (options) => {
     });
 };
 
-module.exports = sendMail; 
+module.exports = sendEmail; 
