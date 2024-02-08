@@ -1,1 +1,1 @@
-const sendToken = (user, statusCode )
+const sendToken = (user, statusCode, res) => 
