@@ -1,3 +1,3 @@
 const sendToken = (user, statusCode, res) => {
-    const 
+    const token 
 }
