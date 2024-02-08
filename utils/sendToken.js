@@ -15,4 +15,4 @@ const sendToken = (user, statusCode, res) => {
     });
 }
 
-module.exports
+module.exports = 
