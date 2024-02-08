@@ -12,5 +12,5 @@ const sendToken = (user, statusCode, res) => {
         success: true,
         user, 
         token,
-    })
+    });
 }
