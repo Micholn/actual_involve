@@ -1,4 +1,4 @@
 var ai = {} 
 
 // OpenAI GPT 
-const { Configuration, OpenAI } = require()
+const { Configuration, OpenAI } = require("openai");
