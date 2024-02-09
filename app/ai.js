@@ -1,1 +1,1 @@
-var ai = 
+var ai = {}
