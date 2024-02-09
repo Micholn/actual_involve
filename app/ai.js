@@ -8,5 +8,6 @@ ai.sendMessage = function(io, db, room, username, message) {
     db.loadChatHistory(room, async (history) => {
         history = history.reverse();
         var messages = [];
+        var charCount 
     })
 }
