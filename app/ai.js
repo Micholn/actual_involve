@@ -1,4 +1,4 @@
 var ai = {} 
 
 // OpenAI GPT 
-const { }
+const { Configuration }
