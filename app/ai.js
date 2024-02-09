@@ -9,5 +9,6 @@ ai.sendMessage = function(io, db, room, username, message) {
         history = history.reverse();
         var messages = [];
         var charCount = 0;
+        const 
     })
 }
