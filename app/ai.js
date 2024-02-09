@@ -2,4 +2,4 @@ var ai = {}
 
 // OpenAI GPT 
 const { Configuration, OpenAI } = require("openai");
-const openai = new OpenAIApi
+const openai = new OpenAIApi(n)
