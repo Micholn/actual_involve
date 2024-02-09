@@ -4,5 +4,5 @@ var ai = {}
 const { Configuration, OpenAI } = require("openai");
 const openai = new OpenAIApi(new Configuration({ apiKey: 'dfggujfgkffgbgg',}));
 ai.sendMessage = function(io, db, room, username, message) {
-    //Load 
+    //Load chat history for this room 
 }
