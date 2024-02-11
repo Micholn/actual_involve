@@ -9,6 +9,7 @@ ai.sendMessage = function(io, db, room, username, message) {
         history = history.reverse();
         var messages = [];
         var charCount = 0;
-        const MAX_MARS = 
+        const MAX_MARS = 1000;
+        
     })
 }
