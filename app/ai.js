@@ -15,7 +15,7 @@ ai.sendMessage = function(io, db, room, username, message) {
             if (history[message].username == username) user = "assistant";
             messages.push({"role": user, "content": history[message].message});
             charCount += history[message].message.length;
-            if (char)
+            if (charCount)
         }
     })
 }
