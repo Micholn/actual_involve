@@ -11,7 +11,7 @@ ai.sendMessage = function(io, db, room, username, message) {
         var charCount = 0;
         const MAX_MARS = 1000;
         for (message in history) {
-            var
+            var user
         }
     })
 }
