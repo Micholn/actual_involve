@@ -13,7 +13,7 @@ ai.sendMessage = function(io, db, room, username, message) {
         for (message in history) {
             var user = "user";
             if (history[message].username == username) user = "assistant";
-            messages
+            messages.push
         }
     })
 }
