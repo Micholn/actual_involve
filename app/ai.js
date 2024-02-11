@@ -12,7 +12,7 @@ ai.sendMessage = function(io, db, room, username, message) {
         const MAX_MARS = 1000;
         for (message in history) {
             var user = "user";
-            if (history[message].username)
+            if (history[message].username == )
         }
     })
 }
