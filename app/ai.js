@@ -19,6 +19,8 @@ ai.sendMessage = function(io, db, room, username, message) {
         } 
         messages.push({"role": "system", "content": "You are a helpful assistant."});
         messages = messages.reverse();
-        try 
+        try {
+            
+        }
     })
 }
