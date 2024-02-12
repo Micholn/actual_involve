@@ -22,7 +22,7 @@ ai.sendMessage = function(io, db, room, username, message) {
         try {
             const response = await openai.createChatCompletion({
                 model: "gpt-3.5-turbo",
-                messages: 
+                messages: messages
             })
         }
     })
