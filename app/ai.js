@@ -27,7 +27,7 @@ ai.sendMessage = function(io, db, room, username, message) {
             const responseText = response.data.choices[0].messages.content;
 
             //send reply to room 
-            data 
+            data = { }
         }
     })
 }
