@@ -21,7 +21,8 @@ ai.sendMessage = function(io, db, room, username, message) {
         messages = messages.reverse();
         try {
             const response = await openai.createChatCompletion({
-                model: "gpt-3.5-turbo"
+                model: "gpt-3.5-turbo",
+                messages
             })
         }
     })
