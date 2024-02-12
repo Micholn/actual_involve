@@ -16,6 +16,7 @@ ai.sendMessage = function(io, db, room, username, message) {
             messages.push({"role": user, "content": history[message].message});
             charCount += history[message].message.length;
             if (charCount > MAX_CHARS) break; 
-        }
+        } 
+        
     })
 }
