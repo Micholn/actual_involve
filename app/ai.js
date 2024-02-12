@@ -24,7 +24,7 @@ ai.sendMessage = function(io, db, room, username, message) {
                 model: "gpt-3.5-turbo",
                 messages: messages,
             });
-            const responseText
+            const responseText = response
         }
     })
 }
