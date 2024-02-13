@@ -1,1 +1,1 @@
-const ProductBrand = require("")
+const ProductBrand = require("../")
