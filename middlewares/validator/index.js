@@ -1,1 +1,1 @@
-const ProductBrand = 
+const ProductBrand = require
