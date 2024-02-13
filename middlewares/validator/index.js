@@ -1,1 +1,1 @@
-const Producx
+const Product
