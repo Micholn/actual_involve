@@ -1,1 +1,1 @@
-const Product
+const ProductBrand
