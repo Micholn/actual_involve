@@ -1,1 +1,1 @@
-const ProductBrand = require("../../models")
+const ProductBrand = require("../../models/")
