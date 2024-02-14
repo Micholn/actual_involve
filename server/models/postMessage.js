@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const postSchema = mon
+const postSchema = mongoose
