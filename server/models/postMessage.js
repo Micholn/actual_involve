@@ -7,6 +7,6 @@ const postSchema = mongoose.Schema({
     tags: [String],
     selectedFile: String, 
     like: {
-        type: 
+        type: Number
     }
 })
