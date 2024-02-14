@@ -12,6 +12,6 @@ const postSchema = mongoose.Schema({
     }, 
     createdAt: {
         type: Number, 
-        
+        deault: 0,
     }
 })
