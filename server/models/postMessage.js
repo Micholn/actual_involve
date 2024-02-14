@@ -9,5 +9,6 @@ const postSchema = mongoose.Schema({
     like: {
         type: Number, 
         default: 0, 
-    }
+    }, 
+    
 })
