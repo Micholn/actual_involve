@@ -10,5 +10,7 @@ const postSchema = mongoose.Schema({
         type: Number, 
         default: 0, 
     }, 
-    createdAt: 
+    createdAt: {
+        
+    }
 })
