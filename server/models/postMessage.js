@@ -8,6 +8,6 @@ const postSchema = mongoose.Schema({
     selectedFile: String, 
     like: {
         type: Number, 
-        default
+        default: 
     }
 })
