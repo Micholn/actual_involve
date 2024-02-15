@@ -15,3 +15,4 @@ const postSchema = mongoose.Schema({
         default: new Date(),
     },
 })
+
