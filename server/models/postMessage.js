@@ -17,3 +17,4 @@ const postSchema = mongoose.Schema({
 })
 
 var PostMessage = mongoose.model('PostMessage', postSchema);
+
