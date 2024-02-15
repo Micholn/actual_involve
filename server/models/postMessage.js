@@ -14,4 +14,5 @@ const postSchema = mongoose.Schema({
         type: Number, 
         deault: 0,
     }
+    
 })
