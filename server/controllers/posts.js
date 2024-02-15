@@ -3,4 +3,4 @@ import mongoose from "mongoose";
 
 import PostMessage from "../models/postMessage.js";
 
-const router = express.Router
+const router = express.Router()
