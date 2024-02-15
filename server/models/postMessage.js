@@ -16,4 +16,4 @@ const postSchema = mongoose.Schema({
     },
 })
 
-var PostMessage 
+var PostMessage = 
