@@ -4,5 +4,5 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 
-import postRoutes from './routes/posts/.j/.
+import postRoutes from './routes/posts/.j/
 conss
