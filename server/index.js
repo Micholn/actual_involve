@@ -1,3 +1,3 @@
 import express from "express";
 import bodyParser from "body-parser";
-import mongoose from "mon"
+import mongoose from "mongoose"
