@@ -4,4 +4,4 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 
-impport postRoutes
+impport postRoutes from
