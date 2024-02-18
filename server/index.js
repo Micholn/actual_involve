@@ -5,4 +5,4 @@ import cors from "cors";
 
 
 import postRoutes from './routes/posts/.js
-cons app 
+const app 
