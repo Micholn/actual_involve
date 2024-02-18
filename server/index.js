@@ -7,4 +7,4 @@ import cors from "cors";
 import postRoutes from './routes/posts/.js
 const app = express();
 
-app.use(bodyParser.json())
+app.use(bodyParser.json({ }))
