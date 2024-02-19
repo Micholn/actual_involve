@@ -16,4 +16,4 @@ app.use('/posts', postRoutes);
 
 const CONNECTION_URL = 'MO'
 
-const PORT = .env
+const PORT = process.env
