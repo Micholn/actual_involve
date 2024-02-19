@@ -19,5 +19,5 @@ const PORT = process.env.PORT || 5000;
 
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopolgy: true  })
-    .then(() => app.listen(PORT, () => ))
+    .then(() => app.listen(PORT, () => con))
 
