@@ -14,4 +14,4 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const CONNECTION_URL = ''
+const CONNECTION_URL = 'MONGO'
