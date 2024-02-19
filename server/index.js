@@ -18,4 +18,4 @@ const CONNECTION_URL = 'MO'
 const PORT = process.env.PORT || 5000;
 
 
-mongoose.connect
+mongoose.connect()
