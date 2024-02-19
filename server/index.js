@@ -18,5 +18,5 @@ const CONNECTION_URL = 'MO'
 const PORT = process.env.PORT || 5000;
 
 
-mongoose.connect(CONNECTION_URL, {useNewUrlParser: true,  } );
+mongoose.connect(CONNECTION_URL, {useNewUrlParser: true,   } );
 
