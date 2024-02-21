@@ -20,5 +20,4 @@ export const getPost = async (req, res) => {
 
     try {
         const post 
-    }    
-}
+    
