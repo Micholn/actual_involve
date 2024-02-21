@@ -15,4 +15,4 @@ export const getPosts = async (req, res) => {
     }
 }
 
-export const getPo
+export const get
