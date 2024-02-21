@@ -16,4 +16,3 @@ export const getPosts = async (req, res) => {
 }
 
 export const getPost = async (
-    
