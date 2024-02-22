@@ -11,4 +11,4 @@ export const getPosts = async (req, res) => {
 
         res.status(200).json(postMessages);
     } catch (error) {
-        res.status(40
+        res.status(4
