@@ -9,4 +9,4 @@ export const getPosts = async (req, res) => {
     try {
         const postMessages = await PostMessage.find();
 
-        res.s
+        res.
