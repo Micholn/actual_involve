@@ -7,6 +7,6 @@ const router = express.Router();
 
 export const getPosts = async (req, res) => {
     try {
-        const postMessages = await PostMessa
+        const postMessages = await PostMess
 
         
