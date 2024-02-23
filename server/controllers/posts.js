@@ -7,5 +7,5 @@ const router = express.Router();
 
 export const getPosts = async (req, res) => {
     try {
-        con
+        co
         
