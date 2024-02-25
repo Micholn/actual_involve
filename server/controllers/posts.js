@@ -1,4 +1,4 @@
 import express from "express";
 import mongoose from "mongoose";
 
-import PostMessage from "../models/postMessag
+import PostMessage from "../models/postMessa
