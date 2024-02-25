@@ -1,2 +1,2 @@
 import express from "express";
-import mongoose from "mongoo
+import mongoose from "mongo
