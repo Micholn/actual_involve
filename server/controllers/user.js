@@ -43,5 +43,4 @@ export const signup = async (req, res) => {
 
          res.status(201).json({ result, token });
       }
-      catch (err) {
-      
+      catch (err) 
