@@ -43,4 +43,4 @@ export const signup = async (req, res) => {
 
          res.status(201).json({ result, token });
       }
-      catc
+      cat
