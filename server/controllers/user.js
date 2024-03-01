@@ -39,4 +39,4 @@ export const signup = async (req, res) => {
 
          const result = await UserModal.create({ email, password: hashedPassword, name: `${firstName} ${lastName}`});
 
-         const token = 
+         const token 
