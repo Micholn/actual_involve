@@ -37,4 +37,3 @@ export const signup = async (req, res) => {
 
          const hashedPassword = await bcrypt.hash(pass
 
-            
