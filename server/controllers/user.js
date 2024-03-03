@@ -33,4 +33,4 @@ export const signup = async (req, res) => {
       try {
          const oldUser = await UserModal.findOne({ email });
          
-         if (oldUser) return res.status(400).json({ mess
+         if (oldUser) return res.status(400).json({ mes
