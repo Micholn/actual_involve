@@ -29,4 +29,4 @@ export const signin = async(req, res) => {
 
 
 export const signup = async (req, res) => {
-   const { email, password, firstName, last
+   const { email, password, firstName, la
