@@ -23,5 +23,4 @@ export const signin = async(req, res) => {
       } 
       
       catch (err) {
-          res.sta
-         
+          res.st      
