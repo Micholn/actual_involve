@@ -23,4 +23,4 @@ export const signin = async(req, res) => {
       } 
       
       catch (err) {
-          res.status(500).json({ messa
+          res.status(500).json({ mes
