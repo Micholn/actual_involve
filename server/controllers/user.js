@@ -28,4 +28,4 @@ export const signin = async(req, res) => {
 }
 
 
-export const sig
+export const s
