@@ -15,4 +15,5 @@ export const signin = async(req, res) => {
 
         const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
 
-        if (!isPasswordCorrect) return res.status(400).json({ message: "Invali
+        if (!isPasswordCorrect) return res.status(400).json({ message: "Inval
+        
