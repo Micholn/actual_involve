@@ -15,4 +15,4 @@ export const signin = async(req, res) => {
 
         const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
 
-        if (!isPasswordCorrect) return
+        if (!isPasswordCorrect) retu
