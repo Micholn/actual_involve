@@ -11,4 +11,4 @@ export const signin = async(req, res) => {
       try {
         const oldUser = await UserModal.findOne({ email });
 
-        if(!oldUser) return res.st
+        if(!oldUser) return re
