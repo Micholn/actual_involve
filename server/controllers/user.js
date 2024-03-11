@@ -11,4 +11,3 @@ export const signin = async(req, res) => {
       try {
         const oldUser = await UserModal.findOne({ email });
 
-      
