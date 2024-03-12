@@ -9,4 +9,4 @@ export const signin = async(req, res) => {
    const { email, password } = req.body;
 
       try {
-        const oldUser = await UserModal.fin
+        const oldUser = await UserModal.f
