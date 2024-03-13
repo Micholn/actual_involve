@@ -4,4 +4,3 @@ import jwt from "jsonwebtoken";
 import UserModal from "../models/user.js";
 
 const secret = "test";
-
