@@ -5,4 +5,3 @@ import UserModal from "../models/user.js";
 
 const secret = "test";
 
-e
