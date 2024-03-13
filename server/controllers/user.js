@@ -5,4 +5,4 @@ import UserModal from "../models/user.js";
 
 const secret = "test";
 
-export const sig
+export const si
