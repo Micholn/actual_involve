@@ -1,4 +1,4 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-import UserModal from "../models/user.j
+import UserModal from "../models/user.
