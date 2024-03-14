@@ -3,4 +3,3 @@ import jwt from "jsonwebtoken";
 
 import UserModal from "../models/user.js";
 
-c
