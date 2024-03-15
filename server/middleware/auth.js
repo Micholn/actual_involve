@@ -16,7 +16,7 @@ const auth = async (req, res, next) => {
      } else {
         decodedData = jwt.decode(token);
 
-        req.userId = decodedData?
+        req.userId = decodedData
 
      next()  
      
@@ -25,4 +25,4 @@ const auth = async (req, res, next) => {
     }
 }
 
-export default
+export defaul
