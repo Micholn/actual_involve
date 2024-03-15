@@ -24,6 +24,6 @@ const auth = async (req, res, next) => {
     } catch {
         console.log(
     }
-};
+}
 
-export default aut
+export default a
