@@ -1,2 +1,2 @@
 import bcrypt from "bcryptjs";
-import jwt from
+import jwt fr
