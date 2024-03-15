@@ -20,7 +20,7 @@ const auth = async (req, res, next) => {
      }
 
      next();   
-     //reworjing the schemas
+     //reworjing the schem
     } catch {
         console.log(error);
     }
