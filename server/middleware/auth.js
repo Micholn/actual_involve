@@ -25,4 +25,4 @@ const auth = async (req, res, next) => {
     }
 }
 
-export defaul
+export defau
