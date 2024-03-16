@@ -21,4 +21,4 @@ const auth = async (req, res, next) => {
      next()  
      
     } catch {
-        consol
+        conso
