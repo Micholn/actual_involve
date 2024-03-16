@@ -20,5 +20,4 @@ const auth = async (req, res, next) => {
 
      next()  
      
-    } catch {
-        
+    } catc
