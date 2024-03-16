@@ -19,4 +19,3 @@ const auth = async (req, res, next) => {
         req.userId = decodedData
 
      next()  
-    
