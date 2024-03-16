@@ -22,4 +22,3 @@ const auth = async (req, res, next) => {
      
     } catch {
         console.log
-    
