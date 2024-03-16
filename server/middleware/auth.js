@@ -16,4 +16,3 @@ const auth = async (req, res, next) => {
      } else {
         decodedData = jwt.decode(token);
 
-        
