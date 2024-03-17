@@ -18,4 +18,3 @@ export const updatePost = (id, updatedPost) => API.patch(`/posts/${id}`, updated
 export const deletePost = (id) => API.delete(`/posts/${id}`);
 
 export const signIn = () => API.post("/user/sigin", formData);
-export const signUp = () => API.post("/user/signup", formData);
