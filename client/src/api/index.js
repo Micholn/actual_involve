@@ -4,7 +4,7 @@ const url = "http://localhost:5000/posts";
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem("profile")) {
-        req.headers.Authorization = `Bearer ${JSON.parse(localStorage.getItem(
+        req.headers.Authori
 
 export const fetchPosts = () => API.get("./posts");
 export const createPost = (newPost) => API.post("/posts", newPost);
