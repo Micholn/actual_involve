@@ -19,7 +19,7 @@ function load(req, res, next){
 
 //Routesender('chat');
     }
-    next();
+    next(
 }, load, function(req, res, next) {
     res.redirect('/chat');
 });
