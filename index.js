@@ -13,17 +13,12 @@ var ensureLoggedIn = function checkLogin(req, res, next) {
 
 //Load page
 function load(req, res, next){
-    res.locals.variable = "";
-    next();
-}
+    res.locals.variable =
+    next()
 
-//Routes
-var router = express.Router();
-router.get('/', function(req, res, next) {
-    if(!req.user) { 
-        return res.render('chat');
+//Routesender('chat');
     }
-    next();
+    next(
 }, load, function(req, res, next) {
     res.redirect('/chat');
 });
@@ -49,9 +44,9 @@ router.get("/account", ensureLoggedIn, load, function(req, res, next){
     res.render('account', { user: req.user });
 })
 
-router.get("/room", ensureLoggedIn, load, function(req, res,
+router.get("/room", ensureLoggedIn, load, function(req, re
     res.render('room', { user: req.user });
 })
 
 //Export 
-module.exports = ro
+module.exports 
