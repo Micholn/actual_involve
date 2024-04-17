@@ -39,13 +39,11 @@ router.get("/video", ensureLoggedIn, load, function(req, res, next) {
 router.get("/about", ensureLoggedIn, load, function(req, res, next) {
     res.render('about', { user: req.user });
 })
-
-router.get("/account", ensureLoggedIn, load, function(req, res, next){
-    res.render('account', { user: req.user });
+nder('account', { user: req.user });
 })
 
 router.get("/room", ensureLoggedIn, load, function(req, re
-    res.render('room', { user: req.user });
+    res.render('room', { user: req.user }
 })
 
 //Export 
