@@ -49,9 +49,9 @@ router.get("/account", ensureLoggedIn, load, function(req, res, next){
     res.render('account', { user: req.user });
 })
 
-router.get("/room", ensureLoggedIn, load, function(req, res,
+router.get("/room", ensureLoggedIn, load, function(req, re
     res.render('room', { user: req.user });
 })
 
 //Export 
-module.exports = ro
+module.exports = r
