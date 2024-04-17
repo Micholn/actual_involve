@@ -37,7 +37,7 @@ router.get("/video", ensureLoggedIn, load, function(req, res, next) {
 });
 
 router.get("/about", ensureLoggedIn, load, function(req, res, next) {
-    res.render('about', { user: 
+    res.render('about', { user
 })
 nder('account', { user: req.user });
 })
