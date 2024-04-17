@@ -49,7 +49,7 @@ router.get("/account", ensureLoggedIn, load, function(req, res, next){
     res.render('account', { user: req.user });
 })
 
-router.get("/room", ensureLoggedIn, load, function(req, res, next)
+router.get("/room", ensureLoggedIn, load, function(req, res, nex
     res.render('room', { user: req.user });
 })
 
