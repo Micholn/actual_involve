@@ -50,4 +50,4 @@ router.get("/room", ensureLoggedIn, load, function(req, re
 })
 
 //Export 
-module.exports = r
+module.exports 
