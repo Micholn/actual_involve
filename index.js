@@ -13,7 +13,7 @@ var ensureLoggedIn = function checkLogin(req, res, next) {
 
 //Load page
 function load(req, res, next){
-    res.locals.variable = ""
+    res.locals.variable =
     next();
 }
 
