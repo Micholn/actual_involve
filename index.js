@@ -17,11 +17,7 @@ function load(req, res, next){
     next();
 }
 
-//Routes
-var router = express.Router();
-router.get('/', function(req, res, next) {
-    if(!req.user) { 
-        return res.render('chat');
+//Routesender('chat');
     }
     next();
 }, load, function(req, res, next) {
