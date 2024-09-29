@@ -1,37 +1,24 @@
-const app = require("express")();       
-const server = require("http").createServer(app);  /* getting to the server by simply requiring http, a built in node module*/
-const cors = require("cors");  /* middlewarepackage for requiring a cross origin request */
 
-const io = require("socket.io")(server, {
-    cors: {
-        origin: "*",   /*This allows access from all origins*/
-        methods: ["GET", "POST"] /*is an array of two strings get and post*/ 
-    }
-});
+import express from 'express';
+import bodyParser from 'body-parser';
+import mongoose from 'mongoose';
+import cors from 'cors';
 
-app.use(cors());    /* passing the app.use and calling it as a function */
+import postRoutes from './routes/posts.js';
 
+const app = express();
 
-const PORT = process.env.PORT || 5000;
+app.use(bodyParser.json({ limit: '30mb', extended: true }))
+app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
+app.use(cors());
 
-app.get("/", (req, res) => {
-    res.send('server is running.');
-});
+app.use('/posts', postRoutes);
 
-io.on('connection', (socket) => {
-    socket.emit('me', socket.id);
+const CONNECTION_URL = 'mongodb+srv://js_mastery:123123123@practice.jto9p.mongodb.net/test';
+const PORT = process.env.PORT|| 5000;
 
-    socket.on('disconnect', () => {
-        socket.broadcast.emit("callended");
-    });
+mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
+  .catch((error) => console.log(`${error} did not connect`));
 
-    socket.on("calluser", ({ userToCall, signalData, from, name }) => {
-        io.to(userToCall).emit("calluser", { signal: signalData, from, name });
-    });
-
-    socket.on("answercall", (data) => {
-        io.to(data.to).emit("callaccepted", data.signal);
-    });
-});
-
-server.listen(PORT, () => console.log('server listening on port: ${PORT}'));
+mongoose.set('useFindAndModify', false);
