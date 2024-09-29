@@ -1,44 +1,85 @@
 {
-  "name": "Teeversal",
-  "version": "1.0.0",
-  "description": "Teeversal",
-  "main": "index.js",
-  "target": "esnext",
-  "module": "commonjs",
+  "name": "lance-gg",
+  "version": "5.0.2",
+  "description": "A Node.js based real-time multiplayer game server",
   "type": "module",
+  "main": "dist/server/lance-gg.js",
+  "browser": "dist/client/lance-gg.js",
+  "types": "dist/types/lance-gg.d.ts",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "cross-env TS_NODE_COMPILER_OPTIONS"
+    "docs": "jsdoc -c jsdoc.conf.json",
+    "build": "rollup --config rollup.config.js",
+    "test-all": "mocha test/EndToEnd/",
+    "test-serializer": "mocha ./test/serializer/",
+    "test": "mocha ./test/serializer/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "pixijs",
+    "pixi",
+    "socket",
+    "canvas",
+    "WebGL",
+    "HTML5",
+    "AFrame",
+    "physics",
+    "engine",
+    "game",
+    "realtime",
+    "multiplayer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lance-gg/lance.git"
+  },
   "dependencies": {
-    "@sendgrid/mail": "^7.7.0",
-    "bcrypt": "^5.1.0",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.2",
-    "comment-json": "^4.2.3",
-    "connect-ensure-login": "^0.1.1",
-    "connect-sqlite3": "^0.9.13",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "csurf": "^1.11.0",
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3",
-    "json-parser": "^3.1.2",
-    "jsonwebtoken": "^8.5.1",
-    "node-static": "^0.7.10",
-    "node-turn": "^0.0.6",
-    "nodemon": "^2.0.22",
-    "openai": "^3.2.1",
-    "passport": "^0.6.0",
-    "passport-local": "^1.0.0",
-    "passport-magic-link": "^2.1.0",
-    "request": "^2.88.2",
-    "socket.io": "^2.0.4",
-    "sqlite3": "^5.1.2"
+    "@types/cannon": "^0.1.12",
+    "@types/event-emitter": "^0.3.5",
+    "@types/p2": "^0.7.44",
+    "@types/three": "^0.163.0",
+    "bufferutil": "^4.0.1",
+    "cannon": "^0.6.2",
+    "event-emitter": "^0.3.5",
+    "jsdoc": "^4.0.2",
+    "mkdirp": "^0.5.1",
+    "p2": "^0.7.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "tslib": "^2.6.2",
+    "typescript": "next",
+    "utf-8-validate": "^5.0.2"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": "Opher Vishnia",
+  "contributors": [
+    {
+      "name": "Opher Vishnia"
+    },
+    {
+      "name": "Gary Weiss"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lance-gg/lance/issues"
+  },
+  "homepage": "https://github.com/lance-gg/lance#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "chai": "^3.5.0",
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.6.0",
+    "express": "^4.14.0",
+    "lance-docs-template": "github:lance-gg/lance-docs-template#semver:^1.0.1",
+    "mocha": "^10.1.0",
+    "query-string": "^4.3.1",
+    "rollup": "^4.14.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "should": "^11.0.0"
   }
 }
